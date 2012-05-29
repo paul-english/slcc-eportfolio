@@ -1,0 +1,11 @@
+Knowing how to touch type should be a pre-requisite. I see little
+reason why it matters in a computer science course. Someones typing
+speed doesn't give an advantage to a programmer in the same way it
+might a writer. Programming rarely involves typing anywhere near
+maximum wpm or efficiency, a peck-typer can be as productive as a
+touch-typer.
+
+typingtest.com looks and feels outdated, frankly it is
+outdated. Having to use flash player feels bulky, and they have an
+ugly jsp extension on their pages. Why do I at all care about
+Baseball?

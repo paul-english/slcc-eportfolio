@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  3 JUL 2012 08:54
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  3 JUL 2012 14:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -181,9 +181,6 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -195,11 +192,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 30.
+(Font)              <12> on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 30.
+(Font)              <8> on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 30.
+(Font)              <6> on input line 57.
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no ¿ in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
@@ -208,22 +205,22 @@ Missing character: There is no Â in font ptmr7t!
 Missing character: There is no ¿ in font ptmr7t!
  [3] [4] (./position-proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 1714 strings out of 493633
- 24402 string characters out of 3143378
- 78678 words of memory out of 3000000
- 4999 multiletter control sequences out of 15000+200000
- 11778 words of font info for 30 fonts, out of 3000000 for 9000
+ 1708 strings out of 493633
+ 24332 string characters out of 3143378
+ 79678 words of memory out of 3000000
+ 4995 multiletter control sequences out of 15000+200000
+ 9645 words of font info for 27 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 37i,11n,45p,602b,314s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,12n,45p,602b,301s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2011/texmf-dist/fonts/e
 nc/dvips/base/8r.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmmi12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/u
-tmb8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-</usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on position-proposal.pdf (4 pages, 48007 bytes).
+tmr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on position-proposal.pdf (4 pages, 41084 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 30 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

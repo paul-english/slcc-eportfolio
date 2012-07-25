@@ -22,4 +22,12 @@ Note:
 
 Items that will make your score higher are;
 
+* The use of examples or demonstrations correctly about the topics that you are writing about.
+* The use of reflective writing or telling how the information that you learned about the topic has, will or should effect your life.
+* The use of proper paragraphing (not just one long paragraph)
+* The use of correct spelling and or grammar.
+* Make it enjoyable to read.
 
+THIS IS AN OPEN BOOK OPEN NOTE ASSIGNMENT!
+
+Submit the hyperlink to this eportfolio page via canvas

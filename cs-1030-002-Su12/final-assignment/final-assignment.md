@@ -1,3 +1,5 @@
+[CS 1030](https://github.com/nrub/slcc-eportfolio/blob/master/cs-1030-002-Su12) > [Final Assignment](https://github.com/nrub/slcc-eportfolio/blob/master/cs-1030-002-Su12/final-assignment)
+
 # Final Assignment
 This is report type document that will be submitted as a separate page within your eportfolio. This report is a cumulative final that is used as a demonstration of what information, you the student have received while in this course.
 

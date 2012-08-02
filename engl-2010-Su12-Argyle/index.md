@@ -1,18 +1,19 @@
-# English 2010 - TODO
-
-TODO
-
-## LaTeX
-
-All papers have been typeset using LaTeX. You can download a rendered pdf
+---
+layout: default
+title: English 2010 - Intermediate Writing
+---
 
 ## Papers
 
-* *Annotated Bibliography* - [pdf](TODO)
-* *Fact Sheet* - [pdf](TODO)
-* *Position / Proposal* - [pdf](TODO)
-* *Profile* - [pdf](TODO)
-* *Research Report* - [pdf](TODO)
+* *Position / Proposal* - [pdf](position-proposal.pdf)
+* *Profile* - [pdf](profile.pdf)
+* *Research Report* - [pdf](research-prompt.pdf)
+* *Reflective Essay* - [pdf](reflection-essay.pdf)
+
+## Additional Papers
+
+* *Annotated Bibliography* - [pdf](annotated-bibliography.pdf)
+* *Fact Sheet* - [pdf](fact-sheet.pdf)
 
 ## Assignments
 
@@ -35,4 +36,7 @@ These are externally sourced images and reports. These are linked, referenced, a
 * [invalid-corrected-gistemp.jpeg](invalid-corrected-gistemp.jpeg)
 * [oil-and-gas-lobbying-2012.png](oil-and-gas-lobbying-2012.png)
 
-## Logs
+## LaTeX and Org Files
+
+All papers have been typeset using LaTeX in MLA format. You can download the rendered pdfs above. Org files are used by emacs org-mode, and are plaintext.
+

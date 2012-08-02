@@ -1,4 +1,7 @@
-# CS 1030-002 - Dan T. Pope - Summer 2012
+---
+layout: Default
+title: CS 1030-002 - Dan T. Pope - Summer 2012
+---
 
 ## Assignments
 * [IP Conference](TODO) - Workshop/Presentation on Intellectual Privacy, Trademarks, & Copyrights presented by partners from Briggs, Hofer, TODO, & TODO.
@@ -18,8 +21,3 @@
 * [Base Converter](https://github.com/nrub/base-converter) - A form for quickly converting a number in binary, octal, decimal, or hex to any other base value. [Running Example](http://base-converter.onfrst.com)
 * [IP Calculator](https://github.com/nrub/ip-tool) - A calculator for deriving specific meta information around an IP Address. [Running Example](http://ip-tool.onfrst.com)
 
-## Logs
-
-Date based logs for most of the classes attended. Word Count analysis is likely to provide a good basis on which days I was awake or not.
-
-* TODO

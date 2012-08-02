@@ -3,27 +3,24 @@ layout: default
 title: English 2010 - Intermediate Writing
 ---
 
-## Papers
+## Final Revised Papers & Reflection Essay
 
-* *Position / Proposal* - [pdf](position-proposal.pdf)
-* *Profile* - [pdf](profile.pdf)
-* *Research Report* - [pdf](research-prompt.pdf)
-* *Reflective Essay* - [pdf](reflection-essay.pdf)
+* *Position / Proposal* - [pdf](position-proposal.pdf) [tex](position-proposal.tex)
+* *Profile* - [pdf](profile.pdf) [tex](profile.tex)
+* *Research Report* - [pdf](research-prompt.pdf) [tex](research-prompt.tex)
+* *Reflective Essay* - [pdf](reflection-essay.pdf) [tex](reflection-essay.tex)
 
-## Additional Papers
+## Additional Papers For This Class
 
-* *Annotated Bibliography* - [pdf](annotated-bibliography.pdf)
-* *Fact Sheet* - [pdf](fact-sheet.pdf)
+* *Annotated Bibliography* - [pdf](annotated-bibliography.pdf) [tex](annotated-bibliography.tex)
+* *Fact Sheet* - [pdf](fact-sheet.pdf) [tex](fact-sheet.tex)
 
-## Assignments
+## Assignments & Extra Credit
 
 * *A More Perfect Union* - [org](a-more-perfect-union.org)
-
-## Extra Credit
-
 * *A Modest Proposal* - [org](a-modest-proposal.org)
 
-## Sources
+## Various Sourced Material
 
 These are externally sourced images and reports. These are linked, referenced, and cited within the papers written for this course.
 
@@ -35,8 +32,3 @@ These are externally sourced images and reports. These are linked, referenced, a
 * [initial-uah-gistemp.jpeg](initial-uah-gistemp.jpeg)
 * [invalid-corrected-gistemp.jpeg](invalid-corrected-gistemp.jpeg)
 * [oil-and-gas-lobbying-2012.png](oil-and-gas-lobbying-2012.png)
-
-## LaTeX and Org Files
-
-All papers have been typeset using LaTeX in MLA format. You can download the rendered pdfs above. Org files are used by emacs org-mode, and are plaintext.
-

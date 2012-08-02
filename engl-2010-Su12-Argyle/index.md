@@ -17,11 +17,11 @@ title: English 2010 - Intermediate Writing
 
 ## Assignments
 
-* *A More Perfect Union* - [org](TODO)
+* *A More Perfect Union* - [org](a-more-perfect-union.org)
 
 ## Extra Credit
 
-* *A Modest Proposal* - [org](TODO)
+* *A Modest Proposal* - [org](a-modest-proposal.org)
 
 ## Sources
 

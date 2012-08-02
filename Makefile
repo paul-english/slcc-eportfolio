@@ -8,3 +8,17 @@ proof:
 	echo
 	echo "duplicates: "
 	perl bin/dups **/*.tex
+
+# Install jekyll
+setup: 
+	gem install jekyll
+
+# Build html site, github does this automatically for us
+build:
+	jekyll
+
+# Run a basic http server to make it easy to view the site
+server: build
+	jekyll --server 8282 --auto
+
+

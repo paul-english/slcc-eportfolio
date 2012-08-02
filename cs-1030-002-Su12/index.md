@@ -1,5 +1,5 @@
 ---
-layout: Default
+layout: default
 title: CS 1030-002 - Dan T. Pope - Summer 2012
 ---
 

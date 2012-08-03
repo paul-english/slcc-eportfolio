@@ -2,12 +2,24 @@
 <html>
   <head>
     <title>{{page.title}}</title>
+    <link rel="stylesheet" href="/slcc-eportfolio/styles.css" />
+
   </head>
   <body>
-    <h1><a href="http://nrub.github.com/slcc-eportfolio">SLCC ePortfolio</a></h1>
-    <h2>{{page.title}}</h2>
-    <hr/>
+    <div id="main">
+      <header>
+	<h1><a href="/slcc-eportfolio/index.html">Paul English - SLCC ePortfolio Home</a></h1>
+	<h2>{{page.title}}</h2>
+      </header>
 
-    {{content}}
+      <article>
+	{{content}}
+      </article>
+
+      <footer>
+	<a href="https://github.com/nrub"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+      </footer>
+
+    </div>
   </body>
 </html>

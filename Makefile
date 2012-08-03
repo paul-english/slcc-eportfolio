@@ -19,6 +19,6 @@ build:
 
 # Run a basic http server to make it easy to view the site
 server: build
-	jekyll --server 8282 --auto
+	jekyll --server 8282 --auto --base-url "/slcc-eportfolio"
 
 

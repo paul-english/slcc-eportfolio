@@ -26,7 +26,7 @@ The MLA template for the typesetting was found [here](http://www.ctan.org/tex-ar
 
 ## Github Pages
 
-Most of the pages in this site are created using [Markdown]() a clean markup syntax which is good at presenting content heavy information. The site pages are built automatically by Github processes using their [Jekyll static blog software](https://github.com/mojombo/jekyll/). It's served using [Github Pages](http://pages.github.com/), and hosted as a [git repository](https://github.com/nrub/slcc-eportfolio)
+Most of the pages in this site are created using [Markdown](http://daringfireball.net/projects/markdown/syntax/) a clean markup syntax which is good at presenting content heavy information. The site pages are built automatically by Github processes using their [Jekyll static blog software](https://github.com/mojombo/jekyll/). It's served using [Github Pages](http://pages.github.com/), and hosted as a [git repository](https://github.com/nrub/slcc-eportfolio)
 
 ## Contact
 

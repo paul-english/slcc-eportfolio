@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Who is Tim Berners-Lee?
 ---
 

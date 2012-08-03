@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Engl 2010 - Intermediate Writing - Ashley Argyle - Summer 2012
 ---
 

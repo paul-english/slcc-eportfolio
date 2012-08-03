@@ -20,6 +20,7 @@ var superSize = function(el) {
 
     el.setAttribute('width', w);
     el.setAttribute('height', h);
+    el.getContext('2d').fillStyle = "#EDF7FC";
 };
 
 var PixelGenerator = function(canvas) {

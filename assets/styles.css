@@ -1,20 +1,20 @@
 * {margin:0;padding:0;}
-a {text-decoration:none;color:#77A1B5;}
-body {font-family:Sans-Serif;padding:15px;font-size:13px;background:#E1EEF5;}
+a {text-decoration:none;color:#4F9EBD;}
+body {font-family:Sans-Serif;padding:15px;font-size:13px;background:#fff;}
 pre,ul,div,p,h1,h2,h3,h4,h5,h6 {margin-bottom:15px;}
 div,p {line-height:1.5em;letter-spacing:0.1em;}
 ul {padding-left:25px;}
 h4 {border-bottom:1px dashed #555;}
 blockquote {margin:5px 5px 5px 15px;padding-left:10px;border-left:2px dotted #ddd;width:250px;float:right;}
-article img {max-width:650px;}
-article pre {font-size:12px;max-width:650px!important;overflow-x:scroll;}
+article img {max-width:700px;}
+article pre {font-size:12px;max-width:700px!important;overflow-x:scroll;}
 #main {width:700px;margin:0 auto;}
-header {border-bottom:2px dotted #777;margin-bottom:20px;}
+header {border-bottom:2px dotted rgba(100,100,100,0.1);margin-bottom:20px;}
 header h1, header h2 {width:100%;}
 header h1 {text-align:right;}
 header h1 a {color:#77A1B5;font-size:12px;}
-header h2 {color:#777;font-size:24px;}
+header h2 {color:#FA7D7D;font-size:24px;}
 header > h1 {background:none;}
 h1 {background:red;} /* alert if I accidently use an h1 anywhere but the header */
-article {background:#fff;padding:25px;border-radius:3px;box-shadow:5px 5px 15px rgba(0,0,0,0.5);}
+article {background:#fff;box-shadow:0px 0px 55px #fff;}
 .left {float:left;margin:0 15px 15px 0;width:250px;}

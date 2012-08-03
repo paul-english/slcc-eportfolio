@@ -1,6 +1,6 @@
 ---
 layout: default
-title: English 2010 - Intermediate Writing
+title: Engl 2010 - Intermediate Writing - Ashley Argyle - Summer 2012
 ---
 
 ## Final Revised Papers & Reflection Essay

@@ -7,7 +7,7 @@ title: English 2010 - Intermediate Writing
 
 * *Position / Proposal* - [pdf](position-proposal.pdf) [tex](position-proposal.tex)
 * *Profile* - [pdf](profile.pdf) [tex](profile.tex)
-* *Research Report* - [pdf](research-prompt.pdf) [tex](research-prompt.tex)
+* *Research Report* - [pdf](report-prompt.pdf) [tex](report-prompt.tex)
 * *Reflective Essay* - [pdf](reflection-essay.pdf) [tex](reflection-essay.tex)
 
 ## Additional Papers For This Class

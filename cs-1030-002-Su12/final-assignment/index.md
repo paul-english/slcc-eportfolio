@@ -1,6 +1,23 @@
+---
+layout: default
+title: Final Assignment
+---
+
 TODO
 
-[CS 1030](https://github.com/nrub/slcc-eportfolio/blob/master/cs-1030-002-Su12) > [Final Assignment](https://github.com/nrub/slcc-eportfolio/blob/master/cs-1030-002-Su12/final-assignment)
+Topics I might like to see in a core fundamentals course
+ - programming language breakdown/hierarchy; static/dynamic, compiled/interpreted, origins, functional/imperative, assembly
+ - usage of version control
+ - bug tracking, support, & collaborative management systems
+ - concurrency among processes, concurrency among systems
+ - open-source vs. closed-source paradigms of software
+ - more notes & citations on influential computer developers; Alan Kay, Linus Torvalds, Dijkstra, Alan Turing, Guido Van Rossum, Matsumoto, Godel, John von Neumann
+ - more notes & citations on influential organizations; Bell Laboratories, CERN, W3C, Xerox PARC, ACM, IEEE, Schools
+ - Open courses; mitx, khan, coursera
+
+#################
+
+TODO
 
 # Final Assignment
 This is report type document that will be submitted as a separate page within your eportfolio. This report is a cumulative final that is used as a demonstration of what information, you the student have received while in this course.

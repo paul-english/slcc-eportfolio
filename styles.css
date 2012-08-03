@@ -1,11 +1,12 @@
 * {margin:0;padding:0;}
 a {text-decoration:none;color:#77A1B5;}
 body {font-family:Sans-Serif;padding:15px;font-size:13px;background:#E1EEF5;}
-ul,div,p,h1,h2,h3,h4,h5,h6 {margin-bottom:15px;}
+pre,ul,div,p,h1,h2,h3,h4,h5,h6 {margin-bottom:15px;}
 div,p {line-height:1.5em;letter-spacing:0.1em;}
 ul {padding-left:25px;}
 h4 {border-bottom:1px dashed #555;}
 article img {max-width:650px;}
+article pre {font-size:12px;max-width:650px!important;overflow-x:scroll;}
 #main {width:700px;margin:0 auto;}
 header {border-bottom:5px dotted #777;margin-bottom:20px;}
 header h1, header h2 {width:100%;}

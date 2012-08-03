@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Main
+title: Home
 ---
 
 ## Salt Lake City Community College e-Portfolio
@@ -23,3 +23,11 @@ The MLA template for the typesetting was found [here](http://www.ctan.org/tex-ar
 ## Weasel Words, Passive Voice, & Lexical Illusions
 
 [Matt Might](matt.might.net), an assistant professor of [the University of Utah](http://www.utah.edu), has provided several useful tools for improving writing and articles. All papers were run through his scripts found in [this post](http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/) to improve their quality. These shell scripts may be found in this repository as well.
+
+## Github Pages
+
+Most of the pages in this site are created using [Markdown]() a clean markup syntax which is good at presenting content heavy information. The site pages are built automatically by Github processes using their [Jekyll static blog software](https://github.com/mojombo/jekyll/). It's served using [Github Pages](http://pages.github.com/), and hosted as a [git repository](https://github.com/nrub/slcc-eportfolio)
+
+## Contact
+
+Any questions, comments, or notices can be sent to [Paul English](mailto:paul@onfrst.com)

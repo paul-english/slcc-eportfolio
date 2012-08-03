@@ -13,7 +13,7 @@ header {border-bottom:2px dotted rgba(100,100,100,0.1);margin-bottom:20px;}
 header h1, header h2 {width:100%;}
 header h1 {text-align:right;}
 header h1 a {color:#77A1B5;font-size:12px;}
-header h2 {color:#FA7D7D;font-size:24px;font-family: 'Josefin Slab', serif;}
+header h2 {color:#FA7D7D;font-size:24px;font-family: 'Josefin Slab', serif;line-height:32px;}
 header > h1 {background:none;}
 h1 {background:red;} /* alert if I accidently use an h1 anywhere but the header */
 article {background:#fff;box-shadow:0px 0px 55px #fff;}

@@ -5,6 +5,10 @@ title: History of the Internet
 
 <iframe src="http://embed.verite.co/timeline/?source=0Aj-ePQ0Xr6fbdHdFZGxyZ045Z0prNmUxY1Mwc2lOcEE&font=Bevan-PotanoSans&maptype=toner&lang=en&width=700&height=650" width="700" height="650" frameborder="0"> </iframe>
 
+## Data
+
+The data for this timeline can be found at this [Google Spreadsheet](https://docs.google.com/spreadsheet/pub?key=0Aj-ePQ0Xr6fbdHdFZGxyZ045Z0prNmUxY1Mwc2lOcEE&output=html)
+
 ## Wikipedia Sources
 
 [Article on the History of the Internet - Wikipedia](http://en.wikipedia.org/wiki/History_of_the_Internet)

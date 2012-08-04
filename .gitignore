@@ -2,3 +2,4 @@ _site
 *.aux
 *.log
 *.synctex.gz
+.DS_Store

@@ -5,7 +5,7 @@ title: CS 1030-002 - Connected Computing - Dan T. Pope - Summer 2012
 
 ## Assignments
 * [IP Conference](ip-conference) Workshop/Presentation on Intellectual Privacy, Trademarks, & Copyrights presented by partners from Brinks, Hofer, Gilson, & Lione.
-* [Cisco Decimal to Binary Hex Quiz](cisco-binary-game) - A quiz/game for testing your binary, hex, and decimal conversion skills.
+* [Cisco Binary Conversion](cisco-binary-game) - A quiz/game for testing your binary conversion skills.
 * [Hexidecimal Addition](hex-addition) - A quiz provided for trying out Hexidecimal Addition.
 * [Hexidecimal Multiplication](hex-multiplication) - A quiz provided for trying out Hexidecimal Multiplication.
 * [Typing Test](typing-test) - A typing test for gauging your WPM.

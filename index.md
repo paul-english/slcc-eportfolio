@@ -14,6 +14,12 @@ This is the core repository for all work done in courses through SLCC. In here y
 * [CSC 1030](cs-1030-002-Su12) - Connected Computing
 * [English 2010](engl-2010-Su12-Argyle) - Intermediate Writing
 
+#### Spring 2013
+
+* [CSC 2420](cs-2420-003-baird) - Algorithms & Data Structures
+* [CSC 2550](cs-2550-001-peeler) - Advanced Java Programming
+* [Econ 1740](econ-1740-005-schumacker) - Economic History of U.S.
+
 ## LaTeX and Org Files
 
 All papers have been typeset using LaTeX in MLA format. You can download the rendered pdfs above. Org files are used by emacs org-mode, and are plaintext.

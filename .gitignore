@@ -3,4 +3,8 @@ _site
 *.log
 *.synctex.gz
 .DS_Store
-cs-2420-003-baird/textbook-sourcecode
+textbook-sourcecode
+/sp13-cs-2550-001-peeler/assignment-1-class-diagram-to-javadoc/ClassDiagramToJavadoc/nbproject/private/
+/sp13-cs-2550-001-peeler/assignment-1-class-diagram-to-javadoc/ClassDiagramToJavadoc/build/
+/sp13-cs-2550-001-peeler/assignment-1-class-diagram-to-javadoc/ClassDiagramToJavadoc/dist/
+*#

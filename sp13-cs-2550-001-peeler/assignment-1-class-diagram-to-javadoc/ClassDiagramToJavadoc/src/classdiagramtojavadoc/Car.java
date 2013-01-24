@@ -1,5 +1,7 @@
 package classdiagramtojavadoc;
 
+import java.util.ArrayList;
+
 /**
  * An engine powered vehicle with 1 or many axles.
  * @author Paul English
@@ -9,7 +11,7 @@ public class Car extends Vehicle {
     /**
      * Associated axles for this vehicle.
      */
-    public Axle[] axles;
+    public ArrayList<Axle> axles;
     
     /**
      * Public Car constructor.

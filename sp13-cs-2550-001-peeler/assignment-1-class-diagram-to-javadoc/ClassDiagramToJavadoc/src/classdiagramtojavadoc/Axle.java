@@ -9,7 +9,7 @@ public class Axle {
     /**
      * An array to hold 2 wheels.
      */
-    public Wheel[] wheels;
+    public Wheel[] wheel = new Wheel[2];
     
     /**
      * Public Axle constructor.

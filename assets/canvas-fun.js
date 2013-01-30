@@ -53,14 +53,14 @@ var superSize = function(el) {
 
     el.setAttribute('width', w);
     el.setAttribute('height', h);
-    el.getContext('2d').fillStyle = "#EDF7FC";
+    el.getContext('2d').fillStyle = "#CEE3ED";
 };
 
 // Core class for the pixel explosion animation
 var PixelGenerator = function(canvas) {
     this.canvas = canvas;
     this.context = canvas.getContext('2d');
-    this.context.fillStyle = "#EDF7FC";
+    this.context.fillStyle = "#CEE3ED";
     this.burst_amount = 5;
     this.gravity = 0.5;
     this.speed = 7;

@@ -1,0 +1,66 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx}
+
+\pagestyle{empty}
+\setcounter{secnumdepth}{2}
+
+\topmargin=0cm
+\oddsidemargin=0cm
+\textheight=22.0cm
+\textwidth=16cm
+\parindent=0cm
+\parskip=0.15cm
+\topskip=0truecm
+\raggedbottom
+\abovedisplayskip=3mm
+\belowdisplayskip=3mm
+\abovedisplayshortskip=0mm
+\belowdisplayshortskip=2mm
+\normalbaselineskip=12pt
+\normalbaselines
+
+\begin{document}
+
+\begin{table}[htbp]
+\caption{Generic Test Plan}
+\begin{center}
+
+\noindent\resizebox{\textwidth}{!}{%
+
+\begin{tabular}{ | p{5cm} | p{5cm} | p{5cm} | p{5cm} | }
+\hline
+Operation & Purpose & Object State & Expected Result \\
+\hline\hline
+
+% Row
+Rectangle r1 = new Rectangle() & 
+To create a rectangle using the default values. & 
+\textbf{length = 1.0} \newline \textbf{height = 1.0} & 
+A new Rectangle object with default values for the attributes. \\
+\hline
+
+% Row
+r1.getLength() &
+To verify instantiation and accessor method. &
+&
+1.0 \\
+\hline
+
+% Row
+r1.getHeight() &
+To verify instantiation and accessor method. &
+&
+1.0 \\
+\hline
+
+\end{tabular}
+
+}
+
+
+\end{center}
+
+\end{table}
+
+\end{document}

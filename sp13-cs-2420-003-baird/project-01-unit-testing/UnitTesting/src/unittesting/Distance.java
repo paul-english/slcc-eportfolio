@@ -51,8 +51,8 @@ public class Distance implements Comparable<Distance>
          */
 	public Distance()
 	{
-		feet = DEFAULT_FT;
-		inches = DEFAULT_IN;
+            feet = DEFAULT_FT;
+            inches = DEFAULT_IN;
 	}
 
         /**
@@ -64,8 +64,8 @@ public class Distance implements Comparable<Distance>
          */
 	public Distance( int ft, int in ) throws OutOfRangeException
 	{
-		setFeet(ft);
-		setInches(in);
+            setFeet(ft);
+            setInches(in);
 	}
 
 	//get methods

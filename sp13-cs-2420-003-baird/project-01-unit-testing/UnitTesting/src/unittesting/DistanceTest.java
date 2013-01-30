@@ -1,17 +1,14 @@
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import unittesting.Distance;
+package unittesting;
+
+import junit.framework.*;
+import junit.extensions.*;
 
 /**
  *
  * @author nrub
  */
-public class DistanceTest {
+public class DistanceTest extends TestCase
+{
 
     // 1. Modify the Distance.java class to include the following:
     //   * Add appropriate get and set methods. (set methods should allow only positive whole numbers.)
@@ -37,21 +34,14 @@ public class DistanceTest {
     public Distance d2;
     public Distance d3;
 
-    public DistanceTest()
-    {
-    }
-
-    @BeforeClass
     public static void setUpClass()
     {
     }
 
-    @AfterClass
     public static void tearDownClass()
     {
     }
 
-    @Before
     public void setUp()
     {
         d = new Distance();
@@ -73,19 +63,13 @@ public class DistanceTest {
         }
     }
 
-    @After
     public void tearDown()
     {
         d = null;
+        d2 = null;
+        d3 = null;
     }
 
-    @Test
-    public void hello()
-    {
-        assertNotNull("Has a basic test");
-    }
-
-    @Test
     public void testGetInches()
     {
         assertEquals("getInches should return a default value",
@@ -95,7 +79,6 @@ public class DistanceTest {
                 5, d2.getInches());
     }
 
-    @Test
     public void testGetFeet()
     {
         assertEquals("getFeet should return a default value",
@@ -105,7 +88,6 @@ public class DistanceTest {
                 3, d2.getFeet());
     }
 
-    @Test
     public void testSetInches()
     {
         try
@@ -130,7 +112,6 @@ public class DistanceTest {
         }
     }
 
-    @Test
     public void testSetFeet()
     {
         try
@@ -155,7 +136,6 @@ public class DistanceTest {
         }
     }
 
-    @Test
     public void testAddDistances()
     {
         try
@@ -170,7 +150,6 @@ public class DistanceTest {
         }
     }
 
-    @Test
     public void testSubtractDistances()
     {
         try
@@ -195,14 +174,12 @@ public class DistanceTest {
         }
     }
 
-    @Test
     public void testEquals()
     {
         assertFalse("d & d2 should not be equal", d.equals(d2));
         assertTrue("d2 & d3 should be equal", d2.equals(d3));
     }
 
-    @Test
     public void testHashCode()
     {
         assertEquals("A distance should have a hashCode", 31285, d.hashCode());
@@ -210,12 +187,22 @@ public class DistanceTest {
         Assert.assertNotSame("Non-equal distances should have different hashCodes", d.hashCode(), d2.hashCode());
     }
 
-    @Test
     public void testCompareTo()
     {
         assertEquals("d should compare to less than d2", -1, d.compareTo(d2));
         assertEquals("d2 & d3 should compare the same", 0, d2.compareTo(d3));
         assertEquals("d3 should compare greater than d", 1, d3.compareTo(d));
+    }
+
+    public static Test suite()
+    {
+        return new TestSuite(DistanceTest.class);
+    }
+
+    public static void main (String[] args)
+    {
+        String[] distanceTest = { DistanceTest.class.getName() };
+        junit.textui.TestRunner.main( distanceTest );
     }
 
 }

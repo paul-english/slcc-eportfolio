@@ -1,0 +1,432 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx}
+
+\pagestyle{empty}
+\setcounter{secnumdepth}{2}
+
+\topmargin=0cm
+\oddsidemargin=0cm
+\textheight=22.0cm
+\textwidth=16cm
+\parindent=0cm
+\parskip=0.15cm
+\topskip=0truecm
+\raggedbottom
+\abovedisplayskip=3mm
+\belowdisplayskip=3mm
+\abovedisplayshortskip=0mm
+\belowdisplayshortskip=2mm
+\normalbaselineskip=12pt
+\normalbaselines
+
+\begin{document}
+
+\begin{table}[htbp]
+\caption{Instantiation of a \textbf{Distance} object using default values for the attributes.}
+\begin{center}
+\noindent\resizebox{\textwidth}{!}{%
+\begin{tabular}{ | l | p{5cm} | p{5cm} | p{5cm} | }
+\hline
+Operation & Purpose & Object State & Expected Result \\
+\hline\hline
+
+% Row
+Distance d = new Distance() & 
+To create a distance using the default values. & 
+\textbf{feet = 1} \newline \textbf{inches = 1} & 
+A new Distance object with default values for the attributes. \\
+\hline
+
+% Row
+d.getFeet() &
+To verify instantiation and accessor method. &
+&
+1 \\
+\hline
+
+% Row
+d.getInches() &
+To verify instantiation and accessor method. &
+&
+1 \\
+\hline
+
+
+\end{tabular}
+}
+\end{center}
+\end{table}
+
+
+%%%%%%%%%%%%
+
+\begin{table}[htbp]
+\caption{Instantiation of a \textbf{Distance} object with legal, client-supplied values for the attributes.}
+\begin{center}
+\noindent\resizebox{\textwidth}{!}{%
+\begin{tabular}{ | l | p{5cm} | p{5cm} | p{5cm} | }
+\hline
+Operation & Purpose & Object State & Expected Result \\
+\hline\hline
+
+% Row
+Distance d2 = new Distance(3, 5) &
+To create a distance using constructor values. &
+\textbf{feet = 3} \newline \textbf{inches = 5} &
+A new Distance object with constructed values for the attributes. \\
+\hline
+
+
+
+% Row
+d.getFeet() &
+To verify instantiation and accessor method. &
+&
+3 \\
+\hline
+
+% Row
+d.getInches() &
+To verify instantiation and accessor method. &
+&
+5 \\
+\hline
+
+
+\end{tabular}
+}
+\end{center}
+\end{table}
+
+
+%%%%%%%%%%%%
+
+\begin{table}[htbp]
+\caption{Valid functionality of the getter \& setter methods available.}
+\begin{center}
+\noindent\resizebox{\textwidth}{!}{%
+\begin{tabular}{ | l | p{5cm} | p{5cm} | p{5cm} | }
+\hline
+Operation & Purpose & Object State & Expected Result \\
+\hline\hline
+
+% Row
+Distance d = new Distance() & 
+To create a distance using the default values. & 
+\textbf{feet = 1} \newline \textbf{inches = 1} & 
+A new Distance object with default values for the attributes. \\
+\hline
+
+% Row
+d.getFeet() &
+To verify instantiation and accessor method. &
+&
+1 \\
+\hline
+
+% Row
+d.getInches() &
+To verify instantiation and accessor method. &
+&
+1 \\
+\hline
+
+% Row
+d.setFeet(3) &
+To ensure attributes get set properly. &
+\textbf{feet = 3} \newline inches = 1 &
+The Distance object contains the new value for feet. \\
+\hline
+
+% Row
+d.setInches(5) &
+To ensure attributes get set properly. &
+feet = 3 \newline \textbf{inches = 5} &
+The Distance object contains the new value for inches. \\
+\hline
+
+% Row
+d.setFeet(-2) &
+To ensure validation of attributes. &
+&
+FeetOutOfRangeException \\
+\hline
+
+% Row
+d.setInches(-2) &
+To ensure validation of attributes. &
+&
+InchesOutOfRangeException \\
+\hline
+
+% Row
+Distance d2 = new Distance(3, 5) &
+To create a distance using constructor values. &
+\textbf{feet = 3} \newline \textbf{inches = 5} &
+A new Distance object with constructed values for the attributes. \\
+\hline
+
+% Row
+d2.getFeet() &
+To verify instantiation and accessor method. &
+&
+3 \\
+\hline
+
+% Row
+d2.getInches() &
+To verify instantiation and accessor method. &
+&
+5 \\
+\hline
+
+
+\end{tabular}
+}
+\end{center}
+\end{table}
+
+
+
+
+%%%%%%%%%%%%
+
+\begin{table}[htbp]
+\caption{Valid functionality of the addition and subtraction methods for the \textbf{Distance} object.}
+\begin{center}
+
+\noindent\resizebox{\textwidth}{!}{%
+
+\begin{tabular}{ | l | p{5cm} | p{5cm} | p{5cm} | }
+\hline
+Operation & Purpose & Object State & Expected Result \\
+\hline\hline
+
+% Row
+Distance d = new Distance() & 
+To create a distance using the default values. & 
+\textbf{feet = 1} \newline \textbf{inches = 1} & 
+A new Distance object with default values for the attributes. \\
+\hline
+
+% Row
+Distance d2 = new Distance(3, 5) & 
+To create a distance using constructed values. & 
+\textbf{feet = 3} \newline \textbf{inches = 5} & 
+A new Distance object with default values for the attributes. \\
+\hline
+
+% Row
+Distance d3 = Distance.add(d, d2) &
+To ensure two distances can be added together &
+\textbf{feet = 4} \newline \textbf{inches = 6} &
+A new Distance object with attribute values equivalent to the sum of object properties. \\
+\hline
+
+% Row
+Distance d4 = Distance.subtract(d2, d) &
+To ensure two distances can be subtracted from each other &
+\textbf{feet = 2} \newline \textbf{inches = 4} &
+A new Distance object with attribute values equivalent to the difference of object properties. \\
+\hline
+
+
+% Row
+Distance d4 = Distance.subtract(d, d2) &
+To ensure two distances subtracted from each other cannot create an invalid object &
+&
+FeetOutOfRangeException | InchesOutOfRangeException \\
+\hline
+
+
+\end{tabular}
+
+}
+
+
+\end{center}
+
+\end{table}
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%
+
+\begin{table}[htbp]
+\caption{Valid functionality of equality \& hash code methods for the \textbf{Distance} object.}
+\begin{center}
+
+\noindent\resizebox{\textwidth}{!}{%
+
+\begin{tabular}{ | l | p{5cm} | p{5cm} | p{5cm} | }
+\hline
+Operation & Purpose & Object State & Expected Result \\
+\hline\hline
+
+% Row
+Distance d = new Distance() & 
+To create a distance using the default values. & 
+\textbf{feet = 1} \newline \textbf{height = 1} & 
+A new Distance object with default values for the attributes. \\
+\hline
+
+% Row
+Distance d2 = new Distance() & 
+To create a distance using constructed values. & 
+\textbf{feet = 3} \newline \textbf{height = 5} & 
+A new Distance object with constructed values for the attributes. \\
+\hline
+
+% Row
+Distance d3 = new Distance() & 
+To create a distance using default values. & 
+\textbf{feet = 1} \newline \textbf{height = 1} & 
+A new Distance object with default values for the attributes. \\
+\hline
+
+% Row
+d.equals(d2) &
+To verify two distances are not equal. &
+&
+False \\
+\hline
+
+% Row
+d.equals(d3) &
+To verify two distances are equal. &
+&
+True \\
+\hline
+
+% Row
+d.hashCode() &
+To verify the hash code function. &
+&
+31285 \\
+\hline
+
+% Row
+d.hashCode() == d2.hashCode() &
+To verify two hash codes do not match. &
+&
+False \\
+\hline
+
+% Row
+d.hashCode() == d3.hashCode() &
+To verify two equal objects have hash codes that match. &
+&
+True \\
+\hline
+
+
+\end{tabular}
+
+}
+
+
+\end{center}
+
+\end{table}
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%
+
+\begin{table}[htbp]
+\caption{Valid functionality of the comparability of the \textbf{Distance} object.}
+\begin{center}
+
+\noindent\resizebox{\textwidth}{!}{%
+
+\begin{tabular}{ | l | p{5cm} | p{5cm} | p{5cm} | }
+\hline
+Operation & Purpose & Object State & Expected Result \\
+\hline\hline
+
+% Row
+Distance d = new Distance() & 
+To create a distance using the default values. & 
+\textbf{feet = 1} \newline \textbf{inches = 1} & 
+A new Distance object with default values for the attributes. \\
+\hline
+
+% Row
+Distance d2 = new Distance() & 
+To create a distance using constructed values. & 
+\textbf{feet = 3} \newline \textbf{height = 5} & 
+A new Distance object with constructed values for the attributes. \\
+\hline
+
+% Row
+Distance d3 = new Distance() & 
+To create a distance using default values. & 
+\textbf{feet = 1} \newline \textbf{height = 1} & 
+A new Distance object with default values for the attributes. \\
+\hline
+
+% Row
+d.compareTo(d2) &
+To verify a distance compares less than another. &
+&
+-1 \\
+\hline
+
+% Row
+d.compareTo(d3) &
+To verify a distance compares the same as another. &
+&
+0 \\
+\hline
+
+% Row
+d2.compareTo(d) &
+To verify a distance compares greater than another. &
+&
+1 \\
+\hline
+
+
+\end{tabular}
+
+}
+
+
+\end{center}
+
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%
+
+
+
+
+\end{document}

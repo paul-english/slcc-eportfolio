@@ -10,12 +10,15 @@
 <project name="GenericSingleLinkedList" default="default" basedir=".">
     <description>Builds, tests, and runs the project GenericSingleLinkedList.</description>
     <import file="nbproject/build-impl.xml"/>
+    <target name="-post-jar">
+        <echo>Adding files to jar...</echo>
         <jar destfile="dist/GenericSingleLinkedList.jar" update="true">
             <fileset dir="${basedir}">
 	    	<include name="**/*.java"/>
                 <include name="files/*"/>
             </fileset>
         </jar>
+    </target>
     <!--
 
     There exist several targets which are by default empty and which can be

@@ -55,8 +55,7 @@ public class SinglyLinkedList<E>
 	 * <code>p</code> in this singly linked list.
 	 *
 	 * @param e the element to add
-	 * @param p position to insert <code>e</code>; must be in the range 0
-	 * to <code>this.size()</code>.
+	 * @param p position to insert <code>e</code>; must be in the range 0 	 * to <code>this.size()</code>.
 	 * @throws IndexOutOfBoundsException if <code>p</code> is outside the
 	 * range 0 to <code>this.length()</code>.
 	 */
@@ -106,10 +105,17 @@ public class SinglyLinkedList<E>
 
 		// link target to cursor's successor
 		cursor.setSuccessor(target.getSuccessor());
+
+		// PE NOTE there was a bug here, it would delete the element in
+		// cursor (not desired) and not our target. Instead I'm saving
+		// the element so we can return it, and I'm then deleting the
+		// targets element.
+		E element = target.getElement();
 		target.setSuccessor(null);
-		cursor.setElement(null);
+		target.setElement(null);
+
 		this.length--;
-		return target.getElement();
+		return element;
 	}
 
 	/**

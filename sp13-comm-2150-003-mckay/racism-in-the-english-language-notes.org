@@ -1,0 +1,166 @@
+* Racism in the English Language
+** time in several different cultures
+- spanish: a watch walks
+- english: a watch runs
+- german: a watch functions
+- french: a watch marches
+- indian: what time it's getting to be
+
+** black & white words
+- blackly (angrily)
+- blacken (defame)
+- black eye (a mark of shame)
+- black words (hostile)
+- denigrate (to cast aspersions, to darken)
+- blackhearted (malevolent)
+- black outlook (pessimistic, dismal)
+- blackguard (scoundrel)
+- black mark (detrimental fact)
+- black-brow (scowl at)
+- black cat
+- black deed
+- black sheep (one who causes shame or embarrassment because of
+  deviation from the accepted standards)
+- blackballed (ostracized)
+- blacklist (list of undesirables)
+- blackmail (to force or coerce into a particular action)
+- blackjack (to compel by threat)
+- chinaman's chance of success
+- yellow-bellied
+- indian-giver
+- whitewash (cover up or gloss over vices or crimes)
+- black lie (harmful, inexcusable)
+- innocence (white)
+- black and white (entirely bad or entirely good)
+- white man (marked by upright firmness)
+- black day
+- call a spade a spade
+- pot calling the kettle black
+- niggardly (grudgin, scanty)
+- white of you (honest, decent)
+- white lie (not intended to cause harm)
+
+angrily; defame; a mark of shame; hostile; to case aspersions, to
+darken; malevolent; pessimistic, dismal; scoundrel; detrimental fact;
+scowl at; one who causes shame or embarrassment because of deviation
+from the accepted standards; ostracized; list of undesirables; to
+force or coerce into a particular action; to compel by threat; cover
+up or gloss over vices or crimes; harmful, inexcusable; innocence;
+entirely bad or entirely good; marked by upright firmness; gruding,
+scanty; honest, decent; not intended to cause harm
+
+** obvious bigotry
+Though certain deragotory words have begun to fall out of favor, or
+use in the general public, many more subtle bigotrous words and
+colloquialisms are still very much in use, with noted examples into the
+1970's and even in modern day media.
+
+** color symbolism
+
+How the words and definitions around the colors white and black
+promote subtle racism, and segragated understanding.
+
+- white: positive, good guys
+- black: negative, bad guys
+
+- captain scarlet; colonel white & captain black, spectrum vs, mysterons
+
+- blonde ad: "Whey you go blonde go all the way," "Isn't this how, in
+  the back of your mind, you always wanted to look? All wide-eyed and
+  silky blonde down to there, and innocent?"
+
+- tennis: evonne coolagong (dusky), chris every (fair young girl)
+  
+- '"rightness of whiteness," in U.S. culture affects children before
+  the age of four, providing white youngsters with a false sense of
+  superiority and encouraging self-hatred among third world
+  youngsters.'
+  
+** ethnocentrism or from a white perspective
+
+- slave/master
+  -- PE NOTE computers and software systems use slave & master rampantly to
+  denote controlling and coordinating relationships between servers,
+  applications, and hardware. Slave/master harddrives (RAID, and
+  multi-drive setups); (worker|minion|slave)/master app servers
+  (saltstack, puppet, chef); slave/master databases (replications &
+  backups).
+  
+- the slave/master relationship forgives atrocities against the
+  african american people (rape is used as an example)
+  
+- the term slave dehumanizes, and changes the meaning. "The African
+  People"
+
+** passive tense
+
+- active/passive voice
+  
+- "slaves were brought to America" vs. "America brought slaves"
+  -- ignoring how much american markets prospered thanks to the active
+  slave trade & plentiful field workers.
+  
+- "the continental railroad was built" vs. "Chinese laborers built the
+  continental railroad"
+  
+- "Mr. Jefferson designed these doors..." vs. "the doors were
+  installed in 1809"
+  -- emphasizing the white designer skills over the skill & work
+  involved in building and installing them.
+  
+** politics and terminology
+
+- "culturally deprived," "economically disadvantaged,"
+  "underdeveloped"
+  -- hypocritical due to the monoculture american white children grow
+  up in.
+  
+- "underdeveloped" nations :: "over-exploited" nations
+- words/phrases that blame the victim
+- "non-white," "minority," "third-world"
+
+** loaded words & native americans
+
+- Columnbus discovered a continent already inhabited by millions of
+  human beings?
+- victory & massacre used to describe european battles with native
+  americans.
+- euro-american conquest described not as invasion, but as defending
+  against indian attacks
+- "savages," "beasts," "primitive," "backward"
+- tribe is defined with "barbarous condition." Original words used
+  were nation & people instead of tribe
+
+** loaded words & africans
+
+- tribal warfare is used for in-fighting in african nations, but not
+  with european countries
+- failure to acknowledge religious, cultural, or social diversity of
+  African people.
+- "darkest africa" image
+- western powers "civilized," and "christianized" rather than
+  exploited and enslaved
+- How dark refers back to the color symbolism previously noted.
+- The negative terminology of pagan worship; Heathen
+
+** qualifying adjectives
+
+- stating that one memeber is intelligent can have different meanings
+  when placed in a racial context. As though one group isn't normally
+  intelligent, so by stating it you make an example of the one.
+- "well-dressed negro officials"
+- were black people "qualified" to hold public office?
+
+** speaking english
+
+- failure to speak english is related to poverty
+- speach impediments and broken english, seen as an equal racism for
+  asian cultures
+- native americans portrayed as speaking a stilted english
+ 
+  
+** wrap up
+
+- great quote on the environment of language
+- recognition & consciuosness
+- change our own use of the language

@@ -1,3 +1,13 @@
+/********************************************************
+ *
+ *  Project :  Basic List Operations - Arrays
+ *  File    :  MyArrayList.java
+ *  Name    :  Paul English
+ *  Date    :  02/11/2013
+ *
+ *  Description : A list class that uses an array to manage data.
+ *
+ ********************************************************/
 package basiclistoperationsarrays;
 
 /**

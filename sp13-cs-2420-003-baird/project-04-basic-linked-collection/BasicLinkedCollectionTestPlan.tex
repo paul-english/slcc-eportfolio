@@ -1,0 +1,300 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx}
+
+\pagestyle{empty}
+\setcounter{secnumdepth}{2}
+
+\topmargin=0cm
+\oddsidemargin=0cm
+\textheight=22.0cm
+\textwidth=16cm
+\parindent=0cm
+\parskip=0.15cm
+\topskip=0truecm
+\raggedbottom
+\abovedisplayskip=3mm
+\belowdisplayskip=3mm
+\abovedisplayshortskip=0mm
+\belowdisplayshortskip=2mm
+\normalbaselineskip=12pt
+\normalbaselines
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[htbp]
+\caption{Instantiation of a \textbf{BasicCollection}}
+\begin{center}
+
+\noindent\resizebox{\textwidth}{!}{%
+
+\begin{tabular}{ | p{5cm} | p{5cm} | p{5cm} | p{5cm} | }
+\hline
+Operation & Purpose & Object State & Expected Result \\
+\hline\hline
+
+% Row
+Collection c = new BasicCollection() & 
+To create a basic collection with the default constructor. & 
+\textbf{size = 0} \newline \textbf{empty = true} & 
+A new Collection object with default values for the attributes. \\
+\hline
+
+% Row
+c.size() &
+To verify instantiatied size. &
+&
+0 \\
+\hline
+
+% Row
+c.isEmpty() &
+To verify instantiated object is empty. &
+&
+true \\
+\hline
+
+\end{tabular}
+
+}
+\end{center}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[htbp]
+\caption{Adding objects to an instantiated collection.}
+\begin{center}
+
+\noindent\resizebox{\textwidth}{!}{%
+
+\begin{tabular}{ | p{5cm} | p{5cm} | p{5cm} | p{5cm} | }
+\hline
+Operation & Purpose & Object State & Expected Result \\
+\hline\hline
+
+% Row
+BasicCollection<String> c = new BasicCollection<String>() & 
+To create a basic string collection with the default constructor. & 
+\textbf{size = 0} \newline \textbf{empty = true} & 
+A new Collection object with default values for the attributes. \\
+\hline
+
+% Row
+c.add(new String("A")) &
+Add a string to the collection. &
+\textbf{size = 1} \newline \textbf{empty = false} &
+The collection contains the string we've added.\\
+\hline
+
+% Row
+!c.isEmpty() &
+To verify instantiated object isn't empty. &
+&
+true \\
+\hline
+
+%Row
+c.contains("A") &
+Check that our collection contains the string added. &
+&
+true \\
+\hline
+
+%Row
+c.contains("Missing") &
+To verify that other objects don't falsely report to be in our collection. &
+&
+false \\
+\hline
+
+\end{tabular}
+
+}
+\end{center}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[htbp]
+\caption{Ability to remove unique elements from the collection.}
+\begin{center}
+
+\noindent\resizebox{\textwidth}{!}{%
+
+\begin{tabular}{ | p{5cm} | p{5cm} | p{5cm} | p{5cm} | }
+\hline
+Operation & Purpose & Object State & Expected Result \\
+\hline\hline
+
+% Row
+BasicCollection<String> c = new BasicCollection<String>() & 
+To create a basic string collection with the default constructor. & 
+\textbf{size = 0} \newline \textbf{empty = true} & 
+A new Collection object with default values for the attributes. \\
+\hline
+
+% Row
+c.add(new String("A")) &
+Add a string to the collection. &
+\textbf{size = 1} \newline \textbf{empty = false} &
+The collection contains the string we've added.\\
+\hline
+
+% Row
+c.add(new String("B")) &
+Add another string to the collection. &
+\textbf{size = 2} \newline \textbf{empty = false} &
+The collection contains the string we've added.\\
+\hline
+
+% Row
+!c.isEmpty() &
+To verify instantiated object isn't empty. &
+&
+true \\
+\hline
+
+%Row
+c.size() &
+Check that our contains two elements. &
+&
+2 \\
+\hline
+
+%Row
+c.remove("B") &
+To remove an individual item from the collection. &
+\textbf{size = 1} &
+\\
+\hline
+
+%Row
+c.size() &
+To check the updated size of our collection. &
+&
+1 \\
+\hline
+
+%Row
+c.contains("B") &
+To ensure our item was removed. &
+&
+false \\
+\hline
+
+\end{tabular}
+
+}
+\end{center}
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[htbp]
+\caption{Ability to add multiple items to a \textbf{BasicCollection}.}
+\begin{center}
+
+\noindent\resizebox{\textwidth}{!}{%
+
+\begin{tabular}{ | p{5cm} | p{5cm} | p{5cm} | p{5cm} | }
+\hline
+Operation & Purpose & Object State & Expected Result \\
+\hline\hline
+
+% Row
+BasicCollection<String> c = new BasicCollection<String>() & 
+To create a basic string collection with the default constructor. & 
+\textbf{size = 0} \newline \textbf{empty = true} & 
+A new Collection object with default values for the attributes. \\
+\hline
+
+% Row
+c.add(new String("A")) &
+Add a string to the collection. &
+\textbf{size = 1} \newline \textbf{empty = false} &
+The collection contains the string we've added.\\
+\hline
+
+% Row
+!c.isEmpty() &
+To verify instantiated object isn't empty. &
+&
+true \\
+\hline
+
+%Row
+c.contains("A") &
+Check that our collection contains the string added. &
+&
+true \\
+\hline
+
+%Row
+c.contains("Missing") &
+To verify that other objects don't falsely report to be in our collection. &
+&
+false \\
+\hline
+
+\end{tabular}
+
+}
+\end{center}
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[htbp]
+\caption{Ability to remove all items to a \textbf{BasicCollection}.}
+\begin{center}
+
+\noindent\resizebox{\textwidth}{!}{%
+
+\begin{tabular}{ | p{5cm} | p{5cm} | p{5cm} | p{5cm} | }
+\hline
+Operation & Purpose & Object State & Expected Result \\
+\hline\hline
+
+% Row
+BasicCollection<String> c = new BasicCollection<String>() & 
+To create a basic string collection with the default constructor. & 
+\textbf{size = 0} \newline \textbf{empty = true} & 
+A new Collection object with default values for the attributes. \\
+\hline
+
+% Row
+c.add(new String("A")) &
+Add a string to the collection. &
+\textbf{size = 1} \newline \textbf{empty = false} &
+The collection contains the string we've added.\\
+\hline
+
+% Row
+!c.isEmpty() &
+To verify instantiated object isn't empty. &
+&
+true \\
+\hline
+
+%Row
+c.contains("A") &
+Check that our collection contains the string added. &
+&
+true \\
+\hline
+
+%Row
+c.contains("Missing") &
+To verify that other objects don't falsely report to be in our collection. &
+&
+false \\
+\hline
+
+\end{tabular}
+
+}
+\end{center}
+\end{table}
+
+\end{document}

@@ -69,11 +69,11 @@ public class Menu
 		System.out.println("Choose your action below");
 		for (int i = 0; i < options.size(); i++)
 		{
-			System.out.println("  " + i + ": " + options.get(i).getText());
+			System.out.println("  " + (i + 1) + ": " + options.get(i).getText());
 		}
 
 		System.out.print("> ");
-		int selection = input.nextInt();
+		int selection = input.nextInt() - 1;
 
 		if (selection >= options.size())
 		{

@@ -40,10 +40,11 @@ public class GenericSingleLinkedList
 			void action(Scanner input)
 			{
 				System.out.println("What classification of rock would you like to add?");
+				input.useDelimiter(System.getProperty("line.separator"));
 				String classification = input.next();
 				Rock rock = new Rock(classification);
 				list.add(rock);
-				System.out.println("Rock added.");
+				System.out.println("Rock added (" + classification + ").");
 			}
 		});
 		menu.addOption("Delete an item.", new Menu.Option()

@@ -1,5 +1,9 @@
 package telephonenumberwordgenerator;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.PrintStream;
 import junit.framework.*;
 import junit.extensions.*;
 
@@ -198,10 +202,77 @@ public class PhoneNumberTest extends TestCase
 
 	public static void main(String[] args)
 	{
-		String[] test =
+		if (args.length == 0)
 		{
-			PhoneNumberTest.class.getName()
-		};
-		junit.textui.TestRunner.main(test);
+			System.err.println("Usage: <7-digit-telephone-number> <output-file-path>");
+			System.exit(0);
+		}
+
+		if (args[0].equals("test"))
+		{
+			String[] test =
+			{
+				PhoneNumberTest.class.getName()
+			};
+			junit.textui.TestRunner.main(test);
+		}
+		else
+		{
+			String number = args[0];
+
+			if (args[1] == null)
+			{
+				System.err.println("Usage: <7-digit-telephone-number> <output-file-path>");
+				System.exit(0);
+			}
+
+			File output = new File(args[1]);
+
+			// Does the file already exist
+			if (!output.exists())
+			{
+				try
+				{
+					// Try creating the file
+					output.createNewFile();
+				}
+				catch (IOException e)
+				{
+					System.err.println("There was an error creating that file: " + e.getMessage());
+					System.exit(0);
+				}
+			}
+
+			PrintStream stream = null;
+
+			try
+			{
+				stream = new PrintStream(output);
+			}
+			catch (FileNotFoundException e)
+			{
+				System.err.println("There was an error writing to your file: " + e.getMessage());
+				System.exit(0);
+			}
+
+			PhoneNumber phoneNumber = null;
+
+			try
+			{
+				phoneNumber = new PhoneNumber(number);
+			}
+			catch (IllegalArgumentException e)
+			{
+				System.err.println(e.getMessage());
+				System.exit(0);
+			}
+
+			String[] words = phoneNumber.getWords();
+			for (int i = 0; i < words.length; i++)
+			{
+				stream.println(words[i]);
+			}
+			System.exit(1);
+		}
 	}
 }

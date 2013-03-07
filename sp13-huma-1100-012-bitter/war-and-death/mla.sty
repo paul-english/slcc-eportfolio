@@ -153,7 +153,10 @@
 %
 %   MLA environment
 %
-\newenvironment{mla}[6]{\newcommand{\lastname}{#2} \fancyhead[RO]{\lastname\ \thepage} \raggedright #1\ #2 \\  #3 \\ #4 \\ #5 \\ \centering #6 \\ \frenchspacing\raggedright\setlength{\parindent}{.5in}}{\newpage}
+\usepackage{setspace}
+\newenvironment{mla}[6]{\newcommand{\lastname}{#2}
+  \fancyhead[RO]{\lastname\ \thepage} \raggedright \singlespacing #1\ #2 \\  #3 \\ #4
+  \\ #5 \\ \centering \doublespacing #6 \\ \frenchspacing\raggedright\setlength{\parindent}{.5in}}{\newpage}
 
 %
 %   Block quote environment

@@ -30,7 +30,7 @@
 
 \noindent\resizebox{\textwidth}{!}{%
 
-\begin{tabular}{ | p{5cm} | p{5cm} | p{5cm} | p{5cm} | }
+\begin{tabular}{ | l | p{5cm} | p{5cm} | p{5cm} | }
 \hline
 Operation & Purpose & Object State & Expected Result \\
 \hline\hline
@@ -69,13 +69,13 @@ true \\
 
 \noindent\resizebox{\textwidth}{!}{%
 
-\begin{tabular}{ | p{5cm} | p{5cm} | p{5cm} | p{5cm} | }
+\begin{tabular}{ | l | p{5cm} | p{5cm} | p{5cm} | }
 \hline
 Operation & Purpose & Object State & Expected Result \\
 \hline\hline
 
 % Row
-BasicCollection<String> c = new BasicCollection<String>() & 
+BasicCollection $<$String$>$ c = new BasicCollection$<$String$>$() & 
 To create a basic string collection with the default constructor. & 
 \textbf{size = 0} \newline \textbf{empty = true} & 
 A new Collection object with default values for the attributes. \\
@@ -122,13 +122,13 @@ false \\
 
 \noindent\resizebox{\textwidth}{!}{%
 
-\begin{tabular}{ | p{5cm} | p{5cm} | p{5cm} | p{5cm} | }
+\begin{tabular}{ | l | p{5cm} | p{5cm} | p{5cm} | }
 \hline
 Operation & Purpose & Object State & Expected Result \\
 \hline\hline
 
 % Row
-BasicCollection<String> c = new BasicCollection<String>() & 
+BasicCollection $<$String$>$ c = new BasicCollection$<$String$>$() & 
 To create a basic string collection with the default constructor. & 
 \textbf{size = 0} \newline \textbf{empty = true} & 
 A new Collection object with default values for the attributes. \\
@@ -197,44 +197,79 @@ false \\
 
 \noindent\resizebox{\textwidth}{!}{%
 
-\begin{tabular}{ | p{5cm} | p{5cm} | p{5cm} | p{5cm} | }
+\begin{tabular}{ | l | p{5cm} | p{5cm} | p{5cm} | }
 \hline
 Operation & Purpose & Object State & Expected Result \\
 \hline\hline
 
 % Row
-BasicCollection<String> c = new BasicCollection<String>() & 
-To create a basic string collection with the default constructor. & 
-\textbf{size = 0} \newline \textbf{empty = true} & 
-A new Collection object with default values for the attributes. \\
+ArrayList$<$String$>$ list = new ArrayList$<>$(); &
+Create a random collection that can be used to add to our collection. &
+&
+\\
 \hline
 
 % Row
-c.add(new String("A")) &
-Add a string to the collection. &
-\textbf{size = 1} \newline \textbf{empty = false} &
-The collection contains the string we've added.\\
+list.add("A"); &
+Add an element to our collection. &
+&
+\\
 \hline
 
 % Row
-!c.isEmpty() &
-To verify instantiated object isn't empty. &
+list.add("B"); &
+Add an element to our collection. &
+&
+\\
+\hline
+
+% Row
+list.add("C"); &
+Add an element to our collection. &
+&
+\\
+\hline
+
+% Row
+c = new BasicCollection$<>$(); &
+Create a basic collection using the default constructor. &
+\textbf{size = 0} \newline \textbf{empty = true} &
+A new collection object. \\
+\hline
+
+% Row
+c.addAll(list); &
+Add our list to our collection. &
+\textbf{size = 3} \newline \textbf{empty = false} &
+A populated collection object. \\
+\hline
+
+% Row
+c.contains("A"); &
+Make sure our collection contains this element that was in the list. &
 &
 true \\
 \hline
 
-%Row
-c.contains("A") &
-Check that our collection contains the string added. &
+% Row
+c.contains("B"); &
+Make sure our collection contains this element that was in the list. &
 &
 true \\
 \hline
 
-%Row
-c.contains("Missing") &
-To verify that other objects don't falsely report to be in our collection. &
+% Row
+c.contains("C"); &
+Make sure our collection contains this element that was in the list. &
 &
-false \\
+true \\
+\hline
+
+% Row
+c.size() &
+Make sure our collection has the right sizes. &
+&
+3 \\
 \hline
 
 \end{tabular}
@@ -251,13 +286,214 @@ false \\
 
 \noindent\resizebox{\textwidth}{!}{%
 
-\begin{tabular}{ | p{5cm} | p{5cm} | p{5cm} | p{5cm} | }
+\begin{tabular}{ | l | p{5cm} | p{5cm} | p{5cm} | }
 \hline
 Operation & Purpose & Object State & Expected Result \\
 \hline\hline
 
 % Row
-BasicCollection<String> c = new BasicCollection<String>() & 
+ArrayList$<$String$>$ list = new ArrayList$<>$(); &
+Create a random collection that can be used to add to our collection. &
+&
+\\
+\hline
+
+% Row
+list.add("A"); &
+Add an item to our list. &
+&
+\\
+\hline
+
+% Row
+list.add("B"); &
+Add an item to our list. &
+&
+\\
+\hline
+
+% Row
+list.add("C"); &
+Add an item to our list. &
+&
+\\
+\hline
+
+% Row
+c = new BasicCollection$<>$(); &
+Create a basic collection using the default constructor. &
+\textbf{size = 0} \newline \textbf{empty = true} &
+A new collection object. \\
+\hline
+
+% Row
+c.add("A"); &
+Add an item to our collection. &
+\textbf{size = 1} \newline \textbf{empty = false} &
+Our collection. \\
+\hline
+
+% Row
+c.add("B"); &
+Add an item to our collection. &
+\textbf{size = 2} &
+Our collection. \\
+\hline
+
+% Row
+c.add("C"); &
+Add an item to our collection. &
+\textbf{size = 3} &
+Our collection. \\
+\hline
+
+% Row
+c.removeAll(list); &
+Remove all list elements from our collection. &
+\textbf{size = 0} \newline \textbf{empty = true} &
+Our collection has had all the elements removed leaving it empty. \\
+\hline
+
+% Row
+c.contains("A"); &
+Make sure our collection doesn't have an element in it. &
+&
+false \\
+\hline
+
+% Row
+c.contains("B"); &
+Make sure our collection doesn't have an element in it. &
+&
+false \\
+\hline
+
+% Row
+c.contains("C"); &
+Make sure our collection doesn't have an element in it. &
+&
+false \\
+\hline
+
+% Row
+c.size(); &
+Make sure our collection now has the correct size. &
+&
+0 \\
+\hline
+
+% Row
+c.isEmpty(); &
+Make sure our collection is empty. &
+&
+true \\
+\hline
+
+\end{tabular}
+
+}
+\end{center}
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[htbp]
+\caption{When removing all items from a \textbf{BasicCollection} don't remove other elements.}
+\begin{center}
+
+\noindent\resizebox{\textwidth}{!}{%
+
+\begin{tabular}{ | l | p{5cm} | p{5cm} | p{5cm} | }
+\hline
+Operation & Purpose & Object State & Expected Result \\
+\hline\hline
+
+% Row
+ArrayList$<$String$>$ list = new ArrayList$<>$(); &
+Create a random collection that can be used to add to our collection. &
+&
+\\
+\hline
+
+% Row
+list.add("A"); &
+Add an item to our list. &
+&
+\\
+\hline
+
+% Row
+list.add("B"); &
+Add an item to our list. &
+&
+\\
+\hline
+
+% Row
+list.add("C"); &
+Add an item to our list. &
+&
+\\
+\hline
+
+% Row
+c = new BasicCollection$<>$(); &
+Create a basic collection using the default constructor. &
+\textbf{size = 0} \newline \textbf{empty = true} &
+A new collection object. \\
+\hline
+
+% Row
+c.add("A"); &
+Add an element to our collection. &
+\textbf{size = 1} \newline \textbf{empty = false} &
+Our collection with one element. \\
+\hline
+
+% Row
+c.add("D"); &
+Add an element to our collection. &
+\textbf{size = 2} &
+Our collection with two elements. \\
+\hline
+
+% Row
+c.removeAll(list); &
+Remove the list items from our collection again. &
+\textbf{size = 1} &
+Our collection still has one element in it. \\
+\hline
+
+% Row
+c.contains("A"); &
+Check that our element doesn't contain the list element. &
+&
+false \\
+\hline
+
+% Row
+c.contains("D"); &
+Check that our element still contains the other element. &
+&
+true \\
+\hline
+
+% Row
+c.size(); &
+Check that our collection has the right size. &
+&
+1 \\
+\hline
+
+% Row
+c.isEmpty(); &
+Check that our element isn't empty. &
+&
+false \\
+\hline
+
+% Row
+BasicCollection $<$String$>$ c = new BasicCollection$<>$() & 
 To create a basic string collection with the default constructor. & 
 \textbf{size = 0} \newline \textbf{empty = true} & 
 A new Collection object with default values for the attributes. \\

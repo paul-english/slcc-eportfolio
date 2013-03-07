@@ -16,8 +16,8 @@ public class DynamicTimeWarping
 {
 
 	private Matrix targetTimeSeries;
-	private ArrayList otherInstancesTimeSeries;
-	private Hashtable timeSeriesRanking;
+	private ArrayList<Matrix> otherInstancesTimeSeries;
+	private Hashtable<Object, Double> timeSeriesRanking;
 
 	/**
 	 *
@@ -26,15 +26,15 @@ public class DynamicTimeWarping
 	public DynamicTimeWarping(Matrix target)
 	{
 		this.targetTimeSeries = target;
-		otherInstancesTimeSeries = new ArrayList();
-		timeSeriesRanking = new Hashtable();
+		otherInstancesTimeSeries = new ArrayList<Matrix>();
+		timeSeriesRanking = new Hashtable<Object, Double>();
 	}
 
 	/**
 	 *
 	 * @param otherInstances Collection
 	 */
-	public void addOtherInstancesTimeSeries(Collection otherInstances)
+	public void addOtherInstancesTimeSeries(Collection<Matrix> otherInstances)
 	{
 		otherInstancesTimeSeries.addAll(otherInstances);
 	}
@@ -77,7 +77,7 @@ public class DynamicTimeWarping
 		}
 		timeSeriesRanking.clear();
 		int count = 0;
-		Iterator iter = otherInstancesTimeSeries.iterator();
+		Iterator<Matrix> iter = otherInstancesTimeSeries.iterator();
 		while (iter.hasNext())
 		{
 			count++;
@@ -181,7 +181,7 @@ public class DynamicTimeWarping
 	 *
 	 * @return HashMap
 	 */
-	public Hashtable getTimeSeriesRanking()
+	public Hashtable<?, Double> getTimeSeriesRanking()
 	{
 		return timeSeriesRanking;
 	}
@@ -241,7 +241,7 @@ public class DynamicTimeWarping
 			});
 
 		DynamicTimeWarping dtw = new DynamicTimeWarping(t);
-		ArrayList arrayList = new ArrayList();
+		ArrayList<Matrix> arrayList = new ArrayList<Matrix>();
 		arrayList.add(r1);
 		arrayList.add(r2);
 		arrayList.add(r3);
@@ -256,7 +256,7 @@ public class DynamicTimeWarping
 			ex.printStackTrace();
 		}
 
-		Hashtable map = dtw.getTimeSeriesRanking();
+		Hashtable<?, Double> map = dtw.getTimeSeriesRanking();
 		Double dbl1 = (Double) map.get("Time Series - 1");
 		System.out.println("s1 = " + dbl1);
 		Double dbl2 = (Double) map.get("Time Series - 2");

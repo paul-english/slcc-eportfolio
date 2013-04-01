@@ -11,14 +11,16 @@ This is the core repository for all work done in courses through SLCC. In here y
 
 #### Summer 2012
 
-* [CSC 1030](cs-1030-002-Su12) - Connected Computing
-* [English 2010](engl-2010-Su12-Argyle) - Intermediate Writing
+* [CSC 1030](su12-cs-1030-002-Su12) - Connected Computing
+* [English 2010](su12-engl-2010-Su12-Argyle) - Intermediate Writing
 
 #### Spring 2013
 
-* [CSC 2420](cs-2420-003-baird) - Algorithms & Data Structures
-* [CSC 2550](cs-2550-001-peeler) - Advanced Java Programming
-* [Econ 1740](econ-1740-005-schumacker) - Economic History of U.S.
+* [CSC 2420](sp13-cs-2420-003-baird) - Algorithms & Data Structures
+* [CSC 2550](sp13-cs-2550-001-peeler) - Advanced Java Programming
+* [Econ 1740](sp13-econ-1740-005-schumacker) - Economic History of U.S.
+* [Huma 1100](sp13-huma-1100-012-bitter) - Introduction to Humanities
+* [Comm 2150](sp13-comm-2150-003-mckay) - Intercultural Communications
 
 ## LaTeX and Org Files
 

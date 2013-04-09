@@ -1,0 +1,475 @@
+The Feeling Of Power
+
+Isaac Asimov
+
+Jehan Shuman was used to dealing with the men in authority on
+long-embattled earth. He was only a civilian but he originated
+programming patterns that resulted in self-directing war computers of
+the highest sort. Generals, consequently listened to him. Heads of
+congressional committees too.
+
+There was one of each in the special lounge of New Pentagon. General
+Weider was space-burned and had a small mouth puckered almost into a
+cipher. He smoked Denebian tobacco with the air of one whose
+patriotism was so notorious, he could be allowed such liberties.
+
+Shuman, tall, distinguished, and Programmer-first-class, faced them
+fearlessly.
+
+He said, "This, gentlemen, is Myron Aub."
+
+"The one with the unusual gift that you discovered quite by accident,"
+said Congressman Brant placidly. "Ah." He inspected the little man
+with the egg-bald head with amiable curiosity.
+
+The little man, in return, twisted the fingers of his hands anxiously.
+He had never been near such great men before. He was only an aging
+low-grade technician who had long ago failed all tests designed to
+smoke out the gifted ones among mankind and had settled into the rut
+of unskilled labor. There was just this hobby of his that the great
+Programmer had found out about and was now making such a frightening
+fuss over.
+
+General Weider said, "I find this atmosphere of mystery childish."
+
+"You won't in a moment," said Shuman. "This is not something we can
+leak to the firstcomer. Aub!" There was something imperative about his
+manner of biting off that one-syllable name, but then he was a great
+Programmer speaking to a mere technician. "Aub! How much is nine times
+seven?"
+
+Aub hesitated a moment. His pale eyes glimmered with a feeble anxiety.
+
+"Sixty-three," he said.
+
+Congressman Brant lifted his eyebrows. "Is that right?"
+
+"Check it for yourself, Congressman."
+
+The congressman took out his pocket computer, nudged the milled edges
+twice, looked at its face as it lay there in the palm of his hand, and
+put it back. He said, "Is this the gift you brought us here to
+demonstrate. An illusionist?"
+
+"More than that, sir. Aub has memorized a few operations and with them
+he computes on paper."
+
+"A paper computer?" said the general. He looked pained.
+
+"No, sir," said Shuman patiently. "Not a paper computer. Simply a
+piece of paper. General, would you be so kind as to suggest a number?"
+
+"Seventeen," said the general.
+
+"And you, Congressman?"
+
+"Twenty-three."
+
+"Good! Aub, multiply those numbers, and please show the gentlemen your
+manner of doing it."
+
+"Yes, Programmer," said Aub, ducking his head. He fished a small pad
+out of one shirt pocket and an artist's hairline stylus out of the
+other. His forehead corrugated as he made painstaking marks on the
+paper.
+
+General Weider interrupted him sharply. "Let's see that."
+
+Aub passed him the paper, and Weider said, "Well, it looks like the
+figure seventeen."
+
+Congressman Brant nodded and said, "So it does, but I suppose anyone
+can copy figures off a computer. I think I could make a passable
+seventeen myself, even without practice."
+
+"If you will let Aub continue, gentlemen," said Shuman without heat.
+
+Aub continued, his hand trembling a little. Finally he said in a low
+voice, "The answer is three hundred and ninety-one."
+
+Congressman Brant took out his computer a second time and flicked it.
+"By Godfrey, so it is. How did he guess?"
+
+"No guess, Congressman," said Shuman. "He computed that result. He did
+it on this sheet of paper."
+
+"Humbug," said the general impatiently. "A computer is one thing and
+marks on a paper are another."
+
+"Explain, Aub," said Shuman.
+
+"Yes, Programmer. Well, gentlemen, I write down seventeen, and just
+underneath it I write twenty-three. Next I say to myself: seven times
+three -"
+
+The congressman interrupted smoothly, "Now, Aub, the problem is
+seventeen times twenty-three."
+
+"Yes, I know," said the little technician earnestly, "but I start by
+saying seven times three because that's the way it works. Now seven
+times three is twenty-one."
+
+"And how do you know that?" asked the congressman.
+
+"I just remember it. It's always twenty-one on the computer. I've
+checked it any number of times."
+
+"That doesn't mean it always will be, though, does it?" said the
+congressman.
+
+"Maybe not," stammered Aub. "I'm not a mathematician. But I always get
+the right answers, you see."
+
+"Go on."
+
+"Seven times three is twenty-one, so I write down twenty-one. Then one
+times three is three, so I write down three under the two of
+twenty-one."
+
+"Why under the two?" asked Congressman Brant at once.
+
+"Because - " Aub looked helplessly at his superior for support. "It's
+difficult to explain."
+
+Shuman said, "If you will accept his work for the moment, we can leave
+the details for the mathematicians."
+
+Brant subsided.
+
+Aub said, "Three plus two makes five, you see, so the twenty- one
+becomes a fifty-one. Now you let that go for a while and start fresh.
+You multiply seven and two, that's fourteen, and one and two, that's
+two. Put them down like this and it adds up to thirty-four. Now if you
+put the thirty-four under the fifty-one this way and add them, you get
+three hundred and ninety-one, and that's the answer."
+
+There was an instant's silence and then General Weider said, "I don't
+believe it. He goes through this rigmarole and makes up numbers and
+multiplies and adds them this way and that, but I don't believe it.
+It's too complicated to be anything but horn-swoggling."
+
+"Oh no, sir," said Aub in a sweat. "It only seems complicated because
+you're not used to it. Actually the rules are quite simple and will
+work for any numbers."
+
+"Any numbers, eh?" said the general. "Come, then." He took out his own
+computer (a severely styled GI model) and struck it at random. "Make a
+five seven three eight on the paper. That's five thousand seven
+hundred and thirty-eight."
+
+"Yes, sir," said Aub, taking a new sheet of paper.
+
+"Now" - more punching of his computer - "seven two three nine. Seven
+thousand two hundred and thirty-nine."
+
+"Yes, sir."
+
+"And now multiply those two."
+
+"It will take some time," quavered Aub.
+
+"Take the time," said the general.
+
+"Go ahead, Aub," said Shuman crisply.
+
+Aub set to work, bending low. He took another sheet of paper and
+another. The general took out his watch finally and stared at it. "Are
+you through with your magic-making, Technician?"
+
+"I'm almost done, sir. Here it is, sir. Forty-one million, five
+hundred and thirty-seven thousand, three hundred and eighty-two." He
+showed the scrawled figures of the result.
+
+General Weider smiled bitterly. He pushed the multiplication contact
+on his computer and let the numbers whirl to a halt. And then he
+stared and said in a surprised squeak, "Great Galaxy, the fella's
+right."
+
+The President of the Terrestrial Federation had grown haggard in
+office and, in private, he allowed a look of settled melancholy to
+appear on his sensitive features. The Denebian War, after its early
+start of vast movement and great popularity, had trickled down into a
+sordid matter of maneuver and counter-maneuver, with discontent rising
+steadily on earth. Possibly, it was rising on Deneb, too.
+
+And now Congressman Brant, head of the important Committee on Military
+Appropriations, was cheerfully and smoothly spending his half-hour
+appointment spouting nonsense.
+
+"Computing without a computer," said the president impatiently, "is a
+contradiction in terms."
+
+"Computing," said the congressman, "is only a system for handling
+data. A machine might do it, or the human brain might. Let me give you
+an example." And, using the new skills he had learned, he worked out
+sums and products until the president, despite himself, grew
+interested.
+
+"Does this always work?"
+
+"Every time, Mr. President. It is foolproof."
+
+"Is it hard to learn?"
+
+"It took me a week to get the real hang of it. I think you would do
+better."
+
+"Well," said the president, considering, "it's an interesting parlor
+game, but what is the use of it?"
+
+"What is the use of a newborn baby, Mr. President? At the moment there
+is no use, but don't you see that this points the way toward
+liberation from the machine. Consider, Mr. President" - the
+congressman rose and his deep voice automatically took on some of the
+cadences he used in public debate - "that the Denebian War is a war of
+computer against computer. Their computers forge an impenetrable
+shield of countermissiles against our missiles, and ours forge one
+against theirs. If we advance the efficiency of our computers, so do
+they theirs, and for five years a precarious and profitless balance
+has existed.
+
+"Now we have in our hands a method for going beyond the computed,
+leapfrogging it, passing through it. We will combine the mechanics of
+computation with human thought; we will have the equivalent of
+intelligent computers, billions of them. I can't predict what the
+consequences will be in detail, but they will be incalculable. And if
+Deneb beats us to the punch, they may be unimaginably catastrophic."
+
+The president said, troubled, "What would you have me do?"
+
+"Put the power of the administration behind the establishment of a
+secret project on human computation. Call it Project Number, if you
+like. I can vouch for my committee, but I will need the administration
+behind me."
+
+"But how far can human computation go?"
+
+"There is no limit. According to Programmer Shuman, who first
+introduced me to this discovery - "
+
+"I've heard of Shuman, of course."
+
+"Yes. Well, Dr. Shuman tells me that in theory there is nothing the
+computer can do that the human mind cannot do. The computer merely
+takes a finite amount of data and performs a finite amount of
+operations on them. The human mind can duplicate the process."
+
+The president considered that. He said, "If Shuman says this, I am
+inclined to believe him - in theory. But, in practice, how can anyone
+know how a computer works?"
+
+Brant laughed genially. "Well, Mr. President, I asked the same
+question. It seems that at one time computers were designed directly
+by human beings. Those were simple computers, of course, this being
+before the time of the rational use of computers to design more
+advanced computers had been established."
+
+"Yes, yes. Go on."
+
+"Technician Aub apparently had, as his hobby, the reconstruction of
+some of these ancient devices, and in so doing he studied the details
+of their workings and found he could imitate them. The multiplication
+I just performed for you is an imitation of the workings of a
+computer."
+
+"Amazing!"
+
+The congressman coughed gently. "If I may make another point, Mr.
+President - the further we can develop this thing, the more we can
+divert our federal effort from computer production and computer
+maintenance. As the human brain takes over, more of our energy can be
+directed into peacetime pursuits and the impingement of war on the
+ordinary man will be less. This will be most advantageous for the
+party in power, of course."
+
+"Ah," said the president, "I see your point. Well, sit down,
+Congressman, sit down. I want some time to think about this. But
+meanwhile, show me that multiplication trick again. Let's see if I
+can't catch the point of it."
+
+Programmer Shuman did not try to hurry matters. Loesser was
+conservative, very conservative, and liked to deal with computers as
+his father and grandfather had. Still, he controlled the West European
+computer combine, and if he could be persuaded to join Project Number
+in full enthusiasm, a great deal would be accomplished.
+
+But Loesser was holding back. He said, "I'm not sure I like the idea
+of relaxing our hold on computers. The human mind is a capricious
+thing. The computer will give the same answer to the same problem each
+time. What guarantee have we that the human mind will do the same?"
+
+"The human mind, Computer Loesser, only manipulates facts. It doesn't
+matter whether the human mind or a machine does it. They are just
+tools."
+
+"Yes, yes. I've gone over your ingenious demonstration that the mind
+can duplicate the computer, but it seems to me a little in the air.
+I'll grant the theory, but what reason have we for thinking that
+theory can be converted to practice?"
+
+"I think we have reason, sir. After all, computers have not always
+existed. The cavemen with their triremes, stone axes, and railroads
+had no computers."
+
+"And possibly they did not compute."
+
+"You know better than that. Even the building of a railroad or a
+ziggurat called for some computing, and that must have been without
+computers as we know them."
+
+"Do you suggest they computed in the fashion you demonstrate?"
+
+"Probably not. After all, this method - we call it 'graphitics,' by
+the way, from the old European word 'grapho,' meaning 'to write' - is
+developed from the computers themselves, so it cannot have antedated
+them. Still, the cave men must have had some method, eh?"
+
+"Lost arts! If you're going to talk about lost arts - "
+
+"No, no. I'm not a lost art enthusiast, though I don't say there may
+not be some. After all, man was eating grain before hydroponics, and
+if the primitives ate grain, they must have grown it in soil. What
+else could they have done?"
+
+"I don't know, but I'll believe in soil growing when I see someone
+grow grain in soil. And I'll believe in making fire by rubbing two
+pieces of flint together when I see that too."
+
+Shuman grew placative. "Well, let's stick to graphitics. It's just
+part of the process of etherealization. Transportation by means of
+bulky contrivances is giving way to mass transference. Communications
+devices become less massive and more efficient constantly. For that
+matter, compare your pocket computer with the massive jobs of a
+thousand years ago. Why not, then, the last step of doing away with
+computers altogether? Come, sir, Project Number is a going concern;
+progress is already headlong. But we want your help. If patriotism
+doesn't move you, consider the intellectual adventure involved."
+
+Loesser said skeptically, "What progress? What can you do beyond
+multiplication? Can you integrate a transcendental function?"
+
+"In time, sir. In time. In the last month, I have learned to handle
+division. I can determine, and correctly, integral quotients and
+decimal quotients."
+
+"Decimal quotients? To how many places?"
+
+Programmer Shuman tried to keep his tone casual. "Any number!"
+
+Loesser's jaw dropped. "Without a computer?"
+
+"Set me a problem."
+
+"Divide twenty-seven by thirteen. Take it to six places."
+
+Five minutes later Shuman said, "Two point oh seven six nine two
+three."
+
+Loesser checked it. "Well, now, that's amazing. Multiplication didn't
+impress me too much because it involved integers, after all, and I
+thought trick manipulation might do it. But decimals - "
+
+"And that is not all. There is a new development that is, so far, top
+secret and which, strictly speaking, I ought not to mention. Still -
+we may have made a break-through on the square root front."
+
+"Square roots?"
+
+"It involves some tricky points and we haven't licked the bugs yet,
+but Technician Aub, the man who invented the science and who has
+amazing intuition in connection with it, maintains he has the problem
+almost solved. And he is only a technician. A man like yourself, a
+trained and talented mathematician, ought to have no difficulty."
+
+"Square roots," muttered Loesser, attracted.
+
+"Cube roots, too. Are you with us?"
+
+Loesser's hand thrust out suddenly. "Count me in."
+
+General Weider stumped his way back and forth at the head of the room
+and addressed his listeners after the fashion of a savage teacher
+facing a group of recalcitrant students. It made no difference to the
+general that they were the civilian scientists heading Project Number.
+The general was over-all head, and he so considered himself at every
+waking moment.
+
+He said, "Now square roots are fine. I can't do them myself and I
+don't understand the methods, but they're fine. Still, the project
+will not be sidetracked into what some of you call the fundamentals.
+You can play with graphitics any way you want to after the war is
+over, but right now we have specific and very practical problems to
+solve."
+
+In a far corner Technician Aub listened with painful attention. He was
+no longer a technician, of course, having been relieved of his duties
+and assigned to the project, with a fine-sounding title and good pay.
+But, of course, the social distinction remained, and the highly placed
+scientific leaders could never bring themselves to admit him to their
+ranks on a footing of equality. Nor, to do Aub justice, did he,
+himself, wish it. He was as uncomfortable with them as they with him.
+
+The general was saying, "Our goal is a simple one, gentlemen - the
+replacement of the computer. A ship that can navigate space without a
+computer on board can be constructed in one fifth the time and at one
+tenth the expense of a computer-laden ship. We could build fleets five
+times, ten times, as great as Deneb could if we could but eliminate
+the computer.
+
+"And I see something even beyond this. It may be fantastic now, a mere
+dream, but in the future I see the manned missile!"
+
+There was an instant murmur from the audience.
+
+The general drove on. "At the present time our chief bottleneck is the
+fact that missiles are limited in intelligence. The computer
+controlling them can only be so large, and for that reason they can
+meet the changing nature of anti-missile defenses in an unsatisfactory
+way. Few missiles, if any, accomplish their goal, and missile warfare
+is coming to a dead end, for the enemy, fortunately, as well as for
+ourselves.
+
+"On the other hand, a missile with a man or two within, controlling
+flight by graphitics, would be lighter, more mobile, more intelligent.
+It would give us a lead that might well mean the margin of victory.
+Besides which, gentlemen, the exigencies of war compel us to remember
+one thing. A man is much more dispensable than a computer. Manned
+missiles could be launched in numbers and under circumstances that no
+good general would care to undertake as far as computer-directed
+missiles are concerned . . ."
+
+He said much more, but Technician Aub did not wait.
+
+Technician Aub, in the privacy of his quarters, labored long over the
+note he was leaving behind. It read finally as follows:
+
+"When I began the study of what is now called graphitics, it was no
+more than a hobby. I saw no more in it than an interesting amusement,
+an exercise of mind.
+
+"When Project Number began, I thought that others were wiser than I,
+that graphitics might be put to practical use as a benefit to mankind,
+to aid in the production of really practical mass-transference devices
+perhaps. But now I see it is to be used only for death and
+destruction.
+
+"I cannot face the responsibility involved in having invented
+graphitics."
+
+He then deliberately turned the focus of a protein depolarizer on
+himself and fell instantly and painlessly dead.
+
+They stood over the grave of the little technician while tribute was
+paid to the greatness of his discovery.
+
+Programmer Shuman bowed his head along with the rest of them but
+remained unmoved. The technician had done his share and was no longer
+needed, after all. He might have started graphitics, but now that it
+had started, it would carry on by itself overwhelmingly, triumphantly,
+until manned missiles were possible with who knew what else.
+
+Nine times seven, thought Shuman with deep satisfaction, is
+sixty-three, and I don't need a computer to tell me so. The computer
+is in my own head.
+
+And it was amazing the feeling of power that gave him.

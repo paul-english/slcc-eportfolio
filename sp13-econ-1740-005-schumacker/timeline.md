@@ -7,4 +7,4 @@ title: Econ 1740 Timeline
 
 ## Data
 
-The data for this timeline can be found at this [Google Spreadsheet](https://docs.google.com/spreadsheet/pub?key=0Av3u8fmBuxVmdC1ZOWRkUFZsZVozMkJ3aGV2VnFvMGc&output=html)
+The data for this timeline can be found at this [Google Spreadsheet](https://docs.google.com/spreadsheet/pub?key=0Aj-ePQ0Xr6fbdFFGY3NpZTR2aDFGQmducjlSLVJoRUE&output=html)

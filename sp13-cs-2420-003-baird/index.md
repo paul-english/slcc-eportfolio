@@ -18,3 +18,9 @@ title: CS 2420-003 - Algorithms & Data Structures - Robert Baird - Spring 2013
 * [Binary Search Tree](project-10-binary-search-tree) - Implement a list of students around a binary search tree.
 * [Map ADT](project-11-map-adt) -
 * [Shortest Path](project-12-shortest-path) -
+
+## Other assignments
+
+* [Performance Test](SortTestRun) - Examine the VisualVM tool in understanding performance issues of a program.
+* [Towers of Hanoi](hanoi) - Examine a recursive implementation of the Towers of Hanoi problem.
+* [Heap Sort](heap-sort) - Use comparators to heap sort a collection.

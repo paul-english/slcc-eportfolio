@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: CS 1030-002 - Connected Computing - Dan T. Pope - Summer 2012
 ---
 
@@ -24,4 +24,3 @@ We aren't all perfect. Here are some small apps I built while semi-listening to 
 
 * [Base Converter](https://github.com/nrub/base-converter) - A form for quickly converting a number in binary, octal, decimal, or hex to any other base value. [Running Example](http://base-converter.onfrst.com)
 * [IP Calculator](https://github.com/nrub/ip-tool) - A calculator for deriving specific meta information around an IP Address. [Running Example](http://ip-tool.onfrst.com)
-

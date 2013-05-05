@@ -11,8 +11,8 @@ This is the core repository for all work done in courses through SLCC. In here y
 
 #### Summer 2012
 
-* [CSC 1030](su12-cs-1030-002-Su12) - Connected Computing
-* [English 2010](su12-engl-2010-Su12-Argyle) - Intermediate Writing
+* [CSC 1030](su12-cs-1030-002-pope) - Connected Computing
+* [English 2010](su12-engl-2010-002-argyle) - Intermediate Writing
 
 #### Spring 2013
 

@@ -1,0 +1,52 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{changepage}
+\usepackage{listliketab}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[hidelinks,colorlinks,citecolor=Fuchsia,urlcolor=blue,linkcolor=Cerulean]{hyperref}
+
+\title{Group Project Review}
+\date{\today}
+\author{Paul English}
+
+\topmargin=0cm
+\oddsidemargin=0cm
+\textheight=22.0cm
+\textwidth=16cm
+\parindent=0cm
+\parskip=0.15cm
+\topskip=0truecm
+\raggedbottom
+\abovedisplayskip=3mm
+\belowdisplayskip=3mm
+\abovedisplayshortskip=0mm
+\belowdisplayshortskip=2mm
+\normalbaselineskip=12pt
+\normalbaselines
+
+\begin{document}
+\maketitle
+
+\section*{Review}
+
+\begin{listliketab}
+\storestyleof{itemize}
+\begin{tabular}{Lllp{12cm}}
+& Ronnie: & 1 & Ronnie was present during some group work in class. He didn't contribute any changes or additions, and made little effort to provide ideas, help, or participate. \emph{0 commits; +0 / -0 loc} \\
+& Kevin:  & 50 & Definitely wanted to help out but ran into regular difficulties while trying to contribute. I helped him get it running and verified that he was set up with some of the initial work. He had heavy reliance on using the IDE to run the project and complained about this, though documentation and build instructions were provided for running both the command line interface and webservice using mvn and the java at the command line. Contributed some code for authentication, but did not get it fully working, and did not follow project design patterns. Could have easily contributed a JSF frontend, abstractions to the model layer, or improved the web-scraping to prevent errors. At the minimum could have asked more questions about what I built. \emph{12 commits (16\%); +889 / -440 loc} \\
+& Paul:   & 95 & Built initial db schema \& migrations. Built initial data model abstraction classes. Built command line tools for scraping data off of ratemyprofessors.com using jSoup. Built tool for generating trained models, and for evaluating their performance using WEKA libraries. Built JSON webservices. Built front-end interface using Angular.js. Didn't get full integration of the idea built do to time constraints, thus the point deduction. \emph{63 commits (84\%); +9417 / -2716 loc}
+\end{tabular}
+\end{listliketab}
+
+Overall I felt that if Kevin had owned up on a portion of the code we could have at least had something that was working at presentation time. If Ronnie had contributed we could have had something awesome. I did my best to document pieces of code I was working on, and to regularly update my teammates on progress. They had every opportunity to offer up simpler ideas, and to question any of the work I was putting in, but didn't. They were made well aware of what portions were most important, and what they could work on.
+
+\section*{Project Links}
+
+\begin{enumerate}
+  \item \href{http://github.com/nrub/potato-peeler}{Full project source code.}
+  \item \href{https://github.com/nrub/potato-peeler/blob/master/README.md}{Project Readme.}
+  \item \href{https://github.com/nrub/potato-peeler/blob/master/models/current-model-results.txt}{Machine Learning training \& evaluation results.}
+  \item \href{https://github.com/nrub/potato-peeler/blob/master/doc/data-inference-slides.key?raw=true}{Project Overview Keynote Slides.}
+  \item \href{http://nrub.github.io/potato-peeler/}{Git stats (commits, lines of code, dates, authors, files).}
+\end{enumerate}
+
+\end{document}

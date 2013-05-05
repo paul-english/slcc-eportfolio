@@ -1,0 +1,190 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{changepage}
+\usepackage{listliketab}
+\usepackage{graphicx}
+
+
+\title{The Hash Table ADT}
+\date{\today}
+\author{Paul English}
+
+\topmargin=0cm
+\oddsidemargin=0cm
+\textheight=22.0cm
+\textwidth=16cm
+\parindent=0cm
+\parskip=0.15cm
+\topskip=0truecm
+\raggedbottom
+\abovedisplayskip=3mm
+\belowdisplayskip=3mm
+\abovedisplayshortskip=0mm
+\belowdisplayshortskip=2mm
+\normalbaselineskip=12pt
+\normalbaselines
+
+
+
+\begin{document}
+
+\maketitle
+
+\section*{Description}
+
+A hash table provides a collection that utilizes a hash function to enable O(1) access time to items in the collection.
+
+\section*{Properties}
+
+\begin{enumerate}
+
+\item Duplicate keys are not allowed.
+\item A key may be associated with only one value.
+\item A value may be associated with more than one key.
+\item Keys can be compared to one another for equality; similarly for values.
+\item Null keys and values are not allowed.
+\item Keys can be hashed into unique values.
+\item Handles collisions using a repeatable strategy, if two keys produce the same hash.
+
+\end{enumerate}
+
+\section*{Attributes}
+
+\begin{description}
+\item[buckets:] The number of buckets used to store items in.
+\item[load factor:] The threshold at which a hash table will rebalance the elements in it's buckets.
+\end{description}
+
+\section*{Operations}
+
+% TODO
+\textbf{HashTable()} \\
+\begin{listliketab} 
+    \storestyleof{itemize} 
+        \begin{tabular}{Lll}
+            & pre-condition:    & none \\
+            & responsibilities: & constructor - create an empty hash map \\
+            & post-condition:   & \emph{size} is set to 0 \\
+            & return:           & nothing
+        \end{tabular} 
+\end{listliketab}
+    
+\textbf{put( KeyType key, ValueType value )} \\
+\begin{listliketab} 
+    \storestyleof{itemize} 
+        \begin{tabular}{Lll}
+            & pre-condition:    & none \\
+            & responsibilities: & constructor - create an empty hash map \\
+            & post-condition:   & \emph{size} is set to 0 \\
+            & return:           & nothing
+        \end{tabular} 
+    \end{listliketab}
+    
+\textbf{get( KeyType key )} \\
+\begin{listliketab} 
+    \storestyleof{itemize} 
+        \begin{tabular}{Lll}
+            & pre-condition:    & none \\
+            & responsibilities: & constructor - create an empty hash map \\
+            & post-condition:   & \emph{size} is set to 0 \\
+            & return:           & nothing
+        \end{tabular} 
+    \end{listliketab}
+    
+\textbf{remove( KeyType key )} \\
+\begin{listliketab} 
+    \storestyleof{itemize} 
+        \begin{tabular}{Lll}
+            & pre-condition:    & none \\
+            & responsibilities: & constructor - create an empty hash map \\
+            & post-condition:   & \emph{size} is set to 0 \\
+            & return:           & nothing
+        \end{tabular} 
+    \end{listliketab}
+    
+\textbf{containsValue( ValueType value )} \\
+\begin{listliketab} 
+    \storestyleof{itemize} 
+        \begin{tabular}{Lll}
+            & pre-condition:    & none \\
+            & responsibilities: & constructor - create an empty hash map \\
+            & post-condition:   & \emph{size} is set to 0 \\
+            & return:           & nothing
+        \end{tabular}
+    \end{listliketab}
+    
+\textbf{containsKey( KeyType key )} \\
+\begin{listliketab} 
+    \storestyleof{itemize} 
+        \begin{tabular}{Lll}
+            & pre-condition:    & none \\
+            & responsibilities: & constructor - create an empty hash map \\
+            & post-condition:   & \emph{size} is set to 0 \\
+            & return:           & nothing
+        \end{tabular} 
+    \end{listliketab}
+    
+\textbf{values()} \\
+\begin{listliketab} 
+    \storestyleof{itemize} 
+        \begin{tabular}{Lll}
+            & pre-condition:    & none \\
+            & responsibilities: & constructor - create an empty hash map \\
+            & post-condition:   & \emph{size} is set to 0 \\
+            & return:           & nothing
+        \end{tabular} 
+    \end{listliketab}
+    
+% TODO hash function
+% TODO insertions
+% TODO deletion
+% TODO searches
+% TODO values
+    
+
+\textbf{Not shown:} clear(), isEmpty(), and size()
+
+\section*{Test Plan}
+
+% TODO
+
+\begin{table}[htbp]
+\caption{Instantiation of a \textbf{Distance} object using default values for the attributes.}
+\begin{center}
+\noindent\resizebox{\textwidth}{!}{%
+\begin{tabular}{ | l | p{5cm} | p{5cm} | p{5cm} | }
+\hline
+Operation & Purpose & Object State & Expected Result \\
+\hline\hline
+
+% Row
+Distance d = new Distance() & 
+To create a distance using the default values. & 
+\textbf{feet = 1} \newline \textbf{inches = 1} & 
+A new Distance object with default values for the attributes. \\
+\hline
+
+% Row
+d.getFeet() &
+To verify instantiation and accessor method. &
+&
+1 \\
+\hline
+
+% Row
+d.getInches() &
+To verify instantiation and accessor method. &
+&
+1 \\
+\hline
+
+
+\end{tabular}
+}
+\end{center}
+\end{table}
+
+
+%%%%%%%%%%%%
+
+
+\end{document}

@@ -22,6 +22,13 @@ This is the core repository for all work done in courses through SLCC. In here y
 * [Huma 1100](sp13-huma-1100-012-bitter) - Introduction to Humanities
 * [Comm 2150](sp13-comm-2150-003-mckay) - Intercultural Communications
 
+#### Summer 2013
+
+* [CSC 1032](su13-cs-1032-001-walsh) - Open Source Linux Desktop
+* [Bio 1610](su13-biol-1610-014-doyle) - College Biology I
+* [Bio 1615](su13-biol-1615-002-jones) - College Biology I Lab
+* [Chem 1010](su13-chem-1010-009-neilsen) - Intro to Chemistry
+
 ## LaTeX and Org Files
 
 All papers have been typeset using LaTeX in MLA format. You can download the rendered pdfs above. Org files are used by emacs org-mode, and are plaintext.

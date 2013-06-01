@@ -1,0 +1,100 @@
+* 1. pre-test question 1
+
+Which of the following provides molecular evidence that signal transduction pathways evolved early in the history of life?
+Which of the following provides molecular evidence that signal transduction pathways evolved early in the history of life?
+	 Simple forms of life, such as prokaryotic cells, utilize cell signaling.
+	 Receptor molecules have been identified in preparations of fossilized organisms billions of years old.
+	 The pathways in primitive organisms, such as bacteria, are short, whereas those in advanced forms, such as mammals, are long.
+	 Cell signaling is observed in organisms that do not utilize sexual reproduction.
+	 The molecular details of cell signaling are quite similar in organisms whose last common ancestor was a billion years ago.
+
+* 2. pre-test question 2
+
+Which of the following is a substance that acts at a long distance from the site at which it is secreted?
+Which of the following is a substance that acts at a long distance from the site at which it is secreted?
+	 hormone
+	 paracrine signal
+	 neurotransmitter
+	 local regulator
+	 synaptic signal
+
+* 3. pre-test question 3
+
+To what does the term "ligand" refer in cell biology?
+To what does the term "ligand" refer in cell biology?
+	 a molecule that can occupy a receptor site while not activating the receptor
+	 the change in shape that occurs when a signaling molecule binds to its receptor
+	 the target cell of a signal molecule
+	 any small molecule that can bind in a specific manner to a larger one
+	 the bond that forms between a signaling molecule and its receptor
+
+* 4. pre-test question 4
+
+Dioxin, produced as a by-product of various industrial chemical processes, is suspected of contributing to the development of cancer and birth defects in animals and humans. It apparently acts by entering cells by simple diffusion and binding to proteins in the cytoplasm, then altering the pattern of gene expression. Which of the following are likely to be the cytoplasmic proteins to which dioxin binds?
+
+Dioxin, produced as a by-product of various industrial chemical processes, is suspected of contributing to the development of cancer and birth defects in animals and humans. It apparently acts by entering cells by simple diffusion and binding to proteins in the cytoplasm, then altering the pattern of gene expression. Which of the following are likely to be the cytoplasmic proteins to which dioxin binds?
+	 enhancers
+	 growth factor receptors
+	 intracellular receptors
+	 DNA polymerases
+	 nucleosomes
+
+* 5. pre-test question 5
+
+What is the function of tyrosine-kinase receptors?
+What is the function of tyrosine-kinase receptors?
+	 binding to nonpolar signaling molecules such as nitric oxide or the steroid hormones
+	 enzymatic degrading of GTP to GDP
+	 enzymatic phosphorylation of tyrosine in the receptor protein
+	 allowing specific ions to enter the cell after ligand binding
+	 enzymatic hydrolyzing of the signaling molecule shortly after its arrival
+
+* 6. pre-test question 6
+
+Which of the following are among the most common second messengers?
+Which of the following are among the most common second messengers?
+	 GTP and GDP
+	 G proteins and GTP
+	 kinase and phosphatase
+	 calcium ion and cAMP
+	 kinase and phosphate groups
+
+* 7. pre-test question 8
+
+Why are there often so many steps between the original signal event and the cell's response?
+Why are there often so many steps between the original signal event and the cell's response?
+	 Each step in a cascade produces a large number of activated products, causing signal amplification as the cascade progresses.
+	 Lengthy pathways provide the opportunity for the initial pathway molecules to recycle back to inactive forms should additional signaling molecules be present.
+	 The accumulation of genetic mutations over time has added redundant steps to the pathway.
+	 Each transduction is a checkpoint.
+	 Long, highly specific pathways minimize the possibility that a relay molecule accidentally could activate a pathway leading to a secondary response.
+
+* 8. pre-test question 9
+
+Why can a signaling molecule cause different responses in different cells?
+Why can a signaling molecule cause different responses in different cells?
+	 The transduction process is unique to each cell type; to respond to a signal, different cells require only a similar membrane receptor.
+	 Different cells have membrane receptors that bind to different sides of the signaling molecule.
+	 Different cells possess different enzymes, which modify the signaling molecule into different molecules after it has arrived.
+	 The transduction pathway in cells has a variable length.
+	 All of the above are correct.
+
+* 9. pre-test question 10
+
+What is apoptosis?
+What is apoptosis?
+	 a metabolic step in blood clotting
+	 controlled cell suicide
+	 a way to stimulate transcription
+	 a type of membrane receptor
+	 a type of second messenger
+
+* 10. question 5
+
+Consider this pathway: epinephrine  G protein-coupled receptor  protein  adenylyl cyclase  cAMP. Identify the second messenger.
+Consider this pathway: epinephrine G protein-coupled receptor protein adenylyl cyclase cAMP. Identify the second messenger.
+	 GTP
+	 adenylyl cyclase
+	 cAMP
+	 G protein-coupled receptor
+	 G protein

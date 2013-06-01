@@ -1,0 +1,100 @@
+* 1. pre-test question 1
+
+Which of the following best describes the main purpose of the combined processes of glycolysis and cellular respiration?
+Which of the following best describes the main purpose of the combined processes of glycolysis and cellular respiration?
+	 breaking down ATP, so that ADP and P can be reused
+	 transforming the energy in glucose and related molecules in a chemical form that cells can use for work
+	 producing complex molecules from chemical building blocks
+	 catabolism of sugars and related compounds
+	 the breakdown of glucose to carbon dioxide and water
+
+* 2. pre-test question 2
+
+In the combined processes of glycolysis and cellular respiration, what is consumed and what is produced?
+
+In the combined processes of glycolysis and cellular respiration, what is consumed and what is produced?
+	 Oxygen is consumed, and glucose is produced.
+	 ATP is consumed, and oxygen is produced.
+	 Water is consumed, and ATP is produced.
+	 Carbon dioxide is consumed, and water is produced.
+	 Glucose is consumed, and carbon dioxide is produced.
+
+* 3. pre-test question 4
+
+A glucose molecule is completely broken down to carbon dioxide and water in glycolysis and the citric acid cycle, but together these two processes yield only a few molecules of ATP. What happened to most of the energy that the cell obtains from the oxidation of glucose?
+A glucose molecule is completely broken down to carbon dioxide and water in glycolysis and the citric acid cycle, but together these two processes yield only a few molecules of ATP. What happened to most of the energy that the cell obtains from the oxidation of glucose?
+	 It is stored in the carbon dioxide and water molecules released by these processes.
+	 It was lost as heat.
+	 It is stored in pyruvate.
+	 It is stored in NADH and FADH2
+	 It is stored in the ATP that was formed by glycolysis and the citric acid cycle.
+
+* 4. pre-test question 7
+
+Which of the following statements about the chemiosmotic synthesis of ATP is correct?
+Which of the following statements about the chemiosmotic synthesis of ATP is correct?
+	 The energy for production of ATP from ADP comes directly from a gradient of electrons across the inner mitochondrial membrane.
+	 Oxygen participates directly in the reaction that makes ATP from ADP and P.
+	 The chemiosmotic synthesis of ATP requires that the electron transport in the inner mitochondrial membrane be coupled to proton transport across the same membrane.
+	 The chemiosmotic synthesis of ATP occurs only in eukaryotic cells, because it occurs in mitochondria.
+	 Chemiosmotic ATP synthesis requires oxygen.
+
+* 5. pre-test question 8
+
+Which one of the following statements about the redox reactions of the electron transport chain is correct?
+Which one of the following statements about the redox reactions of the electron transport chain is correct?
+	 The electron transport chain takes electrons from water and gives them to oxygen.
+	 The redox reactions of the electron transport chain are directly coupled with the synthesis of ATP.
+	 The oxidation of NADH is directly coupled to the reduction of oxygen to water.
+	 NADH gains electrons in the initial reaction of the electron transport chain.
+	 The redox reactions of the electron transport chain are directly coupled to the movement of protons across a membrane.
+
+* 6. pre-test question 9
+
+In the absence of oxygen, what is the net gain of ATP for each glucose molecule that enters glycolysis?
+In the absence of oxygen, what is the net gain of ATP for each glucose molecule that enters glycolysis?
+	 none, because all of the available energy remains in either lactate or ethanol
+	 four ATP
+	 none, because in the absence of oxygen, no ATP can be made
+	 up to 30 ATP
+	 two ATP
+
+* 7. pre-test question 10
+
+In most cells, not all of the carbon compounds that participate in glycolysis and the citric acid cycle are converted to carbon dioxide by cellular respiration. What happens to the carbon in these compounds that does not end up as CO2?
+In most cells, not all of the carbon compounds that participate in glycolysis and the citric acid cycle are converted to carbon dioxide by cellular respiration. What happens to the carbon in these compounds that does not end up as CO2?
+	 These carbon compounds are used to convert ADP to ATP via chemiosmosis.
+	 The carbon compounds are removed from these processes to serve as building blocks for other complex molecules.
+	 They are used to make ATP from NADH.
+	 They are used to make NADH.
+	 They are converted to heat energy.
+
+* 8. question 2
+
+Which metabolic pathway is common to both fermentation and cellular respiration of a glucose molecule?
+Which metabolic pathway is common to both fermentation and cellular respiration of a glucose molecule?
+	 synthesis of acetyl CoA from pyruvate
+	 reduction of pyruvate to lactate
+	 glycolysis
+	 the citric acid cycle
+	 the electron transport chain
+
+* 9. question 4
+
+The final electron acceptor of the electron transport chain that functions in aerobic oxidative phosphorylation is
+The final electron acceptor of the electron transport chain that functions in aerobic oxidative phosphorylation is
+	 water.
+	 pyruvate.
+	 ADP.
+	 oxygen.
+	 NAD+.
+
+* 10. question 7
+
+Most  from catabolism is released during
+Most from catabolism is released during
+	 oxidative phosphorylation.
+	 electron transport.
+	 glycolysis.
+	 lactate fermentation.
+	 the citric acid cycle.

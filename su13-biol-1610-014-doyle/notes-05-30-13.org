@@ -1,0 +1,270 @@
+* ch 3
+
+** amino acid, glycine
+
+  H     H
+   \    |     = O
+    N - C - C
+   /    |     = O - H
+  H     H
+
+
+(def N 14)
+(def H 1)
+(def C 12)
+(def O 16)
+
+(+ (* 1 N) (* 5 H) (* 2 C) (* 2 O))
+(+ (* 1 14) (* 5 1) (* 2 12) (* 2 16))
+
+75 D
+
+- molarity: moles of sollute per liter of solution
+
+Glucose - (C_6 H_12 O_6) - 180 D
+
+** acidic & basic conditions
+
+- sometimes protons will shift from one module to another
+
+- Hydroxide Ion => (OH^-)
+- Hydrogen Ion => (H^+) => Proton
+
+- changes of the concentration of hydroxid and hydrogen ions are very
+  important and we measure these changes on the pH scale
+
+- acids increase this change of concentration
+- acids are hydrogen ion donors
+
+- Hydrochloric acid: Strong Acid
+- HCl + H_2 O -> H^+ Cl^- + H_2 O
+
+- bases are hydrogen ion receptors
+
+- (N H_3) + (H^+) <=> (N^+ H_4)
+- ammonia (N H_3) acted as a base accepting a hydrogen ion
+
+- Sodium Hydroxide: (Strong base)
+- NaOH -> Na^+ + OH^-
+                 OH^- + H^+ <=> H_2 O
+- Strong base: completely disassociates
+
+- Weak Acid / Base: reversible reaction
+
+** pH scale
+
+- neutral: same number of hydroxide ions and hydrogen ions (pH 7)
+- more hydrogen ions -> acidic
+- less hydrogen ions -> basic
+
+- logarithmic scale
+
+** buffers
+
+- buffers help solutions resist changes to pH (minimize changes in pH)
+- if pH swung drastically it would create a dangerous environment
+
+- buffers can act as a base or an acid as needed
+- most buffers consist of a weak acid & it's corresponding base
+
+- carbonic acid:    H_2 C O_3 <=> HCO_3^- + H^+
+- bicarbonate ion:  HCO_3^- <=> CO_3^-2 + H^+
+
+* ch 4: organic chemistry and carbon compounds
+
+- CO_2: carbon dioxide
+
+- organic chemistry is the study of carbon compounds
+- simple or complex, usually complex
+- nucleic acids, proteins, carbohydrates (all complex)
+- most contain hydrogen
+- if a compound only contains carbon & hydrogen, we call it a hydrocarbon
+- carbon counts for the large diversity of molecules
+
+- 4 elements: N O H C
+- 2 others: P ?
+
+- overall percentage carbon modules is very stable
+- differences between species
+
+- carbon is tetravalent (4 covalent bonds)
+- can make very branched molecules
+
+- methane, ethane, ethene(ethylene)
+  methane 1 carbon
+  ethane 2 carbons
+  propane 3 carbons
+  butane 4 carbons
+  pentane 5 carbons
+  octane 8 carbons
+
+- -ane one bond between carbons
+- -ene double bond between carbons
+  butene 4 carbons
+
+- carbon fixation, is photosynthesis, only done by producers, taking
+  carbon out of atmosphere and putting it into matter
+
+** valence / bonding capacity
+
+HONC
+1234
+
+Sulfer, Phosphorous
+
+** hydrocarbons
+
+- non-polar
+- length of the chain can vary
+
+- hydrocarbons can be branched
+- isobutane (2-methylpropane)
+
+*** double bonds
+
+- suffix ends with -ene
+- 1-butene - double bond is between carbons 1 & 2
+- 2-butene - double bond between 2 & 3
+
+*** rings
+
+- cyclohexane, 6 carbon ring
+- benzene, 6 carbons, 3 with double bonds
+
+*** fats
+
+- very long hydrocarbon tail
+- non-polar
+- butter/oil - doesn't like to mix with water
+- store a lot of energy
+
+- fats store energy for animals
+- plants like to store oils
+
+** isomers
+
+- same molecular formula (number & types of atoms), but have different
+  structures
+- butane & isobutane
+
+- 3 kinds
+- structural, sys-trans (geometric), and in-antimers
+
+*** structural
+
+- different in the covalent bonds
+- pentane & 2-methylbutane
+- same molecular formula: C_5 H_12
+- different properties
+
+- can also differ in the position of their double bond
+
+*** cis-trans isomers
+
+- cis isomer: the two xs are on the same side
+- trans isomer: the two Xs on the opposite side
+
+Cis:
+
+  X       X
+   \     /
+    C = C
+   /     \
+  H       H
+
+Trans:
+
+  H       X
+   \     /
+    C = C
+   /     \
+  X       H
+
+- Trans fats & cis fats; trans fats clog up our arteries
+
+
+*** enantimer isomers
+
+- mirror images
+- asymetric carbon atom: has 4 different groups of atoms around it
+- must have an asymetric carbon atom
+
+- deinantimers: dextroinordinary, light to the right
+- inantimers: l...., light to the left
+
+- usually one antimer is biologically active, the other isn't
+- the body will only recognize biologically active antimers
+- D sugars
+- L amino acids
+
+- L & D dopa
+- l dopa is biologically active
+
+** form follows function
+
+- molecular structure
+- components
+
+** functional groups
+
+- the components most often present in reactions
+- give personality (properties) to a molecule
+
+- TODO memorize these functional groups
+
+- these groups behave consistently from one molecule to another
+- the number and arrangement of the group will give the molecule it's
+  properties
+
+- testosterone
+- estradiol
+
+Hydroxyl, Carbonyl, Carboxyl, ...
+
+- first 6 are hydrophilic (they have an oxygen or a nitrogen or a sulfur
+  atom)
+- last is hydrophobic
+
+*** Hydroxyl
+
+  R - C - {O - H}
+  R - C - {OH}
+
+- OH group that's bonded to the carbon skeleton
+- alcohol
+
+*** Carbonyl
+
+**** aldyhide
+
+  R - C = O
+      |
+      H
+
+- 2 members, C with double bonded O and single bonded H
+- aldyhide
+- formaldyhide
+- propanal
+
+**** keytone
+
+     O
+     ||
+ R - C - R
+
+- testosterone
+
+*** Carboxyl
+
+  R - C = O
+      |
+      O
+      H
+
+- carbocylic acid
+- double bonded oxygen with a hydroxyl
+- steal the electron
+- COOH
+- COO^- if an ion
+
+*** Amino

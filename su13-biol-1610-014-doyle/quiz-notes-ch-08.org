@@ -1,0 +1,103 @@
+* 1. pre-test question 1
+
+The process of cellular respiration, which converts simple sugars such as glucose into CO2 and water, is an example of _____.
+
+The process of cellular respiration, which converts simple sugars such as glucose into CO2 and water, is an example of _____.
+	 a catabolic pathway
+	 an endergonic pathway
+	 a pathway in which the entropy of the system decreases
+	 a pathway that converts organic matter into energy
+	 none of the above
+
+* 2. pre-test question 2
+
+Energy is observed in two basic forms: potential and kinetic. Which of the following correctly matches these forms with a source of energy?
+
+Energy is observed in two basic forms: potential and kinetic. Which of the following correctly matches these forms with a source of energy?
+	 the energy related to the height of a bird above the ground: kinetic energy
+	 the covalent bonds of a sugar molecule: potential energy
+	 the motion of individual molecules: potential energy
+	 none of these are correct
+	 the heat released from a living organism: potential energy
+
+* 3. pre-test question 4
+
+Which of the following statements about equilibrium of chemical reactions is correct?
+Which of the following statements about equilibrium of chemical reactions is correct?
+	 Most reactions in a living cell are close to equilibrium.
+	 A reaction that is at equilibrium is not capable of doing any work.
+	 The equilibrium point of a reaction represents the least stable configuration for that reaction.
+	 Reactions can only go in the direction toward equilibrium.
+	 The equilibrium point is where the system has the highest free energy
+
+* 4. pre-test question 5
+
+Which of the following statements about ATP (adenosine triphosphate) is correct?
+
+Which of the following statements about ATP (adenosine triphosphate) is correct?
+	 The hydrolysis of ATP is an endergonic process.
+	 The hydrolysis of ATP can supply energy needed for catabolic pathways.
+	 Almost all of the free energy released on the hydrolysis of ATP is released as heat.
+	 The cycling between ATP and ADP + Pi provides an energy coupling between catabolic and anabolic pathways.
+	 None of these is correct
+
+* 5. pre-test question 6
+
+Enzymes are described as catalysts, which means that they _____.
+Enzymes are described as catalysts, which means that they _____.
+	 increase the rate of a reaction without being consumed by the reaction
+	 increase the free energy of the reactants to make the reaction go faster
+	 are proteins
+	 provide activation energy for the reactions they facilitate
+	 can alter the free energy change (ΔG) for a chemical reaction
+
+* 6. pre-test question 7
+
+Which of the following would be unlikely to contribute to the substrate specificity of an enzyme?
+Which of the following would be unlikely to contribute to the substrate specificity of an enzyme?
+	 A positive charge on the substrate is attracted to a negative charge in the active site of the enzyme.
+	 The enzyme has the ability to change its configuration in response to the substrate binding.
+	 A similar shape exists between a pocket on the surface of the enzyme and a functional group on the substrate.
+	 The enzyme has an allosteric regulatory site.
+	 A hydrophobic group on the substrate interacts with several hydrophobic amino acids on the enzyme.
+
+* 7. pre-test question 8
+
+Which of the following is NOT a way in which an enzyme can speed up the reaction that it catalyzes?
+Which of the following is NOT a way in which an enzyme can speed up the reaction that it catalyzes?
+	 The active site of the enzyme can provide a microenvironment with a different pH that facilitates the reaction.
+	 The active site can provide heat from the environment that raises the energy content of the substrate.
+	 Binding of the substrate to the active site can stretch bonds in the substrate that need to be broken.
+	 The binding of two substrates in the active site provides the correct orientation for them to react to form a product.
+	 The enzyme binds a cofactor that interacts with the substrate to facilitate the reaction.
+
+* 8. pre-test question 9
+
+The binding of a compound to an enzyme is observed to slow down or stop the rate of the reaction catalyzed by the enzyme. Increasing the substrate concentration reduces the inhibitory effects of this compound. Which of the following could account for this observation?
+
+The binding of a compound to an enzyme is observed to slow down or stop the rate of the reaction catalyzed by the enzyme. Increasing the substrate concentration reduces the inhibitory effects of this compound. Which of the following could account for this observation?
+	 The compound forms a covalent bond with one of the amino acid residues needed for enzyme activity.
+	 The compound reduces disulfide bonds, causing the enzyme molecules to partially unfold.
+	 The compound is a negative allosteric regulator.
+	 The compound is a competitive inhibitor.
+	 none of the above
+
+* 9. pre-test question 10
+
+Which of the following statements about feedback regulation of a metabolic pathway is correct?
+Which of the following statements about feedback regulation of a metabolic pathway is correct?
+	 The products of the pathway become the reactants for a different reaction, and thus products are unable to accumulate.
+	 The compound that regulates the pathway acts as a competitive inhibitor or a positive allosteric regulator.
+	 The final product of a metabolic pathway is usually the compound that regulates the pathway.
+	 The enzyme that is regulated by feedback inhibition is usually the last enzyme in the metabolic pathway.
+	 Accumulation of the product of the pathway increases further formation of that product.
+
+* 10. question 1
+
+Choose the pair of terms that correctly completes this sentence: Catabolism is to anabolism as _______ is to _______.
+Choose the pair of terms that correctly completes this sentence: Catabolism is to anabolism as _______ is to _______.
+	 exergonic; endergonic
+	 work; energy
+	 entropy; enthalpy
+	 free energy; entropy
+	 exergonic; spontaneous

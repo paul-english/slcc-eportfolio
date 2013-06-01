@@ -1,0 +1,99 @@
+* 1. pre-test question 1
+
+Which of the following choices correctly matches a tool and its proper application?
+
+1. scanning electron microscopy (SEM) to study the detailed movements of living cells
+2. light microscopy to study the internal structure of cilia
+3. cell fractionation to study the function of specific organelles
+4. transmission electron microscopy (TEM) to study the movement of organelles within a living cell
+5. transmission electron microscopy (TEM) to study the surfaces of preserved cells
+
+* 2. pre-test question 2
+
+Which of the following clues would tell you if a cell is prokaryotic or eukaryotic?
+
+1. the presence or absence of a rigid cell wall
+2. whether or not the cell contains DNA
+3. the presence or absence of ribosomes
+4. whether or not the cell carries out cellular metabolism
+5. whether or not the cell is partitioned by internal membranes
+
+* 3. pre-test question 3
+
+Which of the following correctly matches an organelle with its function?
+
+1. lysosome ... movement
+2. ribosome ... manufacture of lipids
+3. nucleus ... cellular respiration
+4. central vacuole ... storage
+5. mitochondrion ... photosynthesis
+
+* 4. pre-test question 4
+
+Which statement correctly describes the nuclear envelope of a eukaryotic cell?
+
+1. The nuclear envelope is a single membrane, consisting of a phospholipid bilayer.
+2. Plasmadesmosomes in the nuclear envelope permit the exchange of macromolecules between the nucleus and the cytoplasm.
+3. All of the proteins of the cell are synthesized on ribosomes bound on the nuclear envelope.
+4. The nuclear envelope is continuous with the endoplasmic reticulum.
+5. The outer layer of the nuclear envelope is coated with laminin.
+
+* 5. pre-test question 5
+
+Which one of the following statements about the endomembrane system is correct?
+
+1. Most of the phospholipids of the endomembrane system are synthesized in the mitochondria.
+2. The endoplasmic reticulum is continuous with the plasma membrane.
+3. Mitochondria function in the modification and sorting of lipids and proteins.
+4. Proteins that will be secreted from the cell are likely to be found in closed spaces bounded by membranes of the endomembrane system.
+5. Ribosomes move lipids and proteins among the different organelles of the endomembrane system.
+
+* 6. pre-test question 7
+
+Mitochondria are found in _____.
+
+1. plant and animal cells
+2. all cells
+3. animal cells and prokaryotic cells, but not plant cells
+4. plant cells only
+5. animal cells only
+
+* 7. pre-test question 8
+
+Which of the following are common traits of chloroplasts and mitochondria?
+
+1. Both reproduce by meiosis.
+2. Both are found in plant and animal cells.
+3. Both are surrounded by a single membrane.
+4. Both have their own DNA.
+5. Proteins for both are synthesized on ribosomes in the rough ER.
+
+* 8. pre-test question 10
+
+Which statement about extracellular structures (plant cell walls and the extracellular matrix of animal cells) is correct?
+
+1. All extracellular structures form barriers to separate adjacent cells.
+2. Proteins and lipids are common components of extracellular structures.
+3. Extracellular structures store energy in the form of polysaccharides for subsequent metabolism by the cell.
+4. Information can be transmitted from these extracellular structures to the cytoplasm.
+5. Extracellular structures regulate the passage of water molecules across the cell membrane.
+
+* 9. question 4
+
+Which structure-function pair is mismatched?
+
+1. microtubule; muscle contraction
+2. nucleolus; production of ribosomal subunits
+3. Golgi; protein trafficking
+4. lysosome; intracellular digestion
+5. ribosome; protein synthesis
+
+* 10. question 7
+
+Which cell would be best for studying lysosomes?
+
+1. bacterial cell
+2. muscle cell
+3. nerve cell
+4. phagocytic white blood cell
+5. leaf cell of a plant

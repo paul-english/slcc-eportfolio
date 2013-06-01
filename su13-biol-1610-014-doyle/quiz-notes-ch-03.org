@@ -1,0 +1,118 @@
+* 1. pre-test question 1
+
+Water molecules have a polarity, which allows them to be electrically
+attracted to other water molecules and other polar molecules by weak
+chemical bonds known as _____.
+
+1. +ionic bonds+
+2. +van der waals interations+
+3. +nonpolar covalent bonds+
+4. *hydrogen bonds*
+5. +polar covalent bonds+
+
+* 2. pre-test question 6
+
+if the molecular mass of a carbon atom is 12, the mass of a hydrogen
+atom is 1, and the mass of an oxygen atom is 16 daltons, how many
+molecules does one mole of table sugar (sucrose; (C12H22O11) contain?
+
+1. *6.02e23*
+2. +(6.92e23)(342)+
+3. +6.02e23 / 342+
+4. +342+
+5. +45+
+
+** work
+
+- this is unessecary but fun
+
+(+
+(* 12 12) ;; C
+(* 22 1) ;; H
+(* 11 16) ;; O
+)
+342
+
+
+* 3. question 3
+
+The partial negative charge in a molecule of water occurs because
+
+1. +The oxygen atom has two points of electrons in its valence shell that are not neutralized by hydrogen atoms.+
+2. +the oxygen atom forms hybrid orbitals that distribute electrons unequally around the oxygen nucleus.+
+3. +one of the hydrogen atoms donates an electron to the oxygen atom.+
+4. *the electrons shared between the oxygen and hydrogen atoms spend more time around the oxygen atom nucleus than around the hydrogen atom nucleus.*
+5. +the oxygen atom acquires an additional electron.+
+
+* 4. pre-test question 4
+
+Because organisms are made primarily of water, they resist rapid
+temperature changes. This useful quality is based on water's _____.
+
+1. +cohesion+
+2. +ability to form colloids+
+3. *high specific heat*
+4. +lower density in the solid phase+
+5. +buffering activity+
+
+* 5. pre-test question 7
+
+An acid is a substance that _____.
+
+1. +is a versatile solvent+
+2. +contains hydrogen+
+3. +forms covalent bonds with other substances+
+4. +reduces the hydrogen ion concentration of a solution+
+5. *increases the hydrogen ion concentration of an aqueous solution*
+
+* 6. pre-test question 8
+
+a pH of 6 is how many times more acidic than a pH of 9?
+
+1. +3+
+2. +30+
+3. +100+
+4. +300+
+5. *1000*
+
+* 7. pre-test question 9
+
+Select the statement that best describes a buffer.
+
+1. +Buffered solutions are always neutral, with a pH of 7.+
+2. +A buffer stabilizes the pH of a solution by preventing acids or bases from dissociating.+
+3. +A buffer causes acidic solutions to become alkaline, and alkaline solutions to become acidic.+
+4. +A buffer prevents the pH of a solution from changing when an acid or base is added.+
+5. *A buffer resists change in pH by accepting hydrogen ions when acids are added to the solution and donating hydrogen ions when bases are added.*
+
+* 8. question 1
+
+Many mammals control their body temperature by sweating. Which property
+of water is most directly responsible for the ability of sweat to lower
+body temperature?
+
+1. +the release of heat by the formation of hydrogen bonds+
+2. +water's change in density when it condenses+
+3. +water's high surface tension+
+4. *the absorption of heat by the breaking of hydrogen bonds*
+5. +water's ability to dissolve molecules in the air+
+
+* 9. question 2
+
+The bonds that are broken when water vaporizes are
+
+1. +covalent bonds between atoms within water molecules.+
+2. *hydrogen bonds between water molecules*
+3. +nonpolar covalent bonds+
+4. +polar covalent bonds+
+5. +ionic bonds+
+
+* 10. question 3
+
+which of the following is a hydrophobic material?
+
+1. +sugar+
+2. +pasta+
+3. *wax*
+4. +paper+
+5. +table salt+

@@ -1,0 +1,322 @@
+* Ch 2
+
+** covalent bonds
+
+Covalent Bond: sharing of a pair of electrons
+
+** molecular formulas
+
+e.g.:
+
+H_2 O
+CH_4
+
+** structural formulas
+
+e.g.:
+
+        H
+        |
+    H - C - H
+        |
+        H
+
+
+
+      O = O
+
+
+** bonds & valence
+
+- binding capacity
+- valence
+
+- TODO learn/memorize bonding capacities of a bunch of elements
+  O, Sulfer -> 2
+  H -> 1
+  C -> 4
+  N -> 3
+  Phosphorous -> 5
+
+
+** polar / nonpolar
+
+- a few atoms that are very electro-negative (O, N, Cl). They have a
+  strong affinity for electrons. Like naughty kindergarteners they hog
+  and don't share their toys (electrons). Polar bond
+- if electrons are shared equally, we call it a nonpolar bond.
+- carbon & hydrogen (Nonpolar)
+- polar, if one element is bound to a more electro-negative element
+- H_2 O -> polar covalent bond
+- \delta^{-} => partial negative charge
+- \delta^{+} => partial positive charge
+
+** ionic bonds
+
+- occur when an electron is stripped from an atom & transferred to
+  another.
+- usually occurs when an atom needs to lose an electron or two, and
+  another needs to gain
+
+- sodium : 3rd valence shell, 1 valence electron, likely to lose an
+  electron in an ionic bond, leaving it with a positive charge. A sodium
+  ion (Na^{+})
+- chlorine: 17, 3rd valence, needs one to complete valence shell, likely
+  to gain an electron, Cl^{-}
+- sodium chloride: NaCl, would be a salt, doesn't have a covalent
+  bond. forms a crystal in the absence of salt
+- cations: positively charged ions
+- anions: negatively charged ions
+
+- Mg, magnesium. 2 valence electrons. Mg^{++}
+- Cl, Cl^{-}
+- MgCl_2, magnesium chloride
+- ionic bonds are strong w/out the presence of water
+- weak when in presence of water
+
+
+** hydrogen bond (weak bond)
+
+- Water (H_2 O) and Ammonia (N H_3)
+- between (H_2 O) & (H_2 O)
+- dotted line
+- between polar bonded molecules
+
+** van der walls connection
+
+- methane (C H_4) nonpolar
+
+- non polar bonds can have these
+- electrons are not always symmetrically distrubuted in a
+  molecule. allowing electrons to stick to each other even if it's only
+  temporarily.
+
+** weak bonds
+
+- these bonds can form between 2 molecules, or even within a molecule
+
+** molecule shape & function
+
+- linear (2 atoms)
+- shape forms when the orbitals rearrange
+- tetrahedral shapes (methane), due to the S & P orbitals interacting
+- biological molecules will interact with eachother based on the shape
+
+** specificity
+
+- endorphin
+- morphine
+- morphine mimics a part of the natural endorphin, sharing a similar
+  shape. Allowing it to fit in a certain brain receptor
+
+
+** chemical equations / reactions
+
+- chemical reactions
+- 2{H_2} + {O_2} -> 2{H_2 O}
+- read the arrow (->) yields
+- we're going to assume that our equations are balanced
+
+- reactants --- reaction ---> product
+
+- most reactions in biology are reversible
+- <->
+- back and forth, forever...
+- sometimes reach equilibrium
+
+*** reactant concentration
+
+- billiard table w/ white: H, and red: O
+- greater the concentration, the more frequently they'll collide & have
+  a chance to form products.
+
+** dynamic chemical equilibrium
+
+- forward & reverse reaction occur at the same Rate
+- still many reactions occurring (dynamic)
+- at equilibium, no net change in concentration of reactants & products
+
+** review
+
+- valence electrons in common elements
+- the elements that makeup 96% of living matter
+
+* Ch 3 - water
+
+- cells made up of a lot of water
+- many unique properties
+- lots of cohesion and adhesion
+- high surface tension
+- high specific heat
+- high heat of vaporization
+- expands as it freezes
+- great solvent
+
+- polarity!!
+- partial negative on the H, and partial negative on the O
+- polar covalent bond
+
+** liquid state
+
+- typically 4 partners
+- hydrogen bonds about 1/20 as strong as a covalent bond
+
+** cohesive behavior
+
+- likes to stick to other water molecules due to the hydrogen bonds
+- adhesion when molecules stick to other molecules
+- polar molecules like other polar molecules; nonpolar likes nonpolar
+- water likes paper towels (adhesion), means paper towels are positive charged
+- wax paper nonpolar
+
+** surface tension
+
+- how difficult to stretch or break the surface
+- hard to break surface of the water
+- hydrogen bonds holding surface together
+- ethyl alcohol, less surface tension, easier to belly flop (don't do this)
+- ordered arrangement of the water molecules create surface tension
+
+** moderates heat & temperature
+
+- kinetic energy, anything that's moving
+- atoms & molecules are always moving.
+- molecules can absorb or lose energy
+- molecules can absorb heat & speed up
+
+- temperature is the measurement of the intensity of heat, due to the average
+  kinetic energy of molecules
+
+- water stabalizes air temperature
+- acts like a heat bank
+- affects weather patterns
+- lake effect snow, and other effects due to large bodies of water
+
+** heat
+
+- measured in degrees celsius
+- freezing point in celsius -> 0
+- boiling point in C -> 100
+- body temp C -> 37
+- room temp C -> 23-24, 27
+
+- calorie
+- amount of heat energy to raise temp of 1g water 1 deg. c
+- kilo calorie - 1000 calories, 1kg of water 1 degree
+- kilo  calorie -> C -> capital C
+
+** specific heat
+
+- amount of heat that must be absorbed or lost for to change degree
+- water is a standard
+- other substances usually have a lower specific heat
+- ethyl alcohol .6 c specific degree
+- iron: 1/10 the specific heat of water
+- indicates how much a substance resists changing temperature
+- water is resistive to this (hydrogen bonds)
+
+- can also release a lot of heat when hydrogen bonds are broken
+
+- organisms made mostly of water, therfore able to resist changes to
+  temperature better
+
+** evaporative cooling
+
+- vaporization
+- when molecules have enough kinetic energy to depart the liquid &
+  become a gas
+- can occur at room temperature (not too much)
+- water + heat -> more vaporization
+- heat of vaporization: amount heat a molecule absorbs to be converted
+  int gas
+- water has high heat of vaporization due to hydrogen bonds
+- water heat of vaporization: 580 c per 1g water (high)
+- steam has a whole lot of energy, so you can get badly burned
+
+- only about half as much is needed to vaporize alcohol
+
+- evaporation keeps us from overheating
+
+** freezing
+
+- water expands when frozen (hydrogen bonds)
+- regular hydrogen bonds when frozen
+- very organized & structured
+- crystal lattice structure
+- less dense when frozen
+- stable hydrogen bonds
+- liquid has unstable hydrogen bonds with molecules closer together
+
+** solvent
+
+- water is the solvent of life
+- universal solvent
+- a solvent dissolves substances
+- a solution is a completely homogeneous mixture with a solvent and a sollute
+- salt water: salt (sollute) + water (solvent)
+- anything that dissolves in water will be polar or charged (salt, sugar)
+- aqueus solution, a solution where water is the solvent
+- good solvent because of it's polarity
+
+- a compound can dissolve in water if it's polar or ionic
+- sugar -> polar
+- salt -> ionic
+
+- even large protiens can dissolve in water if they have enough polar or
+  ionic regions
+- (amino acids build up protiens, peptides build up dna)
+
+- nonpolar substances will not dissolve in water
+
+- hydrophillic: water loving (salt, sugar, cotton, paper towel)
+- hydrophobic: water fearing (oils, fats, wax, gasoline)
+
+- cell membranes are nonpolar lipids (made out of a hydrophobic lipid)
+
+** sollute concentration
+
+- mix a known quantity of sollute & a known quantity of solvent
+- moles:
+- 1 mole: same number of molecules
+- avogadro's number: 6.02e23
+
+- must know the molecular mass to figure out the mole of a substance
+- molecular mass or molecular Weight
+
+- add up all the molecular mass of a molecule to know it's mole
+
+- TODO masses to memorize
+- hydrogen: 1
+- carbon: 12
+- nitrogen: 14
+- oxygen: 16
+
+- mass of water: H (1) + H (1) + O (16) = 18
+- 1 mole of water = 18 AMU = 18 Dalton
+
+- amu -> grams
+- 18 g / mol
+
+- methanol (kind of alcohol)
+- C H_4 O
+
+      H
+      |
+  H - C - O - H
+      |
+      H
+
+  (+ (* 1 4) (* 12 1) (* 16 1))
+  = 32
+
+
+---
+"and now we need a mathemetician" False what you want is a computation
+---
+
+- C_6 H_12 O_6
+
+(+ (* 6 12) (* 12 1) (* 6 16))
+= 180
+
+grams in mole of glucose = 180 g/mol

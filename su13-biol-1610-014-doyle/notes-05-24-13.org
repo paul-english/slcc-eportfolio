@@ -1,0 +1,296 @@
+* Ch 1
+** taxonomy
+
+- classification of organisms
+- major changes in field because now we can sequence dna
+
+- bacteria, archaea, eukarya
+*** eukary kingdoms
+**** protists
+- pond water
+**** kingdom plantae
+- multi cellular
+- photosynthesis (light -> sugar)
+- producers
+**** fungi
+- yeast, mold, mildew, mushrooms
+- get nutrition by decomposing other organisms & ingesting that material
+- cell types: eukariotic cells
+**** animalia
+- multi cellular eukariotic
+- eat other organisms
+- consumers
+
+** evolution
+- read this
+
+*** natural selection
+
+- members of a population that have the attributes or traits best suited
+to an environment will be the most likely to survive or reproduce. Thus
+passing on their genes and traits.
+- There is always variations
+- there is always competition do to overpopulation
+- this helps to adapt species to their environment
+- environments can change over time
+- over-crowding can lead to a population having to move environments
+
+
+**** environment with a fire
+1. population with varied inherited traits
+2. elimination of individuals with certain traits
+3. reproduction of survivors
+4. increasing frequency of traits that enhance survival and reproductive success
+
+
+**** theme in biology
+- form fits function
+- true at all levels of biological organization
+
+**** finches
+- common ancestor with different food sources
+- development of differing beaks
+
+**** discover sciene & hypothesis based Science
+- discovery: describing nature
+- hypothesis: understanding or explaining
+
+- Jane Goodall: Chimpanzees, discovery
+
+***** hypothesis
+- a hypothesis is a tentative answer to a well-framed question
+- it must be testable and identifiable
+- no amount of testing can prove a hypothesis
+
+***** scientific method
+- not always strictly adheared to
+- typically we always start off with observation
+
+***** testing one variable
+- controlled experiment
+- compare an experimental group & a control group
+- seeing if a new drug is effective
+- double blind experiment (neither the researcher or participant know
+  who's getting a drug, etc.)
+
+***** theory
+- broader than a hypothesis
+- attempts to relate multiple areas of understanding
+- based on the best explanation
+- supported by a great body of evidence
+
+***** science & tech
+- interrelated
+- tech applies scientific knowledge
+
+
+** themes that unify bio review
+
+*** 1. cells
+- prokaryotic, eukariotic
+- membrane
+- genetic material dna
+
+*** 2. heritable information
+- carried from generation 2 generation by  dna
+
+- linear & circular chromosomes
+
+*** 3. immergent properties
+- each level of bio organization has immergent properties
+
+- atoms & molecules
+- cellular
+- tissue
+- organ
+- organism
+- population
+- etc
+
+*** 4. feedback regulation
+- positive & negative
+- negative is more common
+
+- negative will halt or slow down
+
+*** 5. open systems
+- organisms interact continually with their environment
+
+-
+*** 6. energy & life
+- all organisms have to work
+- sunlight -> producers -> consumers
+
+*** 7. unity & diversity
+- dual faces of life on earth
+
+- three domains
+-- TODO list these
+-- 4 kingdoms in eukaria
+
+*** 8. evolution & natural selection
+
+*** 9. structure & function & function are always related
+
+- always true at each level
+- even at the level of proteins
+- form follows function
+
+*** 10. science is a process of inquiry
+- includes repeatable observations and testable hypothesis
+-
+
+*** 11. science & tech are functions of society
+- tech is goal oriented application of science
+
+
+** building blocks of dna
+building blocks of dna
+gact
+
+building blocks of proteins
+amino acids
+
+* Ch 2
+
+Basis of chemistry
+
+- get a copy of the periodic table & refer to it regularly for this chapter
+- lots of definition
+
+** matter
+- chemical elements in pure form and in combinations called compounds
+- matter is made up of elements
+- elements cannot be broken down
+- 92 elements that occur in nature
+- more that are made in a lab
+- each element has a symbol
+
+- compound: 2 or more elements in a fixed ratio
+
+- sodium + chlorine => table salt (sodium chloride)
+
+- life requires 25 elements
+
+- 96% of living matter is composed of 4 elements
+-- oxygen, carbon, nitrogen, and hydrogen
+
+- sulfer, phosphorous are also very important
+
+- trace elements: required by an organism in tiny quantities
+-- e.g. iodine in our thyroid gland (prevent goiter?)
+
+- the atomic structure of an element determines the behavior of that
+  element
+- atom is the smallest unit of matter that still retains props of the
+  element
+- subatomic particles (neutron, protons, & electron)
+- atomic nucleus: neutrons & protons packed together
+- electrons form a cloud around the nucleus, move really fast
+
+- helium (He): 2 protons & 2 neutrons
+
+- protons & neutrons: mass of 1 amu (atomic mass unit)
+- dalton (D): same as an AMU
+- electron mass is considered negligible (mass is usually ignored)
+- all atoms of a particular element have the same number of protons
+  (Atomic Number). A subscript to the left of the chemical symbol.
+- carbon_6 (C)
+- nitrogen_7 (N)
+- oxygen_8 (O)
+- sodium_11 (Na)
+- hydrogen_1 (H)
+
+- unless otherwise indicated you can assume an element is
+  uncharged. (same number of protons & electrons)
+
+- mass number: (sum #protons #neutrons)
+  -- Na_11 w/ a mass of 23 means 12 neutrons
+  -- isotopes have differing number of neutrons (mass_number != 2 * atomic_number)
+
+- sometimes on a periodic table you'll get the avg of occuring isotopes:
+  e.g. H -> 1.008
+
+- isotopes will behave identically in chemical reactions
+- many stable isotopes, but there are some radioactive isotopes.
+- a radioactive will have a decaying nucleus that gives off energy
+- carbon_14 decays to form nitrogen
+- can be used to trace metabolism, etc
+
+- if the nucleus were the size of a golf ball, the electrons would be a
+  kilometer away
+  -- most of an atom is empty space
+  -- nucleus is very compact
+
+- nuclei do not react in chemical reactions
+  -- only the electrons
+
+- an atoms electrons will vary in the amount of energy an atom has
+  -- ability to do work
+
+- potential energy
+  -- based on electrons in an atom (position to the nucleus)
+  -- energy an object stores due to position or location (arrangement)
+  -- similar to water in a reservoir on a hill (more potential energy)
+  -- closest electrons to the nucleus have the least amount of energy
+
+- negative & positive attraction
+
+- energy levels in an electron
+  -- electron shells
+  -- ball bouncing down a flight of stairs
+  -- first shell is closes (lowest energy)
+  -- first row have electrons in first shell
+  -- second row, second shell... ad infinitum
+  -- photosynthesis: electrons absorbing light energy and moving shells
+
+- an elements chemical behavior depends on it's distrobution of electrons
+
+- first shell holds 2 electrons
+  -- 2nd & 3rd can hold up to 8
+
+- Ne_10 (Neon): 2 electrons in the first shell, 8 in the second
+
+- The outermost shell (valence shell): affects an atoms chemical structure
+
+- flourine & chlorine (7 valence electrons) - both poisonous, similar properties
+
+*** Electron Orbitals
+
+the 3d space where an electron spends 90% of it's time
+- a maximum of 2 electrons in any orbital
+- 1 orbital in the first shell: 1_S orbital (spherical)
+- 4 orbitals in the second shell
+
+**** orbitals in Ne
+- 10 electrons
+  -- 1_S orbital (2 electrons)
+  -- 2_S orbital (2 electrons)
+  -- 2_Py orbital (dumbell, figure 8 shaped) (2 electrons)
+  -- 2_Px orbital (2 electrons)
+  -- 2_Pz orbital (2 electrons)
+
+**** valence shell
+- atoms want to react in order to complete their valence shell
+- give up or share their electrons
+
+**** chemical bonds
+- sharing of valence electrons
+- covalance bonds (strong)
+- ionic bonds (strong if no water present)
+
+- a single covalent bond equals a pair of shared electrons
+
+- hydrogen needs 2 to coomplete valence shell
+- molecular hydrogen (H2) covalent bond
+
+- molecular oxygen (O2) double covalent bond
+  -- 2 pairs of shared electrons
+
+- water (H2O) - covalent bond
+  -- 2 covalent bonds
+
+- methane (CH4) - 4 covalent bonds
+
+- molecular formula (H_2)
+- structural formula (H - H)

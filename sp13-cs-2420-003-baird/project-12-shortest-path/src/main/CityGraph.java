@@ -144,20 +144,20 @@ public class CityGraph
 	public void printBreadthFirstTraversal(int selection)
 	{
 		Vertex<String> city = this.cities[selection - 1];
+		System.out.print("\n");
 		this.printBreadthFirstTraversal(city);
 
 	}
 
 	public void printBreadthFirstTraversal(Vertex<String> city)
 	{
-		// TODO seems broken
 		this.clearVisited();
 		city.setVisited(true);
 		this.plainQueue.enqueue(city);
 		while (!this.plainQueue.isEmpty())
 		{
 			Vertex<String> nextCity = this.plainQueue.dequeue();
-			System.out.println(nextCity);
+			System.out.print(" -> " + nextCity);
 			List<Vertex<String>> neighbors = this.graph.getNeighbors(nextCity);
 			for (Vertex<String> neighbor : neighbors)
 			{
@@ -204,12 +204,13 @@ public class CityGraph
 	public void printDepthFirstTraversal(int selection)
 	{
 		this.clearVisited();
+		System.out.print("\n");
 		this.printDepthFirstTraversal(this.cities[selection - 1]);
 	}
 
 	public void printDepthFirstTraversal(Vertex<String> v)
 	{
-		System.out.println(v);
+		System.out.print(" -> " + v);
 		v.setVisited(true);
 		List<Vertex<String>> neighbors = this.graph.getNeighbors(v);
 		for (Vertex<String> neighbor : neighbors)

@@ -7,10 +7,10 @@ proof:
 	sh bin/passive **/*.tex
 	echo
 	echo "duplicates: "
-	perl bin/dups **/*.tex
+	perl bin/dup **/*.tex
 
 # Install jekyll
-setup: 
+setup:
 	gem install jekyll
 
 # Build html site, github does this automatically for us
@@ -20,5 +20,3 @@ build:
 # Run a basic http server to make it easy to view the site
 server: build
 	jekyll --server 8282 --auto --base-url "/slcc-eportfolio"
-
-

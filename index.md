@@ -29,6 +29,12 @@ This is the core repository for all work done in courses through SLCC. In here y
 * [Bio 1615](su13-biol-1615-002-jones) - College Biology I Lab
 * [Chem 1010](su13-chem-1010-009-neilsen) - Intro to Chemistry
 
+#### Fall 2013
+
+* [Math 2210](#TODO) - Multivariate Calculus
+* [Math 2270](#TODO) - Linear Algebra
+* [CSC 2450](#TODO) - Software Engineering
+
 ## Github Pages
 
 Most of the pages in this site are created using [Markdown](http://daringfireball.net/projects/markdown/syntax/) a clean markup syntax which is good at presenting content heavy information. The site pages are built automatically by Github processes using their [Jekyll static blog software](https://github.com/mojombo/jekyll/). It's served using [Github Pages](http://pages.github.com/), and hosted as a [git repository](https://github.com/log0ymxm/slcc-eportfolio)

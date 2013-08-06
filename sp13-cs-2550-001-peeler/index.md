@@ -23,7 +23,7 @@ We used web scraping to collect a set of class reviews that contained informatio
 
 How we built this project:
 
-* [Keynote Slides](#TODO)
-* [Main Project Repository](#TODO)
-* [Running Development Site](#TODO)
-* [Classifier Results & Output](#TODO)
+* [Keynote Slides](https://github.com/log0ymxm/potato-peeler/blob/master/doc/data-inference-slides.key?raw=true)
+* [Main Project Repository](https://github.com/log0ymxm/potato-peeler)
+* [Running Development Site](http://damp-tundra-6974.herokuapp.com/)
+* [Classifier Results & Output](potato-peeler-results.txt)

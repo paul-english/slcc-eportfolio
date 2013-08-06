@@ -1,0 +1,31 @@
+Calculating 10-fold evaulation on a dataset of 505 instances and 21913 features.
+======================================
+Evaluation:
+
+Correctly Classified Instances         464               91.8812 %
+Incorrectly Classified Instances        41                8.1188 %
+Kappa statistic                          0.4733
+Mean absolute error                      0.1046
+Root mean squared error                  0.2157
+Relative absolute error                 48.2926 %
+Root relative squared error             65.7279 %
+Coverage of cases (0.95 level)         100
+Mean rel. region size (0.95 level)      62.5743 %
+Total Number of Instances              505
+
+======================================
+Detailed Class Stats:
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall    F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.661    0.915      1.000     0.956      0.557    0.996     0.999     0
+                 0.339    0.000    1.000      0.339     0.506      0.557    0.996     0.973     1
+Weighted Avg.    0.919    0.580    0.926      0.919     0.901      0.557    0.996     0.996
+
+======================================
+Confusion Matrix:
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 443   0 |   a = 0
+  41  21 |   b = 1

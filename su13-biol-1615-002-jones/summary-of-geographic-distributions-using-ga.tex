@@ -1,0 +1,139 @@
+\documentclass[10pt,twocolumn]{article}
+\usepackage{mla}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+
+\linespread{1}
+
+\begin{document}
+\begin{mla}{Paul}{English}{BIO 1615-002}{Larry Jones}{\today}{\textbf{Summary of GEOGRAPHIC AND ECOLOGIC DISTRIBUTIONS OF THE \textit{ANOPHELES GAMBIAE} COMPLEX PREDICTED USING A GENETIC ALGORITHM}}
+
+% Why did the scientists do this research or what were they trying to determine?
+% What did they predict would happen?
+% What experiments did they do? What techniques did they use?
+% What were the results?
+
+\section{Introduction}
+
+%\begin{itemize}
+%    \item Anopheles gambiae: A complex of malaria vectors.
+%	\item Understanding the geographic distribution of these malaria vectors allows better treatment, containment, and and preventative handling.
+%	\item Predictive modeling can help to understand the geographic distribution
+%	\item Previous modeling attempts have explored non-linear models, and spatial mapping helping to understand factors (features, attributes) that comprise an "ecologic niche" for A. gambiae
+%	\item Application of machine learning and a genetic algorithm is used to predict geographic species distribution.
+%	\item Using the rules defined in modeling the malaria vectors, prediction of geographic distribution can be made in other locations.
+%\end{itemize}
+
+Anopheles gambiae is a complex of mosquitoes that are a vector for human malaria.$^{1,6}$ A complex represents a group of species that are close relatives, or sibling species.$^4$ A biological vector is a species or organism that helps to spread specific pathogens amongst hosts.$^9$ Understanding and predicting the geographic distribution of this complex helps us to recognize, treat, contain and prevent possible outbreaks of malaria in human populations. We can use predictive modeling techniques to estimate probable geographic distributions of this complex. Previous models have used non-linear statistical models along with spatial mapping to help understand what attributes of an area or ecological niche are beneficial to the Anopheles gambiae complex.$^{10}$
+
+A genetic algorithm is a method of parameter optimization for statistical modeling or similarly machine learning problems. It's composed of a series of successive simulations on a problem in an attempt to naturally select the best fitting model inputs using ideas of evolution, including inheritance, and mutation.$^5$ Use of a genetic algorithm can help build robust probability distributions for a species in a geographic area. Use of this kind of model can help to define rules that the A. gambiae complex will follow, as well as predict where it could grow or live.$^{10}$
+
+\section{Materials and Methods}
+
+%\begin{itemize}
+%	\item A combined data set was created using existing results, supplemented with various occurrence reports.
+%	\item Out of 14 available features, 12 were selected in modeling.
+%	\item Attributes include; annual mean temperature, annual mean maximum temperature, annual mean minimum temperature, daily temperature range, frost days, topographic aspect, flow accumulation, topographic index, annual mean precipitation, wet days, tree cover, land-use/land-cover.
+%	\item Elevation and vapor pressure were excluded from the final feature set.
+%	\item Out of 28 countries in Africa, half were used to build the model and half were used to validate the predictive model.
+%	\item Arbitrary criterion for train/test split: country
+%	\item GARP, The Genetic Algorithm for Rule-set Prediction, was used to build models.
+%	\item 100 models were generated, and final predictions were built by averaging the top 5 models.
+%	\item The predictive model was evaluated using a chi-squared formula, to assess significance.
+%	\item Test data, previously reserved from the overall dataset, served to validate the model where independent data collection would usually occur.
+%	\item Predictions appear to be significant, even though features and attributes of the excluded countries were held pack during model building.
+%\end{itemize}
+
+Using data collected from past research and studies a combined data set was created. Out of this data set of 14 common features, 12 were selected to generate the predictive model of this experiment. These attributes represent characteristics of an environment that can either help or hinder the development of Anopheles gambiae. The selected 12 attributes include the mean annual temperature, mean annual maximum temperature, mean annual minimum temperature, daily temperature range, occurrence of frost days, topographic aspect, flow accumulation, topographic index, mean annual precipitation, occurrence of wet days, tree cover, and land use/cover.$^{10}$
+
+This data set was partitioned by country, and a random selection of half of the countries was used to build, allowing the remaining half to help validate the accuracy of the predictions. A tool called the Genetic Algorithm for Rule-set Prediction, or GARP, was used to build the statistical models that help predict geographic distribution. 100 models were generated, allowing final predictions to be made by averaging the top 5 most accurate models. Model accuracy was tested by comparing model results to a chi-squared distribution.$^{10}$ The chi-squared distribution $\chi^2(x|v)$, is a commonly used probability distribution in assessing statistical fit.$^{1,3,7,11}$ It is special case of the Gamma distribution $Ga(T | \text{shape} = a, \text{rate} = b)$, where rate is fixed at $\frac{1}{2}$ and the shape is given by dividing a parameter, degrees of freedom $v$, by $2$, $\chi^2(x|v) = Ga(x | \frac{v}{2}, \frac{1}{2})$.$^{12}$ The Gamma distribution has been used in life testing, and waiting time until death in other disciplines.$^7$ Using test data reserved from building the model produced results that appear to be significant using this test, represented by a low $P\text{-value}$.$^{10}$
+
+\section{Results}
+
+%\begin{itemize}
+%	\item Final predictions were derived using all available data.
+%	\item Though generally consistent, discrepancies were in the distribution of A. arabiensis between the predicted distribution, that of Lindsay and others, and the generalized distribution map in the central Africa region.
+%	\item Either the predicted maps for A. arabiensis are incorrect, the generalized map is incorrect, or both maps correctly identify certain potential and realized niches, but other unidentified factors lead to the discrepancy.
+%	\item In predictions for A.gambiae, other differences can be seen in NE Africa, lower ethiopian elevations, N kenya, S coastal somalia, and SE sudan.
+%	\item Previous predictive efforts have used similar data sets, but have had very different modeling approaches, offering contrasting results.
+%	\item Some differences of the modeling approaches can be seen in sparsely sampled areas like central Africa, where the GARP model predicted broad areas of presence for A. gambiae and A. arabiensis
+%	\item Suggested differences may be due to previous regression based attempts having the inability to infer in unsampled areas.
+%	\item Obvious errors can be seen in previous regression based predictions.
+%	\item Older regression attempts lack independent model validation, have uneven interpretation of kappa statistics, and over-reliance on assumptions of small samples of data.
+%\end{itemize}
+
+Final predictions were created using all available data. It showed to be generally consistent, though discrepancies were found in the distribution of A. arabiensis between the predicted results, that of Lindsay and others, and the generalized distribution map in the central Africa region. This would mean that either the predicted maps for A. arabiensis are incorrect, the generalized map is incorrect, or both maps correctly identify certain potential and realized niches, but other unidentified factors lead to a discrepancy.
+
+In predictions for A. gambiae, other differences can be seen in Northeast Africa, lower ethiopian elevations, North Kenya, South Coastal Somalia, and Southeast Sudan. Previous predictive efforts have used similar datasets, but have had very different modeling approaches, which offer contrasting results. Some differences of the modeling approaches can be seen in sparsely sampled areas like central Africa, where the GARP model predicted broad areas of presence for A. gambiae and A. arabiensis. 
+
+Suggested differences may be due to previous regression based attempts having the inability to infer in unsampled areas. Obvious errors can be seen in previous regression based predictions. Older regression attempts lack independent model validation, have uneven interpretation of kappa statistics, and over-reliance on assumptions of small samples of data.$^{10}$
+
+\section{Discussion}
+
+%\begin{itemize}
+%	\item Genetic breaks are recognized within A. quadriannulatus, given discovery of a sibling species in Ethiopia
+%	\item A. gambiae inhabits wetter warmer environments
+%	\item Using selective exclusion, the impact of individual features was assessed
+%	\item Frost days strongly influenced predictions for A. gambiae
+%	\item Both climatic and topographic characteristics influenced A. quadriannulatus
+%	\item No unique attributes strongly affected A. arabiensis
+%	\item Using climate data from 1960-1990 Africa, projected to 1930-1960 climate data in the Americas this modeling approach suggests that A.gambiae would have a widespread suitable habitat in a historical outbreak of NE Brazil in the 1930s. This outbreak was before it was understood that A.gambiae was a complex of multiple species.
+%	\item Efforts that stopped the outbreak in NE Brazil were effective, and without which later eradication might have been impossible.
+%	\item Discrepancies in this predicted distribution in the America's may occur for many reasons not related to modeling method or data, including local elimination, geographic climatic barriers, and biotic ineractions not considered.
+%	\item Models precision may over represent one pixel as suitable when in reality only a small portion of that region is suitable
+%	\item Model representation of standing bodies of water, rivers, streams, and areas subject to flooding result in over-prediction when modeling species of mosquito that do not migrate.
+%	\item Implications of new modeling methodologies are numerous including; species distributions in broader areas, inference of a species distributional potential in other regions, changes in species distributions due to global climate change, and implications for potential bio terrorism applications.
+%\end{itemize}
+
+We can recognize some genetic breaks within A. quadriannulatus, given discovery of a sibling species in Ethiopia. We can see that A. gambiae inhabits wetter and warmer environments than other species in the complex. We can measure the individual impact of specific features by selectively excluding features during assessment. This would suggest that the occurrence of frost days strongly influences the predictions for A. gambiae. We can see that both climatic and topographic factors influence A. quadriannulatus. We can also see that no unique attributes independently affect the distributions of A. arabiensis.
+
+Using climate data from 1960-1990 Africa regions, projected back to 1930-1960 climate data from the Americas this modeling approach suggests that A. gambiae would have a widespread suitable habitat during the historical outbreak of Northeast Brazil in the 1930s. This outbreak occurred before it was understood that A. gambiae was a complex of multiple species. Efforts that helped stop the outbreak in Northeast Brazil were effective, and without which later eradication might have been impossible.
+
+Discrepancies in this predicted distribution in the America's may occur for many reasons not related to modeling method or data, including local elimination, geographic climatic barriers, and biotic interactions not considered. Additionally a models precision may overrepresent one pixel as suitable when in reality only a small portion of that region is suitable. Model representations of standing bodies of water, rivers, streams, and areas subject to flooding result in over-prediction when modeling species that do not migrate.
+
+Implications of new modeling methodologies are numerous including; species distributions in broader areas, inference of a species' distributional potential in other regions, how a species distribution may change given global climate change, and implications for potential bio-terrorism applications.$^{10}$
+
+
+\begin{workscited}
+
+\bibent
+1. Abramowitz, Milton, and Irene A. Stegun. ``Chapter 26.'' \textit{Handbook of Mathematical Functions: With Formulas, Graphs, and Mathematical Tables}. New York: Dover Publications, 1970. 940. Print.
+
+\bibent
+2. "Anopheles.'' \textit{Dictionary.com}. Dictionary.com, n.d. Web. 14 July 2013.
+
+\bibent
+3. ``Chi-Square Distribution.'' \textit{Engineering Statistics Handbook}. NIST, 2006. Web. 14 July 2013. $<$http://www.itl.nist.gov/div898/handbook/eda/section3/eda3666.htm$>$.
+
+\bibent
+4. ``Cryptic Species Complex.'' \textit{Wikipedia}. Wikimedia Foundation, 07 Apr. 2013. Web. 14 July 2013.
+
+\bibent
+5. ``Genetic Algorithm.'' \textit{Wikipedia}. Wikimedia Foundation, 07 Sept. 2013. Web. 14 July 2013.
+
+\bibent
+6. Giles, George Michael James. \textit{A Handbook of the Gnats or Mosquitoes, Giving the Anatomy and Life History of the Culicid\ae\, Together with Descriptions of All Species Noticed up to the Present Date}. London: J. Bale, Sons \& Danielsson, 1902. 530. Print.
+
+\bibent
+7. Hogg, Robert V., and Allen T. Craig. ``Remark 3.3.1.'' \textit{Introduction to Mathematical Statistics}. New York: Macmillan, 1978. N. pag. Print.
+
+\bibent
+8. Johnson, Norman Lloyd, Samuel Kotz, N. Balakrishnan, Norman Lloyd Johnson, Norman Lloyd Johnson, Samuel Kotz, and Samuel Kotz. ``Chapter 18.'' \textit{Continuous Univariate Distributions} Vol. 1. New York: Wiley, 1994. N. pag. Print.
+
+\bibent
+9. Last, John M., and Robert A. Spasoff. \textit{A Dictionary of Epidemiology}. New York: Oxford UP, 2001. 185. Print.
+
+\bibent
+10. Levine, Rebecca S., A. Townsend Peterson, and Mark Q. Benedict. ``Geographic and Ecologic Distributions of the Anopheles Gambiae Complex Predicted Using a Genetic Algorithm.'' \textit{The American Journal of Tropical Medecine and Hygiene} 70.2 (2004): 105-09. PubMed. Web. June 2013.
+
+\bibent
+11. Mood, Alexander McFarlane, Franklin A. Graybill, and Duane C. Boes. \textit{Introduction to the Theory of Statistics}. 3rd ed. New York: McGraw-Hill, 1973. 241-46. Print.
+
+\bibent
+12. Murphy, Kevin P. ``Probability.'' \textit{Machine Learning: A Probabilistic Perspective}. Cambridge, MA: MIT, 2012. 41-42. Print.
+
+\end{workscited}
+
+\end{mla}
+\end{document}
+

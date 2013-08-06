@@ -29,19 +29,9 @@ This is the core repository for all work done in courses through SLCC. In here y
 * [Bio 1615](su13-biol-1615-002-jones) - College Biology I Lab
 * [Chem 1010](su13-chem-1010-009-neilsen) - Intro to Chemistry
 
-## LaTeX and Org Files
-
-All papers have been typeset using LaTeX in MLA format. You can download the rendered pdfs above. Org files are used by emacs org-mode, and are plaintext.
-
-The MLA template for the typesetting was found [here](http://www.ctan.org/tex-archive/macros/latex/contrib/mla-paper/) and was created by [Ryan Aycock](http://www.phys.ufl.edu/~aycock/)
-
-## Weasel Words, Passive Voice, & Lexical Illusions
-
-[Matt Might](matt.might.net), an assistant professor of [the University of Utah](http://www.utah.edu), has provided several useful tools for improving writing and articles. All papers were run through his scripts found in [this post](http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/) to improve their quality. These shell scripts may be found in this repository as well.
-
 ## Github Pages
 
-Most of the pages in this site are created using [Markdown](http://daringfireball.net/projects/markdown/syntax/) a clean markup syntax which is good at presenting content heavy information. The site pages are built automatically by Github processes using their [Jekyll static blog software](https://github.com/mojombo/jekyll/). It's served using [Github Pages](http://pages.github.com/), and hosted as a [git repository](https://github.com/nrub/slcc-eportfolio)
+Most of the pages in this site are created using [Markdown](http://daringfireball.net/projects/markdown/syntax/) a clean markup syntax which is good at presenting content heavy information. The site pages are built automatically by Github processes using their [Jekyll static blog software](https://github.com/mojombo/jekyll/). It's served using [Github Pages](http://pages.github.com/), and hosted as a [git repository](https://github.com/log0ymxm/slcc-eportfolio)
 
 ## Contact
 

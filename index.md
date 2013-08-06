@@ -5,7 +5,7 @@ title: Home
 
 ## Salt Lake City Community College e-Portfolio
 
-This is the core repository for all work done in courses through SLCC. In here you can find code samples, papers, and assignments related to the courses I have taken. For teacher evaluation this repo uses github pages. If you'd like to visit the raw code repository, it can be found [here](https://github.com/nrub/slcc-eportfolio)
+This is the core repository for all work done in courses through SLCC. In here you can find code samples, papers, and assignments related to the courses I have taken.
 
 ## Courses
 

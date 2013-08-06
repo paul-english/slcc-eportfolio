@@ -1,0 +1,82 @@
+* ch 3
+
+** phases of matter
+
+- gas, liquid, solid
+
+*** solid
+    - particles that are frozen in place
+    - definite shape
+
+*** liquid
+    - moving particles, more dynamic
+    - will take the shape of it's container, but will not expand
+
+*** gas
+    - expands to take the shape of it's container
+    - particles are very far apart
+
+*** boiling point / melting point
+     - every molecule has a boiling & melting point
+     - melting: the transition from solid to liquid
+     - boiling: the transition from liquid to gas
+     - temperature & pressure; mostly related on temperature as
+       oftentimes in a natural system pressure will remain the same
+
+PV = nRT
+
+Where P is the pressure, V is the volume, T is temperature, and the
+other variables are never explained by this shitty teacher, so they'll
+have to be referenced from the book or elsewhere
+
+** physical & chemical changes
+  - change between states: physical changes
+    -- changes that do not change the chemical composition of matter
+    -- physical changes != chemical changes, for all types of changes
+  - chemical changes: changes in the chemical composition of a substance(s)
+
+*Examples*
+- boiling point                                    -> physical change
+- diamond is very hard                             -> physical property
+- sugar ferments to form alcohol                   -> chemical change
+- metal wire conducts an electric current          -> physical property
+- galium melts in your hand                        -> physical property
+- platinum does not react with oxygen at room temp -> chemical
+- white piece of paper                             -> physical property
+- copper turning green                             -> chemical change
+- iron metal is melted -> physical change
+- iron combines with oxygen to form rust -> chemical reaction
+- rock broken into small pieces -> physical change
+- milk turns sour -> chemical change
+
+** mixtures / substance
+- mixtures combined of more than one elements or molecules
+- pure substance: element (H, O), compound (H_2O)
+
+*** mixtures
+1. homogeneous: same throughout
+2. heterogeneous: regions that are different
+
+**** homgeneous
+- can use physical changes to seperate pure substances from a
+  homogeneous mixture
+- seperating salt from salt water
+  -- distillation
+
+**** heterogeneous
+- sand in water
+
+**** matter tree
+
+matter -> mixtures
+       -> pure substances
+
+pure substances -> compounds
+                -> elements (chapter 4)
+                -> requires chemical changes to split compounds
+
+mixtures -> homogeneous
+         -> heterogeneous
+         -> can be seperated based on physical properties
+
+* ch 4

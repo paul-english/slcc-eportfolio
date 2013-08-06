@@ -1,0 +1,2 @@
+* ch 12, chemical bonding
+(/ 54.2 19)

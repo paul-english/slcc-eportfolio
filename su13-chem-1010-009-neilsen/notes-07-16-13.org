@@ -1,0 +1,22 @@
+- brainiac video where they put alkali metals into water
+- analysis of the reactions taking place in the video
+- review on what's on the delayed quiz on thursday
+- any questions from the class?
+
+* ch 8
+** 8.1 counting by weighing
+   - counting using average weight of a unit
+   - food, other things that are too small to reliably or tractably count
+** 8.2 atomic masses: counting atoms by weighing
+   - amu
+   - dalton
+   - 1.66e-24
+** 8.3 the mole
+   - avogadros number
+   - 1 mol = 6.022e23
+** 8.4 learning to solve problems
+** 8.5 molar mass
+** 8.6 percent composition of compounds
+** 8.7 formulas of compounds
+** 8.8 calculation of empirical formulas
+** 8.9 calculation of molecular formulas

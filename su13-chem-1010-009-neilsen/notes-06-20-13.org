@@ -1,0 +1,106 @@
+* ch 4
+
+** common elements
+
+   | symbol | name       | mass percent |
+   |--------+------------+--------------|
+   | O      | Oxygen     |         49.2 |
+   | Si     | Silicon    |         25.7 |
+   | Al     | Aluminum   |         7.50 |
+   | Fe     | Iron       |         4.71 |
+   | Ca     | Calcium    |         3.39 |
+   | Na     | Sodium     |         2.63 |
+   | K      | Potassium  |         2.40 |
+   | Mg     | Magnesium  |         1.93 |
+   | H      | Hydrogen   |         0.87 |
+   | Ti     | Titanium   |         0.58 |
+   | Cl     | Chlorine   |         0.19 |
+   | P      | Phosphorus |         0.11 |
+   | Mn     | Manganese  |         0.09 |
+   | C      | Carbon     |         0.08 |
+   | S      | Sulfur     |         0.06 |
+   | Ba     | Barium     |         0.04 |
+   | N      | Nitrogen   |         0.03 |
+   | F      | Flourine   |         0.03 |
+   |        | All others |         0.49 |
+
+** symbols
+
+** atomic theory
+
+- Dalton
+
+1. Elements made of atoms (protons, neutrons, electrons)
+2. All atoms of a particular element are identical
+3. Each element is unique (defined by the number of protons, Z)
+4. Atoms combine with other atoms to form compounds. Similar compounds
+   have same composition of atoms. (H_2O)
+5. Atoms are not created or destroyed by chemical reactions
+
+** constant composition
+
+** formulas
+   - C_6 H_12 O_6
+   - C H_2 O
+   - C_5 H_10 O_5
+
+** 3 particles
+
+|          | Location                         | Relative Mass | Mass         | Charge   |
+|----------+----------------------------------+---------------+--------------+----------|
+| electron | orbitals/ outside of the nucleus |             1 | 0            | negative |
+| proton   | nucleus                          |          1836 | 1 dalton/amu | positive |
+| neutron  | nucleus                          |          1839 | 1 dalton/amu | neutral  |
+
+** isotopes
+   - (+/-) a neutron
+   - changes atomic weight, e.g. {}^13_6C has one extra neutron
+
+** z, a {}^a_zX
+
+z = atomic number
+a = mass number
+X = element symbol
+
+{}^{23}_{11}Na
+
+** periodic table
+ __________________________________________________________________________
+|   1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18 |
+|                                                                          |
+|1  H                                                                   He |
+|                                                                          |
+|2  Li  Be                                          B   C   N   O   F   Ne |
+|                                                                          |
+|3  Na  Mg                                          Al  Si  P   S   Cl  Ar |
+|                                                                          |
+|4  K   Ca  Sc  Ti  V   Cr  Mn  Fe  Co  Ni  Cu  Zn  Ga  Ge  As  Se  Br  Kr |
+|                                                                          |
+|5  Rb  Sr  Y   Zr  Nb  Mo  Tc  Ru  Rh  Pd  Ag  Cd  In  Sn  Sb  Te  I   Xe |
+|                                                                          |
+|6  Cs  Ba  *   Hf  Ta  W   Re  Os  Ir  Pt  Au  Hg  Tl  Pb  Bi  Po  At  Rn |
+|                                                                          |
+|7  Fr  Ra  **  Rf  Db  Sg  Bh  Hs  Mt  Ds  Rg  Cn  Uut Fl  Uup Lv  Uus Uuo|
+|__________________________________________________________________________|
+|                                                                          |
+|                                                                          |
+| Lantanoidi*   La  Ce  Pr  Nd  Pm  Sm  Eu  Gd  Tb  Dy  Ho  Er  Tm  Yb  Lu |
+|                                                                          |
+|  Aktinoidi**  Ac  Th  Pa  U   Np  Pu  Am  Cm  Bk  Cf  Es  Fm  Md  No  Lr |
+|__________________________________________________________________________|
+
++------+
+|  1   |
+|  H   |
++------+------+
+|  3   |  4   |
+|  Li  |  Be  |
++------+------+
+
+
+** ions & ionic compounds
+   - (+/-) an electron which changes the charge of the element
+   - electron shells
+   - valence shell: outermost shell
+   - cation: positively charged ion
+   - anion: negatively charged ion

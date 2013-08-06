@@ -1,0 +1,34 @@
+* ch 5: nomenclature
+
+- octet rule
+- cations & anions
+
+** naming molecules
+
+- number of shared electrons helps decide the suffix
+  -- ionic bonds
+
+- 1 with 1, -ine
+  -- LiF, NaF, KF, LiCl
+- 2 with 2, -ide
+  -- MgO, MgS, CaO, CaS
+  -- also 1 with 2; Li_2O
+  -- or; MgF_2, MgCl_2
+
+- poly atomic ions
+- hydrogen atoms become hydrogen ions
+
+- name the cation, then the anion
+
+- Fe(II) = Fe^{2+}
+- Fe(III) = Fe^{3+}
+
+- CrCl_3
+
+** more notes
+
+- this class moves pretty slow, not worth too many notes
+
+** TODO homework
+
+9, 18, 19, 27, 34, 39, & 46

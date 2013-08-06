@@ -1,0 +1,99 @@
+* DONE extra credit
+
+- find the prefix for 10^-4
+
+decimilli
+http://www.mathnstuff.com/math/spoken/here/2class/110/milli/metric.htm
+
+* NOTE
+- missed first class, emailed professor asking about what we missed. He avoided telling me that we had homework.
+
+- douche in the back parked his titan in the handicap parking spot
+
+* chatting about random questions
+
+* ch 2
+** scientific notation
+
+357 => 3.57 e 2
+0.0055 => 5.5 e -3
+
+** units
+
+- english, metric, SI
+
+** TODO memorize SI unit prefixes
+
+| length | meter       | m         |               |      |
+| volume | cubic meter | m^3       |               |      |
+|        |             | dm^3 = L  |               |      |
+|        |             | cm^3 = mL | 1,000         | 10^3 |
+|        |             | mm^3 = uL | 1,000,000     | 10^6 |
+|        |             | um^3 = nL | 1,000,000,000 | 10^9 |
+
+** significant digits
+
+- pg 25
+
+1. all numbers that aren't zero are significant
+2. don't count leading zeros left of the other sig figs
+3. count captive zeros
+4. decimal will make zeros captive
+5. zeros to the right of the decimal count
+
+** dimensional analysis
+
+
+(/ 62 12.0)
+
+** temperatures
+
+3 temperature systems
+
+- kelvin, celcius, faranheit
+
+|               |    F |   C |   K |
+| boil          |  212 | 100 | 373 |
+| body          | 98.6 |  37 | 310 |
+| freeze        |   32 |   0 | 273 |
+| absolute zero | -460 | -273 |   0 |
+
+(+ (* -273 1.80) 32)
+
+** density
+
+mass in a given volume
+mass / volume
+
+water: 1 g/cm^3 @ 20 degrees C
+
+** TODO blah blah blah
+problems
+- #5 pg 48
+- #29
+- #41
+- #47
+  (+ 44.2124 0.81 7.335)
+(- (+ 9.7789 3.3315) 2.21)
+(+ 0.8891 0.225 4.14)
+(/ (+ 7.223 9.14 3.7795) 3.1)
+- #59
+  (* 2.54 12.5)
+(/ 12.5 2.54)
+(/ 2513 5280.0)
+(/ (* 1760 (/ 4.53 5280)) 1.094)
+
+(* 6.52 60) 391.2
+(/ 52.3 100) 0.523
+(* 4.21 1.094) 4.60574
+(/ 8.02 16) 0.50125
+- #73
+
+(- 891 273)
+(- 273 20)
+- #87
+
+(/ 452.1 292)
+(/ 64 0.0125)
+(/ 1010 998.0)
+(/ 0.225 0.000251)

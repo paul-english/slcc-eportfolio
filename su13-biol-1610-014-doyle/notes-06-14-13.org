@@ -1,0 +1,147 @@
+* ch 6
+
+** extra cellular matrix
+
+- major component: glyco proteins
+- major glyco protein: collagen
+
+- collagen: big portion of human Body><ns0
+
+- fibernectin
+  -- connects to plasma membrane protein: integrins
+  -- integrins are often attached to a cytoskeleton component
+
+*** junctions
+
+**** tight junctions
+     - membrane functions get fused together forming a barrier
+     - fluids don't pass, it's a barrier
+     - some found in the brain & digestive tract; blood/brain junction
+
+**** desmosomes
+     - fasten cells together to form a sheet
+     - similar to spot welds or rivets
+     - fluid can get through
+     - found in skin tissues
+
+**** gap junctions
+     - communicating junctions
+     - provide cytoplasmic channels between adjacent cells
+     - found in heart, pancreas
+
+
+* ch 7
+
+- membranes
+
+** fluid mosaic
+
+- bilayer of phospholipids
+- embedded with proteins
+
+- phospholipids are anthropathic molecules
+  -- anthropathic molecules have both a hydrophilic & hydrophobic region
+
+- we know this using freeze fracture techniques with cell membranes
+
+- fluid because the cell mambrane isn't static
+  -- can think of it like a moving ocean, sea
+  -- most of the proteins & phospholipids drift around laterally
+
+- when the phospholipids have many kinks in the tail the fluid mosaic membrane is more fluid at room temperature
+
+- cholesterol
+  -- lipid
+  -- steroid
+  -- find it only in animal cell membranes
+  -- plants have a different steroid that takes on a similar role
+  -- reduces membrane fluidity at moderate temperatures
+     --- it does this by reducing the phospholipid movement
+  -- when cold it will help prevent the membrane from solidifying
+     --- prevents the phospholipids from packing together too tightly
+
+*** integral & peripheral proteins
+    - many of these are glyco proteins
+      -- glyco proteins: has a short chained sugar attached
+
+**** integral
+     - penetrates and completely crosses the bilayer
+     - all trans member proteins are integral proteins
+       -- TODO huh? is this right?
+     - typically have hydrophilic & hydrophobic regions
+       -- anthropathic
+     - n-terminus (amino end), the outside end of the protein
+     - c-terminus, (carboxyl end); inside the membrane
+
+**** peripheral
+     - penetrates, but doesn't cross all the way through the bilayer
+     - loosely bound to the surface
+     - often bound to the exposed parts of integral member proteins
+
+*** membrane proteins
+
+- many different functions
+
+**** transport
+
+***** channel proteins
+      - passive tranpsort
+      - osmosis
+
+***** carrier proteins
+      - active transport
+      - requires energy (ATP); some work by way of diffusion not always requiring ATP
+
+**** ensymatic activity
+     - active site, pocket or groove in the protein. Where a substrate binds & converts to a product.
+     - bound to the membrane
+     - they are often members of a sequential team of enzymes
+     - whenever we have 2 or more, we'll often call them a complex
+
+**** signal transduction
+     - membrane receptor protein, that has a binding site for a chemical messenger
+     - signal molecule
+     - when a molecule binds to the receptor the signal molecule changes shape
+
+
+*** other protein stuff
+ - cell-cell recognition: glyco protein, blood types
+ - intercellular joining: [tight, desmosomes, gap]
+ - atachment to the cytoskeleton & extracellular matric (ECM): helps maintain cell shape, can help coordinate inter/extra-cellular activities
+   -- integrins on the surface can connect to fibernectin, which attaches to the ECM
+
+** permeability
+   - transport vesicles
+   - cell membranes have selective permeability
+   - nonpolar molecules can dissolve right through the lipid bilayer: diffusion
+     -- cross directly
+   - anything that's polar or charged will probably need help from a protein (transport proteins)
+   - transport proteins
+     -- very specific
+     -- aquaporin: hydrophilic channel, transports water
+     -- carrier proteins will flip & change shape to move a molecule
+
+*** passive & active transport
+    - passive: diffusion w/ no energy investment
+      -- thermal motion can cause diffusion
+      -- diffusion: tendency of any molecule to spread out into space
+      -- done by carrier and channel proteins
+    - active: movement of molecules with energy required, only done by carrier proteins
+      -- against solute concentration gradient
+
+** concentrations/solutions - diffusion - passive transport
+  - permeable membrane where concentration equalizes (dynamic equilibrium); no net movement of molecules
+  - simple rule: in the absence of forces, a solution will diffuse from where it's more concentrated, to where it's less concentrated
+  - diffusing down it's gradient
+  - no work is required for diffusion
+    -- it's a spontaneous process
+
+  - much of the traffic across cell membranes occurs by diffusion
+
+*** osmosis
+  - hypertonic: more solutes (hyperactive, hyperglycemic)
+  - hypo tonic: less solutes
+
+  - isotonic: both sides of cell are normal, not hyper, or hypo tonic
+
+  - most animal cells are isotonic

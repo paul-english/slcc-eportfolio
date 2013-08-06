@@ -1,0 +1,58 @@
+* ch 16
+
+- griffith: doing work with pneumonia
+  -- smooth strain of bacteria, rough strain
+  -- smooth - virulent, antibodies can't latch on
+  -- rough - avirulent
+  -- took heat killed smooth bacteria, injected into mice, and the mouse lived
+  -- rough bacteria didn't kill the mice
+  -- heat killed S + R would kill the mice, and live S bacteria could be cultured from the mice
+  -- in the mice R bacteria converted over to S bacteria
+  -- 1928?
+
+- heat killed
+- electrofloration: another way to kill cells
+
+- another guy tried to figure out what component in the bacteria caused
+  the transformation of the bacteria
+  -- which guy?
+  -- 1944
+
+- aditional evidence on dna being genetic material came from study of
+  viruses, and their genetic material
+  -- viruphages
+  -- phage
+
+- experiment with virus dna
+  -- radioactive sulfur to label protein
+  -- radioactive phosphorus to label dna
+
+- chargoff
+  -- year?
+  -- analyzed the base composition of dna
+  -- TACG
+  -- chargoff's rule, #A == #T && #C == #G
+
+- watson & crick
+  -- 1953
+  -- discover the structure of dna
+
+- measelson & stall
+  -- 1958
+  -- experiments to figure out which model of dna replication was
+  correct
+  -- 3 proposed models; conservative, semi conservative, dispersive models
+  -- used N15, heavier nitrogen in bacteria
+
+- helicase: unwinds dna at replication fork
+  -- seperates the two parental strands
+- single-strand binding proteins: stablizes dna to keep it single
+  stranded, otherwise it would snap back together
+- topoisomerase: enzymes to prevent tangled dna while it's being unwound
+- primase
+
+
+- okazaki fragment
+
+* ch 17
+- the central dogma of molecular biology

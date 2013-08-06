@@ -1,96 +1,80 @@
-* microscopy
+* ch 1
 
-* measurements
+** properties of link
 
-meter = m
-micro meter = m / 1000 = mm
-nano meter = mm / 1000 = um
-fempto meter = um / 1000 = fm
+1. order (cells)
+2. evolutionary adaptation: (camoflage) natural selection, traits, genetics
+3. regulation: body temperature, blood sugar
+4. energy processing: food, photosynthesis
+5. reproduction
+6. growth & development
+7. response to an environment
 
-1 mL = 1cc = 1g
-1 uL = 1mg
+** lifecycle?
 
-density = specific gravity
+atomic / molecular
+      |
+      v
+organelles / cellular
+      |
+      v
+organs & organ systems / tissue
+      |
+      v
+organisms
+      |
+      v
+populations
+      |
+      v
+communities
+      |
+      v
+ecosystems
+      |
+      v
+biosphere
 
-# TODO lookup density by water
+- emergent properties
 
-* microscopes
+- cells
+- organelles - sub-cellular stop
+- reductionism: take it apart - dissecting
+- systems biology: integration, emmergent properties
+  -- model the dynamic behavior of biological systems
 
-simple microscope
-compound microscope
+** cells
 
-ocular lense, objective lense
+- heritable information
+- DNA
+- nucleotides
+- genomes code for proteins
+- proteins are built up of amino acids
 
-machine that cuts slices of a polymer medium with tissue sample in it
+- membrane
 
----
+Eukaryotic & Prokaryotic
 
-resolution: ability to distinguish between 2 points
+*** Eukaryotic
 
-* cells
+- membrane
+- nucleus -> DNA
+- cytoplasm
+- organelles
 
-prokaryotes - no membrane bound organelles
-eukaryotes -
+*** Prokaryotic
 
-difference between animal cells & plant cells
-
-plant cells - cellulose, cell wall
-
-prokaryotes have a plasma membrane seperated by a cell wall, but don't
-have well-defined nucleai
-
----
-
-cyanobacteria (prokaryote)
-- thylakoids (pseudo membrane) surround the clorophyl membranes in cyanobacteria
-- thyla-: (Vulcan) brother, friend, or lover
-
-epi-: to look from above
-
----
-
-milk --> lactobacillus = yogurt
-
-nucleus --> houses DNA
-phospholipid bilayer -> membrane that holds it all together
-
-mitochondria: organelle, ATP synthesis, oxidative respiration
-
-golgi complex: used for packaging compounds made within the cell
-
-ribosomes: protein synthesis
-
-lysosomes: organelles that are designed to neutralize harmful byproducts
-
-* quiz next week on 3 & 4, and what we learn today
-
-* procedures
-
-** 3
-*** 1 - use a compound microscope
-
-*** 2
-
-| ocular | objective | power |
-|     10 |        10 |   100 |
-|     10 |        40 |   400 |
-|     10 |        63 |   630 |
-|     10 |       100 |  1000 |
-
-par-focal
+- no nucleus
+- dna w/out nucleus
+- membrane
 
 
-*** 3
+** feedback regulation
 
+- enzymes (proteins):
+- positive feedback: speed up a chemical reaction, catylize
+- negative feedback: slow down a reaction
 
+--- (control theory) ---
 
-*** 4
-*** 5
-
-*** 6 - dissecting microscope
-
-a. ~18 millimeters field of view
-b. ~3 millimeters
-c. normal
-d. regular
-e. from the top
+Convergence

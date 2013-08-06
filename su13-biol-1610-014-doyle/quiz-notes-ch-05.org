@@ -2,54 +2,55 @@
 
 A dehydration reaction (or condensation reaction) is the process in which _____.
 
-1. the bonds between the individual monomers of a polymer are broken by
-   the addition of water molecules
-2. water molecules are used as a source of raw material to break down polymers to monomers
-3. water molecules are produced as a polymer is formed from monomers
-4. water molecules are attracted to each other
-5. None of the choices is correct.
++1. the bonds between the individual monomers of a polymer are broken by the addition of water molecules+
++2. water molecules are used as a source of raw material to break down polymers to monomers+
+*3. water molecules are produced as a polymer is formed from monomers*
++4. water molecules are attracted to each other+
++5. None of the choices is correct.+
 
 * 2. pre-test question 2
 
 The four main categories of large biological molecules present in living systems are _____.
 
-1. proteins, DNA, RNA, and steroids
-2. proteins, nucleic acids, polysaccharides, and lipids
-3. monosaccharides, lipids, polysaccharides, and proteins
-4. RNA, DNA, proteins, and carbohydrates
-5. nucleic acids, carbohydrates, monosaccharides, and proteins
++1. proteins, DNA, RNA, and steroids+
+*2. proteins, nucleic acids, polysaccharides, and lipids*
++3. monosaccharides, lipids, polysaccharides, and proteins+
++4. RNA, DNA, proteins, and carbohydrates+
++5. nucleic acids, carbohydrates, monosaccharides, and proteins+
 
 * 3. pre-test question 3
 
 Sucrose is formed when glucose is joined to fructose by a(n) _____.
 
-1. ester linkage
-2. peptide linkage
-3. ionic bond
-4. glycosidic linkage
-5. phosphodiester linkage
++1. ester linkage+
++2. peptide linkage+
++3. ionic bond+
+*4. glycosidic linkage*
++5. phosphodiester linkage+
 
 * 4. pre-test question 4
 
 plant cell walls consist mainly of ____.
 
-1. chlorophyll
-2. peptidoglycan
-3. cellulose
-4. chitin
-5. none of the choices is correct
++1. chlorophyll+
++2. peptidoglycan+
+*3. cellulose*
++4. chitin+
++5. none of the choices is correct+
 
 * 5. pre-test question 6
 
-Palm oil and coconut oil are more like animal fats than are other plant oils. Because they _____ than other plant oils, they may contribute to cardiovascular disease.
+Palm oil and coconut oil are more like animal fats than are other
+plant oils. Because they _____ than other plant oils, they may
+contribute to cardiovascular disease.
 
-1. contain more sodium
-2. contain less hydrogen
-3. contain fewer double bonds
-4. are less soluble in water
-5. contain more double bonds
++1. contain more sodium+
++2. contain less hydrogen+
+*3. contain fewer double bonds*
++4. are less soluble in water+
++5. contain more double bonds+
 
-* 6. question 27
+* TODO 6. question 27
 
 Why are human sex hormones considered to be lipids?
 
@@ -59,12 +60,14 @@ Why are human sex hormones considered to be lipids?
 4. they are essential components of cell membranes
 5. they are not soluble in water
 
-* 7. pre-test question 7
+* TODO 7. pre-test question 7
 
-Some regions of a polypeptide may coil or fold back on themselves. This is called _____, and the coils or folds are held in place by _____.
+Some regions of a polypeptide may coil or
+fold back on themselves. This is called _____, and the
+coils or folds are held in place by _____.
 
 1. primary structure ... covalent bonds
-2. secondary structure ... peptide bonds
+*2. secondary structure ... peptide bonds*
 3. tertiary structure ... hydrogen bonds
 4. secondary structure ... hydrogen bonds
 5. tertiary structure ... covalent bonds
@@ -96,5 +99,5 @@ The building blocks or monomers of nucleic acid molecules are called _____.
 1. DNA and RNA
 2. pyrimidines and purines
 3. nucleotides
-4. fatty acids
-5. polysaccharides
++4. fatty acids+
++5. polysaccharides+

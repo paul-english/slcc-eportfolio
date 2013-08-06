@@ -1,0 +1,183 @@
+*  ch 7, cont'd
+
+** passive transport
+
+** active transport
+   - requires energy
+   - changes shape to move molecules
+   - cell must maintain certain cell concentrations
+   - going against the gradient
+   - cells are constantly pumping sodium out, and potassium in
+   - ATP provides the energy for transport
+   - phosphorlation: when a phospher group is bound to the carrier protein
+
+   - sodium potassium pump
+   - atp will phosphorlate the pump, changing it's shape
+     -- flip the sodium ions out
+     -- two potassium ions bind to the carrier
+     -- releases the phosphate, which causes it to change shape and move potassium into the cell
+
+   - all cells have voltage across their membrane
+   - voltage is the seperation of opposite charges
+   - inside a cell it's negatively charged (3 sodium out, 2 potassium in give negative voltage)
+   - outside a cell there is a positive charge
+   - membrane potential: voltage across the membrane
+
+   - 2 forces at work:
+     -- chemical force transport gradient
+     -- electrical, the effect of the membrane potential
+   - electro-chemical gradient
+   - Na K pump helps keeping the membrane potential
+   - electrogenic pump: transport protein that stores voltage in the cell
+     -- Na K pump is the major eloctrogenic pump of animal cells
+     -- For plant cells, the major electrogenic pump is called the proton pump
+
+** cotransport
+   - sucrose-H^+ cotransporter
+     -- plants
+     -- requires both H^+ and a sucrose to work
+     -- the proton pump moves the H^+ out, then it comes back in by the sucrose-H^+ pump
+   - in animals
+     -- sodium-glucose pump
+     -- similarly uses the sodium of the Na-K pump
+
+** vesicle/vacuole transport
+   - exocytosis: secreting things with vesicles
+   - endocytosis: importing molecules with vesicles
+   - large molecules are transported using vesicles
+
+*** endocytosis
+   - phagocytosis
+   - pinocytosis
+   - receptor-mediated endocytosis
+
+**** phagocytosis
+   - eating
+   - wraps around a food particles
+   - vacuole
+
+**** pinocytosis
+   - drinking
+   - smaller amount of non-specific extracellular fluid
+
+**** receptro-mediated endocytosis
+   - specific, requiring receptors to bind to a specific substance
+   - ligand, the substance that gets bound
+
+* ch 8
+
+  - metabolism: totality of an organisms chemical reactions
+  - organized into metabolic pathways, with many steps
+  - alter molecules, in a series of definite steps
+  - each step categorized by different enzymes
+  - there are some mechanisms that balance enzymes
+  - regulatory enzymes
+  - some pathways release energy, done by breaking down complex molecules into simpler components
+    -- catabolism, catabolic pathway
+    -- cellular respiration
+  - anabolic pathways consume energy, build complex molecules from simpler molecules
+    -- biosynthetic pathways
+    -- making a polypeptide; requires energy, builds protein
+  - catabolism energy can be used in anabolism
+  - energy is the capacity to do work
+    -- exists in different forms
+
+** energy
+
+*** kinetic
+    - energy of motion
+
+*** potential
+    - stored energy
+    - the energy that matter contains due to structure or location
+    - chemical energy is a type of potential energy
+
+*** conversion
+    - energy can be converted back and forth between potential and kinetic
+
+*** thermodynamics
+   - closed & open
+     -- closed cannot interact with surroundings
+     -- open can interact with surroundings
+   - all living organisms are open systems
+   - we also release heat & carbon dioxide into systems
+
+---
+
+*Laws Of Thermodynamics*
+1. Energy can be transformed, but not created or destroyed. Energy is
+   constant
+2. Entropy is increasing. Disorder of the univers is increasing. Every
+   energy transfer, makes the universe more disordered. Some is due to
+   increasing amounts of heat.
+
+---
+
+   - entropy: quantity that is used as a measure of disorder, we use the
+     symbol S
+   - the quantity of energy is constant, but the quality isn't. It's
+     getting more disordered
+   - for a process to occur on it's own, it has to increase the entropy
+     of the universe
+   - spontaneous process is a change that can occur without outside help
+   - non-spontaneous processes will occur only if energy is added
+   - biological systems increase the entropy of their surroundings
+
+*** free energy (G)
+   - measures the portion of a systems energy that can perform work
+   - \Delta G = \Delta H - T \Delta S
+     --  T is absolute temp in Kelvin
+     -- \Delta S is change in entropy
+     -- \Delta H TODO
+   - spontaneous processes have a negative \Delta G
+   - free energy is also a measure of a systems instability
+     -- or tendency to change state
+
+   - examples: moving towards stability
+     -- gravitational force
+     -- diffusion
+     -- chemical reactions
+
+   - free energy is a measure of how much work a system can perform
+   - equilibrium is a state of maximum stability
+     -- no further change in the concentrations of reactant and products
+     -- free energy == 0
+
+*** exergonic/endergonic reactions
+   - exergonic: \Delta G is negative, releases energy, spontaneous
+     -- less products
+   - endergonic: \Delta G is posite, requires energy
+     -- generates more products
+     -- e.g. photosynthesis (energy comes from the sunlight)
+
+*** ATP
+   - Adenosine tryphosphate
+     -- adenine bonded to 5 sugar carbon ribose, then bonded to three
+     phosphate groups
+   - ADP missing one phosphate
+   - ATP -> ADP + P + energy
+
+   - enzymes in the cell can couple endergonic reactions to exergonic reactions
+     -- phosphorlated molecule
+     -- more reactive after phospholation
+     -- endergonic to exergonic
+   - glutamic acid + ammonia => glutamine
+
+   - ATP cycle
+   - ATP is regenerated very quickly in the cell
+
+** enzymes
+
+   - energy of activation
+   - there is usually a hill that we have to go up for a reaction to
+     occur (energy of activation)
+   - (-ase) most enzymes end with this suffix
+     -- sucrase: catalyzes sucrose into glucose & fructose
+   - catalyst: chemical agent that changes the rate of a reaction
+     without being consumed by the reaction
+   - active site: the pocket where a substrate binds to the enzyme
+   - substrate complex: when a substrate is bound to an enzyme
+   - enzymes are substrate specific
+   - induced fit, change of shape in a substrate complex. The enzyme
+     kind of encloses over the substrate. Brings groups of the active
+     site, that enhance the reaction

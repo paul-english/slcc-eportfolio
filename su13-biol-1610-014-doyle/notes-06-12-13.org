@@ -1,0 +1,296 @@
+* ch 6: cont'd
+
+- prokaryotic: smaller & much simpler
+- eukaryotic: larger with many membrane bound organelles
+
+
+- all cells have a membrane
+- all cells have cytosal / cytoplasm
+- all cells have chromosomes carry DNA
+- all cells have ribosomes
+
+
+- eurkaryotes: nave a nucleus
+- prokaryotes: nucleoid (concentrated reagion of dna, etc. but not a nucleus)
+
+
+- diffusion
+- cells don't get larger, just more of them
+  -- i.e. a whale
+  -- large cells would hurt diffusion
+- r r^2 r^3 (surface area doesn't scale relative to the volume as a cell gets larger)
+  -- harms diffusion
+
+
+- phospholipid bilayer
+
+  -- embedded in this layer are many proteins & molecules
+  -- many of these embedded proteins are called glycoproteins
+
+- a glycoprotein is a protein with a short chain sugar covalently attached to it
+
+- eukaryotic cells have many membranes
+  -- many membranes contain enzymes
+  -- these compartments have many different localized environments in the cell
+
+
+- lysosomes, centriols, and flagellum are only found in animal cells
+
+- chloroplasts are only found in plant cells
+
+
+** nucleus
+
+- nuclear dna, nuclear genes
+- houses the majority of dna
+
+- the nuclear envelope seperates the nucleus from the cytoplasm
+  -- has pores with protein structures that line each door
+- the nuclear lamina (lines the inside of the nucleus, except the pores)
+  -- lines the filiments
+  -- like the beams & girders of the nucleus
+  -- made out of intermediate filiments
+  -- gives the nucleus it's shape
+
+
+- DNA is a long molecule needs to prevent tangling
+  -- wrapped up on associated proteins
+  -- chromotin: dna + associated proteins
+  -- chromosomes: thicker structures of condensed chromotin
+
+- nucleolus
+  -- darkly staining region
+  -- may be more than one (nucleoli)
+  -- where ribosomal rna is synthesized
+
+- messenger rna is made in the nucleus
+
+** ribosomes
+
+- build the proteins
+- *made up of rrna and proteins*
+
+- carry out protein synthesis
+- free ribosomes float in the cytosal
+  -- tend to make proteins that stay in the cytosal
+- bound ribosomes are attached to the endoplasmic reticulum
+  -- as the ribosome starts making the polypeptide, it can signal to be
+  inserted into the endoplasmic reticulum
+
+- the endoplasmic reticulum is continuous with the nuclear envelope
+
+
+** endomembrane system
+
+- large system where the membranes are related
+- can be related by direct physical continuity
+- can be related by membrane transport vesicles
+
+- *these make up the endomembrane system*
+- nuclear envelope, endoplasmic reticulum, golgi, lysosomes, vasecules,
+  plasma membrane
+  -- either directly attached or related by transport vesicles
+
+- ER accounts for more than half of the total membrane in the cell
+  -- smooth ER: no ribosomes
+  -- rough ER: many bound ribosomes
+*** ER
+
+**** smooth
+- can synth lipids, carbs, and can detox drugs. can synth steriods, phospholipids
+
+**** rough
+- the inside is called the lumin
+- membrane protein: protein that's partially attached to the rough ER
+- glycoproteins: protein that's inserted all the way inside the rough er
+
+- these bound ribosomes will make proteins that go to anaother
+  organelle, or will be secreted, or bound
+
+**** transitional ER
+
+- membrane pouch
+- contains proteins to be secreted
+- turns out transport vesicles
+
+
+** golgi
+
+- finish sort & ships products
+
+- fuse with the golgi (dump products)
+- products are further modified
+- they then may be shipped
+
+
+- made of flattened membranous sacks
+  -- cisternae
+
+- polar organelle
+  -- two different sides
+  -- cis face (receiving)
+  -- trans (shipping)
+
+- often glycoproteins are further modified by the golgi
+- it can also make polysacharides
+
+- typically molecules are sorted (tagged with maybe a phosphate group)
+
+- when vesicles are leaving the trans, they may have external molecules
+  that control where they go
+
+** lysosomes
+
+- part of the endo membrane system
+- not in plants
+- digestive compartments
+
+- contains hydrolitic enzymes
+- used to digest other molecules, sometimes other organelles
+
+- acidic (pH of about 5)
+
+- once molecules are digested, the broken up monomers can cross the
+  lysosome membrane
+
+- some animal cells engulf food, phagophytosis
+  -- white blood cells
+
+- vacuoles
+  -- larger than vesicles
+
+- plants & fungi may have one or more vacuole
+  -- plants usually have a large central vacuole
+  -- tonoplast membrane
+  -- part of the plants endomembrane system
+  -- usually the largest compartment in a plant cell
+  -- storage, wast disposal, and growth
+
+** mitochondria / chloroplasts
+
+- major energy transformers of the cell
+
+- mitochondria: sites of cellular respiration
+  -- use oxygen to get fuels from sugars
+  -- generates atp, co2, water, & some heat
+  -- all eukaryotic cells have mitochondria
+
+- all cells need atp
+
+- chloroplasts: only found in plants & algea
+  -- sites of photosynthesis
+  -- co2 + water + sun: glucose + o2
+  -- sort of like the inverse of cellular respiration
+
+- both
+  -- have a double membrane
+  -- have their own dna
+  -- circular dna (circular dna is also seen in prokaryotes)
+  -- very similar to prokaryotes
+  -- *endo symbiosis*
+
+
+*** mitocondria
+
+- smooth outer layer
+- folded inner membrane
+
+- inner membrane space: space between two membrane layers
+- matrix: contains enzymes for cellular respiration
+
+
+*** chloroplasts
+
+- similar double membrane
+- inside: flattened sacks called the thylakoid
+- fluid inside is called the stroma
+
+- thylakoids are green because they have chloryphyl
+  -- necessary for photosynthesis
+
+**** peroxisome
+
+- h2o2
+  -- can be damaging to the cell
+
+- can break down fatty acids
+- can help detoxify
+
+
+** cytoskeleton
+
+- cell skeleton
+
+
+
+- network of fibers that extend throughout the cell
+  -- throughout the cytoplasm
+- organizes structures and activities of the cell
+
+- provides structural support in the cell
+- also functions in cell motility
+
+- involved in cell division
+
+- made up of 3 types of molecules
+  -- microtubules: thickest kind of involved molecule
+  -- microfilaments (actin): thinnest
+  -- intermediate filaments
+
+
+*** microtubules
+
+- tubulin subunit
+- adding microtubular subunits -> polymerizing
+- removing microtubular subunits -> de-polymerizing
+
+- microtubules will seperate chromosomes before/during cell division
+
+- also involved in cilia & flagela
+  -- made up of microtubules
+  -- make them move
+  -- need a motor molecule
+  -- needs atp
+
+- 9 by 2 arrangement of cillia & flagela microtubules
+- anchored by a basil body (9 by 0 arrangement)
+
+*** microfilaments
+
+- fiber
+- present in all eukaryotic cells
+- play a role in tension
+- responsible for changes in cell shape
+
+- cell cortext: layer of microfilaments
+
+*** intermediate filaments
+
+- bear tension
+- composed of a diverse class of proteins
+  -- carotenes
+
+- more permenant fixtures of cells
+
+- function in cell shape
+- anchoring the nucleus
+
+- *makeup nuclear lamina*
+
+- defects in these filaments can call lu-garricks disease (ALS)
+
+** stay
+
+- plant cells have a cell wall
+- all cells have a cell membrane
+- plant cell walls composed of various substances (mainly cellulose)
+
+- channels through these walls for communication
+  -- plasma desmada
+  -- allows cytoplasm of neighboring cells to be continuous
+
+- some animal cells will have an extracellular matrix
+  -- functions in support, adhesion, movement, and regulation
+  -- collagen, fibronectin, proteoglycan complex
+  -- glyco proteins (major glycoprotein is collagen, ~40% of protein in
+  the human body)

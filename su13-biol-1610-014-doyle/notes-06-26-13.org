@@ -1,0 +1,137 @@
+* ch 9, cellular respiration
+
+- oxygen & organic fuel (glucose or similar) release a lot of co_2 & water & energy
+- in eukaryotes it occures for the most part in the mitochondria
+- the specific reaction for glucose
+
+   C_6 H_12 O_6 + 6 O_2 -> 6 CO_2 + 6 H_2O + ATP + Heat
+
+- catabolic, exergonic reaction
+- will generate ATP so the cell can get work DONE
+- redox reactions: transfer of electrons from one reaction to another
+  -- reduction oxidation
+  -- loss of electrons from one substance and the addition to another
+
+*pneumonics*
+- LEO GER
+  -- LEO: lose electrons oxidize
+  -- GER: gain electrons reduction
+- OILRIG: oxidation is loss, reduction is gain
+
+- oxidation & reduction always go together
+  -- if something is losing electrons, something must gain electrons
+- energy has to be added to pull an electron away from an atom
+  -- depends on the electronegativity of the atom
+- a redox reaction located close to oxygen, it actually releases potential energy
+
+- cellular respiration, electrons are pulled away from molecules and given to oxygen
+
+- in the above glucose reaction
+  -- oxidation: C_6 H_12 O_6 ----> 6 CO_2
+  -- reduction: 6 O_2 -----> 6 H_2 O
+
+** electron shuttle
+- cellular respiration does not work in one step
+  -- it would be a bit explosive
+- glucose gets oxidized in a series of steps
+- NAD+ is our electron shuttle, it escorts our electrons along the pathway
+  -- to the electron transport chain
+  -- nicotinamide adanine dinucleotide?
+  -- picks up to electrons, along with a hydrogen ion
+  -- electron carrier
+- dehydrogenase will remove the pair of hydrogen atoms from the glucose
+  -- NAD+ -> NADH (reduction)
+  -- NAD+ is the oxidized form
+- electrons lose very little potential energy when transfered to NAD+
+- typical destination for the NADH is the electron transport chain
+- FAD is like a taxi; NAD+ is like a limo
+  -- FADH2 once it picks up it's passenger
+  -- anebolic?
+
+- the electron transport chain breaks the fall o fH_2 + 1/2 O_2 -> H_2 O
+  -- controlled release
+
+- electron transport chain is made up mostly of protein molecules
+- built into the inner membrane of mitochondria
+- cascade down the chain
+- we can say that, oxygen pulls electrons down this chain in an energy yeilding cascade
+
+- glycolysis, citric acid cycle, oxidative phospholilation (electron transport chain) + chemiosmosis
+
+** Stage 1: glycolysis
+- occurs in the cytosal
+- starts with glucose
+- end with 2 pyruvate
+- breaks sugar in half
+- convert pyruvate into acetyl coenzyme A
+  -- goes into citric acid cycle
+
+- 10 steps
+- glucose -> glucose 6-phosphate -> fructose 6-phosphate
+  -- step 1: hexokinase (glucose -> glucose 6-phosphate)
+  -- step 2: phosphoglucoisomerase (glucose 6-phosphate -> fructose 6-phosphate, isomer)
+  -- TODO list and understand steps
+- requires a little bit of energy to start, but has an energy payoff phase
+- kinase are involved in phosphorilation
+
+- first 5 steps, energy investment
+- second 5 steps, energy payoff
+
+*** remember
+- we need to know where each step is occuring
+- what the starting inputs are
+- what the products are
+
+** Stage 2: citric acid cycle
+- takes place in mitochondrial matrix
+  -- ACOA
+- some CO_2 is produced in this step
+- ACOA is oxidized to form CO_2
+
+- if oxygen is present, pyruvate can go into the mitochondria & go through the citric acid cycle
+  -- pyruvate -> Acetyl CoA
+     --- decarboxylation
+     --- reduce NAD+ -> NADH
+
+- 8 steps
+  - all the carbons will get released as CO_2
+  - start & finished with oxaloacetate
+
+- the point at which glucose is completely oxidized to form CO_2
+- all ATP in glycolysis & citric acid cycle is substrate level phosphorilation
+
+*** remember
+- where
+- what it starts with
+- what it's named after
+- does it have a substrate level phosphorilation
+- end products (what's produced)
+
+** Stage 3: electron transport chain
+- needs oxygen
+  -- how long can we live without oxygen?
+  -- metabolism slows in cold water drowning
+- oxidative phosphorilation
+  -- ~90% of the ATP
+- coupled with chemiosmosis to make ATP
+
+- NADH, FADH_2
+
+- chemiosmosis
+  -- oxidative phosphorilation
+  -- ATP synthase
+
+*** remember
+- Q, CoQ 10
+- cytochromes
+
+** anaerobic
+   - the condition where no oxygen is present
+   - some prokaryotes
+   - use a different final electron acceptor at the bottom of the electron transport chain
+     -- like sulfur
+** fermentation
+   - uses only substrate level phosphorilation
+   - occurs without oxygen present (anaerobic)
+   - only glycolysis
+   - alcohol fermentation

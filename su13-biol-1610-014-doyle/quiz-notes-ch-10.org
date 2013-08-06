@@ -1,99 +1,99 @@
 * 1. pre-test question 3
 
 The photosynthetic membranes are found in the _____ in plant cells.
-The photosynthetic membranes are found in the _____ in plant cells.
-	 mitochondria
-	 nucleus
-	 Golgi apparatus
-	 chloroplasts
-	 endoplasmic reticulum
+
+a. mitochondria
+b. nucleus
+c. Golgi apparatus
+d. chloroplasts
+e. endoplasmic reticulum
 
 * 2. pre-test question 4
 
 In the electromagnetic spectrum, the type of radiation that we call visible light occurs between _____.
-In the electromagnetic spectrum, the type of radiation that we call visible light occurs between _____.
-	 ultraviolet radiation and infrared radiation
-	 X-rays and ultraviolet radiation
-	 infrared radiation and microwaves
-	 radio waves and microwaves
-	 infrared radiation and radio waves
+
+a. ultraviolet radiation and infrared radiation
+b. X-rays and ultraviolet radiation
+c. infrared radiation and microwaves
+d. radio waves and microwaves
+e. infrared radiation and radio waves
 
 * 3. pre-test question 5
 
 Which of the following is a product of the light reactions of photosynthesis?
-Which of the following is a product of the light reactions of photosynthesis?
-	 water and CO2
-	 oxygen, ATP, and NADPH
-	 NADP+ and RuBP
-	 high-energy photons
-	 glyceraldehyde-3-phosphate
+
+a. water and CO2
+b. oxygen, ATP, and NADPH
+c. NADP+ and RuBP
+d. high-energy photons
+e. glyceraldehyde-3-phosphate
 
 * 4. pre-test question 6
 
 When light strikes chlorophyll molecules, they lose electrons, which are ultimately replaced by _____.
-When light strikes chlorophyll molecules, they lose electrons, which are ultimately replaced by _____.
-	 oxidizing glucose
-	 removing them from NADPH
-	 breaking down ATP
-	 fixing carbon
-	 splitting water
+
+a. oxidizing glucose
+b. removing them from NADPH
+c. breaking down ATP
+d. fixing carbon
+e. splitting water
 
 * 5. pre-test question 7
 
 Photosynthesis is a redox reaction. This means that H2O is _____ during the light reactions and CO2 is _____ during the Calvin cycle.
-Photosynthesis is a redox reaction. This means that H2O is _____ during the light reactions and CO2 is _____ during the Calvin cycle.
-	 consumed...consumed
-	 reduced...oxidized
-	 oxidized...reduced
-	 consumed...reduced
-	 reduced...reduced
+
+a. consumed...consumed
+b. reduced...oxidized
+c. oxidized...reduced
+d. consumed...reduced
+e. reduced...reduced
 
 * 6. pre-test question 8
 
 Which of the following products of the light reactions of photosynthesis is consumed during the Calvin cycle?
-Which of the following products of the light reactions of photosynthesis is consumed during the Calvin cycle?
-	 ADP + Pi
-	 oxygen
-	 water
-	 NADPH
-	 sugar
+
+a. ADP + Pi
+b. oxygen
+c. water
+d. NADPH
+e. sugar
 
 * 7. pre-test question 9
 
 The overall function of the Calvin cycle is _____.
-The overall function of the Calvin cycle is _____.
-	 splitting water
-	 making sugar
-	 capturing sunlight
-	 oxidizing glucose
-	 producing carbon dioxide
+
+a. splitting water
+b. making sugar
+c. capturing sunlight
+d. oxidizing glucose
+e. producing carbon dioxide
 
 * 8. pre-test question 10
 
 C4 plants occur more commonly in desert conditions because _____.
-C4 plants occur more commonly in desert conditions because _____.
-	 they store carbon by incorporating CO2 into organic acids that are later catabolized
-	 they produce carbon dioxide internally via photorespiration
-	 they produce water as a product of their photosynthetic pathways
-	 the stomata open at night and close in the day
-	 they can fix carbon at the lower CO2 concentrations that develop when the stomata are closed
+
+a. they store carbon by incorporating CO2 into organic acids that are later catabolized
+b. they produce carbon dioxide internally via photorespiration
+c. they produce water as a product of their photosynthetic pathways
+d. the stomata open at night and close in the day
+e. they can fix carbon at the lower CO2 concentrations that develop when the stomata are closed
 
 * 9. pre-test question 2
 
 The ultimate source of energy to support most life on Earth is _____.
-The ultimate source of energy to support most life on Earth is _____.
-	 chemosynthetic microbes
-	 sunlight
-	 geothermal heat
-	 photosynthetic plants
-	 the carbon cycle
+
+a. chemosynthetic microbes
+b. sunlight
+c. geothermal heat
+d. photosynthetic plants
+e. the carbon cycle
 
 * 10. question 2
 
 Which of the following sequences correctly represents the flow of electrons during photosynthesis?
-Which of the following sequences correctly represents the flow of electrons during photosynthesis?
-	   NADPH  Calvin cycle
-	 NADPH  chlorophyll  Calvin cycle
-	 NADPH  electron transport chain
-	 NADPH
-	   photosystem I  photosystem II
+
+a. NADPH  Calvin cycle
+b. NADPH  chlorophyll  Calvin cycle
+c. NADPH  electron transport chain
+d. NADPH
+e. photosystem I  photosystem II

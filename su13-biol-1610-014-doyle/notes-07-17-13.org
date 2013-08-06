@@ -1,0 +1,19 @@
+* ch 14
+
+- complete dominance in inheritance
+- codominance in inheritance
+- incomplete dominance (middle)
+- blood types, incomplete dominance
+- epistatic genes
+- dyhybrid cross
+
+** quantitative characters
+   - don't vary in an either/or manner
+   - polygenic inheritance: additive effect of 2 or more genes on a single character
+     -- skin pigment in humans (3 gene pairs that make this one up)
+
+
+* TODO extra credit
+- draw out dyhybrid cross
+  -- figure with the dogs
+  -- P, F1

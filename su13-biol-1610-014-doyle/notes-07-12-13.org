@@ -1,0 +1,129 @@
+* ch 13
+
+** meiosis
+
+- end up with 4 different haploid cells
+  -- all different
+
+- interphase
+  -- chromosomes are replicated
+  -- similar to s-phase
+
+- all of the homologous chromosomes pair up
+- synaptineal comlpex
+- tetrat
+- chiasma
+  -- chi: greek letter for x
+  -- x chromosome regions
+  -- homologous chromosomes are exchanging dna
+  -- crossing over
+
+- nucleoulus disappears
+- chromosome pairs move towards the metaphase plate
+- pro phase 1 takes about 90% of the time for meiosis
+
+- metaphase 1
+  -- homolougous pairs of chromosomes line up on the plate
+  -- easily distinguishable from the meta phase of mitosis
+
+- anaphase
+  -- homologous chromosomes are going to seperate
+
+- tilaphase
+  -- things reform
+
+- 46 chromosomes line up in mitosis
+- 23 pairs line up in meiosis
+
+- independent assortment, the random alignment on the metaphase plate
+  -- ultimately determines which sister cell they end up in
+
+- meiosis produces two sister cells that are different
+
+- miosis reduced the chromosomes in half
+
+- 3 events unique to meiosis
+  -- synapsis
+  -- genetic rearrangement, crossing over
+  -- random fertilization
+
+- end results are different
+  -- mitosis
+     --- 1 division
+     --- 2 diploid
+  -- meiosis
+     --- 2 divisions
+     --- 4 haploid
+
+- synapsis
+
+- crossing over
+  -- combinous chromosomes
+  -- for humans 1-3 crossovers is common
+  -- occurs during pro-phase 1
+  -- over 8 million different combinations
+  -- 46 choose 23
+
+- random fertilization
+  -- causes a lot more variation
+
+* ch 14
+
+- mendel
+  -- monk in austria
+  -- 1800
+  -- inheritance
+  -- statistics
+
+- around the same time as darwin
+  -- 1859-1860
+
+- darwin's research was understood, but not accepted
+- mendel's work wasn't really understood, and his work was rediscovered
+  in the early 1900
+
+- mendel discovered the particulate nature of inheritance
+  -- he thought there was some kind of particle that accounts for
+  inheritance
+  -- genes
+
+- discovered the basics of genetics
+  -- careful experiments with garden peas
+- heritable features
+  -- characters
+  -- flower color, seed shape, seed color
+  -- traits; variants for a character
+
+- he would cut off stamen to prevent self fertilization
+  -- manually dust the flowers with pollen allowing selection of breeding
+- first generation were all purple
+- true breeding
+- hybridization
+- p generation, f1 generation
+  -- f2 generation
+- discovered 2 fundamental principles of heredity
+  -- law of segregation
+  -- law of independent assortment
+
+- law of segregation
+  -- only saw the dominant character in the f1 generation
+  -- only purple flowers
+  -- if allowed to self polinate or cross polinate amongst the f1
+  generation
+     --- 1/4 would show the recessive trait again
+  -- monohybrid crosses
+     --- looking at one trait at a time
+
+- PP; homozygous dominant
+- pp; homozygous recessive
+- Pb; heterozygous, will have the dominant trait
+
+- law of independent assortment
+  -- genes on different chromosomes are indepentantly inherited
+  -- yellow doesn't always fit with round, etc.
+- linked genes: traits that are close to eachother and are often
+  inherited together
+
+- multiplication rule
+  -- P(E) = 1
+  -- \sum_i P(e_i), where e \in E

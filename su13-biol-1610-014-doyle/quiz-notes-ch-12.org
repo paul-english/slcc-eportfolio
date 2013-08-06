@@ -1,0 +1,93 @@
+* 1. pre-test question 2
+
+A human bone marrow cell, in prophase of mitosis, contains 46 chromosomes. How many chromatids does it contain?
+A human bone marrow cell, in prophase of mitosis, contains 46 chromosomes. How many chromatids does it contain?
+	 92
+	 23 or 46, depending on the portion of prophase examined
+	 46
+	 46 or 92, depending on the portion of prophase examined
+	 23
+
+* 2. pre-test question 3 copy
+Why is it difficult to observe individual chromosomes with a light microscope during interphase?
+
+Why is it difficult to observe individual chromosomes with a light microscope during interphase?
+	 They have uncoiled to form long, thin strands (chromatin).
+	 Sister chromatids do not pair up until division starts.
+	 They leave the nucleus and are dispersed to other parts of the cell.
+	 The DNA has not been replicated yet.
+	 The spindle must move them to the metaphase plate before they become visible.
+
+* 3. pre-test question 4
+Which of the following is true of kinetochores?
+Which of the following is true of kinetochores?
+	 They attach to the ring of actin along the cytoplasmic surface of the plasma membrane, causing the actin to contract to form the cleavage furrow.
+	 They are located at the center of the centrosome; their function is to organize tubulin into elongated bundles called spindle fibers.
+	 They are sites at which microtubules attach to chromosomes.
+	 They are the primary centromere structures that maintain the attachment of the sister chromatids prior to mitosis.
+	 They interdigitate at the cell's equator and then move apart, causing the cell to elongate.
+
+* 4. pre-test question 5
+Which of the following correctly matches a phase of the cell cycle with its description?
+Which of the following correctly matches a phase of the cell cycle with its description?
+	 G1: follows cell division
+	 S: immediately precedes cell division
+	 M: duplication of DNA
+	 G2: cell division
+	 All of the above are correctly matched.
+
+* 5. pre-test question 7
+Which of the following is found in binary fission but not in mitosis?
+Which of the following is found in binary fission but not in mitosis?
+	 The result produces 2 nuclei.
+	 Duplicated chromosomes attach to the plasma membrane.
+	 Following the process, a membrane separates the 2 copies.
+	 Replicated strands of DNA separate.
+	 Replication of DNA begins at an origin.
+
+* 6. question 1
+Through a microscope, you can see a cell plate beginning to develop across the middle of a cell and nuclei forming on either side of the cell plate. This cell is most likely
+Through a microscope, you can see a cell plate beginning to develop across the middle of a cell and nuclei forming on either side of the cell plate. This cell is most likely
+	 a bacterial cell dividing.
+	 a plant cell in the process of cytokinesis.
+	 an animal cell in the S phase of the cell cycle.
+	 a plant cell in metaphase.
+	 an animal cell in the process of cytokinesis.
+
+* 7. question 2
+Vinblastine is a standard chemotherapeutic drug used to treat cancer. Because it interferes with the assembly of micro-tubules, its effectiveness must be related to
+Vinblastine is a standard chemotherapeutic drug used to treat cancer. Because it interferes with the assembly of micro-tubules, its effectiveness must be related to
+	 myosin denaturation and inhibition of cleavage furrow formation.
+	 suppression of cyclin production.
+	 disruption of mitotic spindle formation.
+	 inhibition of DNA synthesis.
+	 inhibition of regulatory protein phosphorylation.
+
+
+* 8. question 5
+In the cells of some organisms, mitosis occurs without cytoki-nesis. This will result in
+In the cells of some organisms, mitosis occurs without cytoki-nesis. This will result in
+	 cells that are unusually small.
+	 cells lacking nuclei.
+	 cell cycles lacking an S phase.
+	 destruction of chromosomes.
+	 cells with more than one nucleus.
+
+
+* 9. question 6
+Which of the following does not occur during mitosis?
+Which of the following does not occur during mitosis?
+	 separation of the spindle poles
+	 replication of the DNA
+	 condensation of the chromosomes
+	 separation of sister chromatids
+	 spindle formation
+
+* 10. question 9
+The drug cytochalasin B blocks the function of actin. Which of the following aspects of the animal cell cycle would be most disrupted by cytochalasin B?
+The drug cytochalasin B blocks the function of actin. Which of the following aspects of the animal cell cycle would be most disrupted by cytochalasin B?
+	 DNA synthesis
+	 cleavage furrow formation and cytokinesis
+	 cell elongation during anaphase
+	 spindle attachment to kinetochores
+	 spindle formation

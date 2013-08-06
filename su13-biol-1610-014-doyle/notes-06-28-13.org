@@ -1,0 +1,143 @@
+* ch 9, cont'd
+- cellular respiration
+- citric acid cycle
+- electric transport change
+
+- glycolosis occurs in the cytosal, glucose to pyruvate
+- phosphfructokinase
+- citric acid cycle occurs in the mitochondrial matrix
+  -- needs acetyl coA
+  -- end products: 2CO_2 3NADH FADH_2 ATP?
+  -- 4CO_2 6NADH 2FADH_2 2ATP, because there are 2 pyruvate
+- electron transport chain
+- oxidative phosphorilation: provides most of our ATP
+- substrate level phosphorilation
+- cells can switch to fermentation when no oxygen is present
+
+** getting energy from food
+- we break down our foods into monomers
+- starches -> monosaccharides (specifically glucose)
+- glycogen (animal starch) stored in liver & (TODO OTHER Place)
+- other carbohydrates can be converted into glucose
+
+- proteins, broken down into amino acids
+  -- if they're essential, they'll likely be used & recycled in the body
+  -- otherwise they'll be used as fuel
+  -- deaminate them, remove the amino group
+     --- this is why a very high protein diet can be tough on your kidneys
+  -- deaminated compounds can be used in various steps of the cellular respiration cycle
+
+- fats
+  -- glycerol, fatty acids
+  -- glycerol used in glycolysis
+  -- fatty acids can be used with/as acetyl coA
+
+- anabolic pathways
+- we can store additional food as fat
+
+** cellular respiration control
+- cellular respiration can be controlled
+- feedback regulation
+- inhibitors & stimulators
+  -- regulatory or alosteric enzymes
+- we can speed or slow down ATP production
+
+- phosphofructokinase (the one enzyme we absolutely need to remember in this chapter)
+  -- kinase, phosphorilation
+  -- fructose
+  -- earliest step in the process that commits the molecule to the process
+  -- inhibitors would have to stop it before this step
+  -- by controlling this rate it can speed up or slow down the entire process
+  -- stimulated by AMP, adenosine monophosphate
+     --- high levels when ATP is very low
+  -- also inhibited by citrate (citric acid cycle)
+     --- citric acid traffic jam
+     --- helps keep glycolysis & citric acid cycle synchronized
+
+* ch 10, photosynthesis
+- forgot to take this quiz last night... doh!
+
+- autotrophs (self-feeders)
+  -- produce they're own molecules from CO_2
+  -- sources of organic compounds
+- photoautotroph: uses light
+- heterotrophs: us, animals, consumers
+  -- dependent on autotrophs
+
+- chloroplasts: are the major sites of photosynthesis
+  -- chlorophyll is green
+  -- chlorophyll absorbs the light energy & drives the production of food molecules
+
+- chlorophyll
+  -- 2 membranes
+  -- stroma & thylokoids
+  -- stacked thylokoids: granum
+
+- basic equation for photosynthesis
+
+    6CO_2 + 6H_2O + (light) --> C_6 H_12 O_6 + 6 O_2
+
+- we don't really produce glucose in photosynthesis
+  -- we produce 2 3-carbon sugars which can easily be converted into glucose
+- the O_2 comes from the splitting of water
+- photosynthesis is a redox reaction
+
+- light reactions & calvin cycle
+
+- light reactions
+  -- occurs in the thylakoid membrane
+
+- calvin cycle (carbon fixation)
+  -- occurs in the stroma
+
+
+** energy from the sun
+- electromagnetic energy
+- traveling in waves
+- mixing all colors we get white light
+
+*** absorbance spectrum of chloryphyl
+- chlorophyll a
+- chlorophyll b
+- carotenoids
+
+- absorption spectrum
+- action spectrum
+- engelmann's experiment
+
+*** absorbing photons
+
+- photon strikes chlorophyll, which energizes one of it's electrons and moves it to a higher orbital
+- sometimes in the excited state it produces heat and flourescence when dropping back down to it's ground state
+- usually in photosynthesis, the excited electron is stolen for use in the photosynthesis process
+
+*** light system
+- thylakoid membrane
+- reaction center
+- lots of pigment molecules
+- conceptually like a satellite dish
+
+*** reaction center
+- protein complex
+- primary electron receptor
+
+- 2 types of photosystems
+  - type I & II
+
+- type I: P700
+- type II: P680
+
+- they were named 1 & 2 based on when they were discovered, not how they are used
+
+*** linear electron flow
+- produces both NADP + H & ATP
+- chemiosmosis, photophsosphorilation
+
+*** cyclic electron flow
+- occurs in certain conditions, only photosystem 1 gets used
+- produces no NADP, no O_2
+- only produces ATP
+- linear electron flow doesn't produce all the ATP necessary
+
+we have an array of length x, and given a percentage we want to know how many samples to pull
+- we can simply multiply x with the percentage as a decimal to get what we want

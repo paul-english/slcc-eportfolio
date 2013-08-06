@@ -1,0 +1,204 @@
+* ch 5
+
+** proteins
+
+*** amino acids
+
+- linking 2 amino acids requires dehydration
+- creates a peptide bond
+- linking amino acids requires an ensyme called the ribosome
+- ribosome has messenger rna, copy of the gene
+  -- reads 3, forms, reads 3, forms, ...
+
+- carboxyl of one amino acid reacts with the hydroxyl of another to create a peptide bond
+
+*** enzymes
+
+- protein function dependent on shape
+- shape is dependent on amino acid sequence
+
+- enzymes usually end in -ase
+  -- sometimes end in -zyme (older)
+  -- lysizyme, helix (coil, spiral)
+
+- Globular: many proteins are roughly spherical
+- Fibrous: others may be shaped like long fibers (collogen, silk)
+
+- most proteins recognize & can bind to other molecules (foreign substances)
+  -- usually have a pocket or group that binds to the other molecule
+  -- it will usually convert that molecule to another product
+
+*** protein structure
+
+**** Primary: sequence of amino acids
+**** Secondary: (two kinds) polypeptide segments are coiled or folded.
+- alpha helix (coiled) plenty in our hair, in lysozyme
+- beta pleated sheets (folded) fingernails / toenails
+- CAUSED BY: formed by hydrogen bonding at regular intervals along the amino acid backbones
+
+**** Tertiary: taking into account the interactions of the side chains (different R groups)
+- overall shape of the polypeptide
+- interactions depend on the specific properties of the side-chains
+- localized regions of interaction that can occur
+- can form hydrophobic interactions (non-polar)
+  --- in globular proteins these hydrophobic regions are often in the center
+- can form polar side chains
+- can form ionic bonds in side chains
+- dysulphide bridge: covalent bridges
+
+**** Quantinary: 2 or more polypeptides that come together to form the functional protein
+- all the same interactions as a tertiary structure
+  -- hydrogen
+  -- ionic
+  -- dysulphide
+  -- etc
+
+transferitine: has 4 different polypeptides
+hemoglobin: 4 polypeptides, 2 identical alpha chains & 2 identical beta chains
+
+*** native confirmation of a protein
+
+**** denaturation / renaturation
+
+
+                 ->     Denaturation    ->
+
+(Normal protein)                             (Denatured Protein)
+
+                 <-     Renaturation    <-
+
+
+Heating up an egg-white -> denaturation (can't be renatured)
+
+- chemical cahnges like pH & salt concentration can denature proteins
+  -- interupt the secondary, tertiary, and Quantinary structure
+  -- interrupting hydrogen bonds can do this
+
+- denaturation will change the function (structure) of a protein
+- sometimes you can renature the protein (bring it back to it's normal form): restores function
+
+
+*** chaperonin proteins
+
+- assist in the folding of other proteins
+- if we assist proteins in a test tube, they will typically fold correctly. In the cell teh polypeptide uses the chaperonin protein to fold correctly.
+- messenger RNA
+  -- DNA ultimately programs protein
+
+*** DNA
+
+- Primary structure of a protein is programmed by The Gene (DNA)
+- DNA is a polymer of nucleic acids
+- nucleic acids store & transmit information
+
+- DNA can inform it's own construction
+  -- seperate the dna, and one side can be used to make the other side
+
+- DNA informs RNA synthesis
+
+1. Synthesis of mRNA
+2. Movement of mRNA into cytoplasm
+3. Synthesis of protein
+
+- Messenger RNA is a copy of the DNA information
+- codon, triplet
+
+- DNA is usually a long molecule, consisting of hundreds or thousands of genes. We usually call this a chromosome.
+  -- prokaryotes: usually circular chromosome
+  -- eukaryotes: usually linear chromosome
+
+*Flow of genetic information*
+- DNA -> RNA -> Proteins
+
+- ribosome is the site where polypeptides are synthesized
+
+*** nucleotides
+
+- a nucleic acid strand is a polymer of nucleotides
+  -- poly-nucleotide
+
+- a nucleotide has 3 parts
+  -- Phosphate
+  -- pentose sugar
+  -- nitrogenous base
+
+- if there is no phosphate group, we call it a nucleocide
+
+- 2 kinds
+  -- pyrimidines
+  -- purines
+
+- 3 important pyrimidines
+  -- cytosine
+  -- thymine
+  -- uracil
+- 2 important purines
+  -- adenine
+  -- guanine
+
+- Use the first letter of the base to represent nucleotides
+  -- DNA: GATC
+  -- RNA: CUAG
+
+- Ribose is the sugar used in RNA
+- Deoxyribose is the sugar used in DNA
+  -- removed an oxygen from carbon number 2
+
+- *join nucleotides using a phosphodiester bond*
+  -- covalent bond between the phosphate of one nucleotide and the sugar of the next
+
+- DNA 3' end & a 5' end
+
+- the two strands of dna run anti parallel
+- the nitrogenous bases are the rungs, held together by hydrogen bonds
+
+
+5' -  A  T  G  C  -  3'
+3' -  T  A  C  G  -  5'
+
+The order of bases in a gene will specify the amino acids that are synthesized
+
+- 3 nucleotides will encode one amino acid
+
+* ch 6: cells
+
+- Won't be on next weeks exam
+
+- all organisms are made up of cells
+- cells are the smallest living unit
+- many different single celled organisms, and many different multi-cellular organisms
+- too small to see, so we use microscopes
+  -- in the lab we use light microscopes (refract light to enlarge the view of the specimin)
+
+*smallest to largest*
+1. atoms
+2. small molecules
+3. lipids
+4. proteins
+5. ribosomes
+6. viruses
+7. small bacteria
+8. mitochondria
+9. most bacteria
+10. nucleus
+11. most plant and animal cells
+12. human egg
+13. frog egg
+14. chicken egg
+15. length of some nerve & muscle cells
+16. human height
+
+** cell fractionation
+
+- tissue
+- We can use a centrifuge to spin test tubes and seperate heavy and light things in tissue
+- chloroplasts from spinach
+- we want to break the cells up without destroying them
+- chop spinach, put it into a buffer, pulse blend a bit
+- pour it into test tubes and balance in a centrifuge
+- spin at a relatively low speed
+- the stuff at the bottom, we call the pellet
+- the liquid on top is a supernatant
+- put the supernatant into a clean toom, spin in the centrifuge again
+- repeat, to collect the smaller & smaller things
+- eventually we'll get a fraction that has all chloroplasts in it.

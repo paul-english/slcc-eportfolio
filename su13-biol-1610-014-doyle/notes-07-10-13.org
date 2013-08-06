@@ -1,0 +1,78 @@
+* ch 12
+
+- mitosis
+- cell division
+- diploid 46 chromosomes
+- gamines (sex cells) 23 chromosomes, haploid
+
+** cell cycle
+*** interphase
+    - longest phase
+    - cell is growing & developing
+
+**** G_1
+
+**** S (DNA synthesis)
+     - DNA is being duplicated
+     - sister chromatids
+       -- 92 after S phase (why? 2 * 46 chromosomes)
+
+**** G_2
+
+*** mitotic phase
+
+**** mitosis
+    - division of the nucleus
+    - 5 sub phases in mitosis
+
+***** phases
+
+****** pro-phases
+       - chromatid condenses, and thickens into chromosomes
+         -- 2 sister chromosomes held together by the centromere
+       - nucleolus disappear
+         -- have to stop making ribosomal rna, we're dividing the cell
+       - in cytoplasm, microtubules spin
+****** pro meta phase
+       - looks like the nucleus has exploded
+       - some microtubules of the spindle begin to interact with the chromosomes
+       - each sister chromatid has a conneticore (connecticut?) at the region of the centromere
+         -- where the microtubules attach
+         -- connecticore microtubules
+       - other microtubules overlap with eachother, and the connecticore
+         microtubules to elongate the cell
+         -- non cennecticore microtubules
+
+****** meta phase
+       - centrosomes are at opposite poles of the cell
+       - stage in which all the chromosomes line up
+       - meta phase plate
+         -- imaginary line between the two poles of the cell
+
+****** anna phase
+       - shortest phase
+       - the sister chromatids are going to seperate
+       - connecticore microtubules begin to shorten, pulling apart the sister chromatids
+       - the non-connecticore tubules are still pushing the poles apart
+       - by the end, the two poles should have equal groups of
+         chromosomes
+
+****** t... phase (?)
+       - daughter nuclei reform at the 2 poles
+       - chromosomes are going to relax back into the chromatid
+       - nucleolus is reformed
+       - once nuclei are reformed, mitosis is complete
+
+
+**** cytokinesis
+    - without cytokinesis we would have a two nucleus cell
+    - many cells don't continue to divide
+      -- neurons, muscles, liver
+      -- they may divide
+      -- arrested in the G_0 phase
+    - division of the cytoplasm
+    - in animal cells we form a cleavage furrow
+      -- made up of actin and myosin
+      -- pinches the cytoplasm in half
+
+* ch 13

@@ -2,99 +2,98 @@
 
 Which of the following statements about a typical plasma membrane is correct?
 
-1. The hydrophilic interior of the membrane is composed primarily of the fatty acid tails of the phospholipids.
-2. The two sides of the plasma membrane have different lipid and protein composition.
-3. Carbohydrates on the membrane surface are important in determining the overall bilayer structure.
-4. Phospholipids are the primary component that determines which solutes can cross the plasma membrane.
-5. The plasma membrane is a covalently linked network of phospholipids and proteins that controls the movement of solutes into and out of a cell.
++1. The hydrophilic interior of the membrane is composed primarily of the fatty acid tails of the phospholipids.+
+*2. The two sides of the plasma membrane have different lipid and protein composition.*
++3. Carbohydrates on the membrane surface are important in determining the overall bilayer structure.+
++4. Phospholipids are the primary component that determines which solutes can cross the plasma membrane.+
++5. The plasma membrane is a covalently linked network of phospholipids and proteins that controls the movement of solutes into and out of a cell.+
 
 * 2. pre-test question 2
 
 Which of the following best describes the structure of a biological membrane?
 
-1. two layers of phospholipids with proteins embedded between the two layers
-2. two layers of phospholipids with proteins either crossing the layers or on the surface of the layers
-3. a mixture of covalently linked phospholipids and proteins that determines which solutes can cross the membrane and which cannot
-4. a fluid structure in which phospholipids and proteins move freely between sides of the membrane
-5. two layers of phospholipids (with opposite orientations of the phospholipids in each layer) with each layer covered on the outside with proteins
++1. two layers of phospholipids with proteins embedded between the two layers+
+*2. two layers of phospholipids with proteins either crossing the layers or on the surface of the layers*
++3. a mixture of covalently linked phospholipids and proteins that determines which solutes can cross the membrane and which cannot+
++4. a fluid structure in which phospholipids and proteins move freely between sides of the membrane+
++5. two layers of phospholipids (with opposite orientations of the phospholipids in each layer) with each layer covered on the outside with proteins+
 
 * 3. pre-test question 3
 
 The permeability of a biological membrane to a specific polar solute may depend on which of the following?
 
-1. the amount of cholesterol in the membrane
-2. the types of transport proteins in the membrane
-3. the phospholipid composition of the membrane
-4. the presence of unsaturated fatty acids in the membrane
-5. the types of polysaccharides present in the membrane
++1. the amount of cholesterol in the membrane+
+*2. the types of transport proteins in the membrane*
++3. the phospholipid composition of the membrane+
++4. the presence of unsaturated fatty acids in the membrane+
++5. the types of polysaccharides present in the membrane+
 
 * 4. pre-test question 5
 
 Which of the following statements about osmosis is correct?
 
-1. If a solution outside the cell is hypertonic compared to the cytoplasm, water will move into the cell by osmosis.
-2. The presence of aquaporins (proteins that form water channels in the membrane) should speed up the process of osmosis.
-3. If a cell is placed in an isotonic solution, more water will enter the cell than leaves the cell.
-4. Osmotic movement of water into a cell would likely occur if the cell accumulates water from its environment.
-5. Osmosis is the diffusion of water from a region of lower water concentration to a region of higher water concentration.
++1. If a solution outside the cell is hypertonic compared to the cytoplasm, water will move into the cell by osmosis.+
+*2. The presence of aquaporins (proteins that form water channels in the membrane) should speed up the process of osmosis.*
++3. If a cell is placed in an isotonic solution, more water will enter the cell than leaves the cell.+
++4. Osmotic movement of water into a cell would likely occur if the cell accumulates water from its environment.+
++5. Osmosis is the diffusion of water from a region of lower water concentration to a region of higher water concentration.+
 
 * 5. pre-test question 6
 
 In facilitated diffusion, what is the role of the transport protein?
 
-1. Transport proteins organize the phospholipids to allow the solute to cross the membrane.
-2. Transport proteins provide a hydrophilic route for the solute to cross the membrane.
-3. Transport proteins provide a low-resistance channel for water molecules to cross the membrane.
-4. Transport proteins provide a protein site for ATP hydrolysis, which facilitates the movement of a solute across a membrane.
-5. Transport proteins provide the energy for diffusion of the solute.
++1. Transport proteins organize the phospholipids to allow the solute to cross the membrane.+
+*2. Transport proteins provide a hydrophilic route for the solute to cross the membrane.*
++3. Transport proteins provide a low-resistance channel for water molecules to cross the membrane.+
++4. Transport proteins provide a protein site for ATP hydrolysis, which facilitates the movement of a solute across a membrane.+
++5. Transport proteins provide the energy for diffusion of the solute.+
 
 * 6. pre-test question 9
 
 Active and passive transport of solutes across a membrane typically differ in which of the following ways?
 
-1. Active transport is usually down the concentration gradient of the solute, whereas passive transport is always against the concentration gradient of the solute.
-2. Active transport always involves the utilization of cellular energy, whereas passive transport does not require cellular energy.
-3. Active transport is always faster than passive transport.
-4. Active transport uses protein carriers, whereas passive transport uses carbohydrate carriers.
-5. Active transport is used for ions, passive transport is used for uncharged solutes.
-
++1. Active transport is usually down the concentration gradient of the solute, whereas passive transport is always against the concentration gradient of the solute.+
+*2. Active transport always involves the utilization of cellular energy, whereas passive transport does not require cellular energy.*
++3. Active transport is always faster than passive transport.+
++4. Active transport uses protein carriers, whereas passive transport uses carbohydrate carriers.+
++5. Active transport is used for ions, passive transport is used for uncharged solutes.+
 
 * 7. pre-test question 10
 
 Which of the following correctly describes some aspect of exocytosis or endocytosis?
 
-1. Exocytosis and endocytosis change the surface area of the plasma membrane.
-2. Endocytosis and exocytosis involve active transport.
-3. The inner surface of a transport vesicle that fuses with or buds from the plasma membrane is most closely related to the inner surface of the plasma membrane.
-4. Both processes provide a mechanism for exchanging membrane-impermeable molecules between the organelles and the cytosol.
-5. These two processes require the participation of mitochondria.
+*1. Exocytosis and endocytosis change the surface area of the plasma membrane.*
++2. Endocytosis and exocytosis involve active transport.+
++3. The inner surface of a transport vesicle that fuses with or buds from the plasma membrane is most closely related to the inner surface of the plasma membrane.+
++4. Both processes provide a mechanism for exchanging membrane-impermeable molecules between the organelles and the cytosol.+
++5. These two processes require the participation of mitochondria.+
 
 * 8. question 1
 
 In what way do the membranes of a eukaryotic cell vary?
 
-1. Phospholipids are found only in certain membranes.
-2. Certain proteins are unique to each membrane.
-3. Only certain membranes of the cell are selectively permeable.
-4. Some membranes have hydrophobic surfaces exposed to the cytoplasm, while others have hydrophilic surfaces facing the cytoplasm.
-5. Only certain membranes are constructed from amphipathic molecules.
++1. Phospholipids are found only in certain membranes.+
+*2. Certain proteins are unique to each membrane.*
++3. Only certain membranes of the cell are selectively permeable.+
++4. Some membranes have hydrophobic surfaces exposed to the cytoplasm, while others have hydrophilic surfaces facing the cytoplasm.+
++5. Only certain membranes are constructed from amphipathic molecules.+
 
 * 9. question 2
 
 According to the fluid mosaic model of membrane structure, proteins of the membrane are mostly
 
-1. embedded in a lipid bilayer.
-2. randomly oriented in the membrane, with no fixed inside-outside polarity.
-3. free to depart from the fluid membrane and dissolve in the surrounding solution.
-4. spread in a continuous layer over the inner and outer surfaces of the membrane.
-5. confined to the hydrophobic interior of the membrane.
+*1. embedded in a lipid bilayer.*
++2. randomly oriented in the membrane, with no fixed inside-outside polarity.+
++3. free to depart from the fluid membrane and dissolve in the surrounding solution.+
++4. spread in a continuous layer over the inner and outer surfaces of the membrane.+
++5. confined to the hydrophobic interior of the membrane.+
 
 * 10. question 3
 
 Which of the following factors would tend to increase membrane fluidity?
 
-1. a greater proportion of relatively large glycolipids compared with lipids having smaller molecular masses
-2. a greater proportion of saturated phospholipids
-3. a greater proportion of unsaturated phospholipids
-4. a relatively high protein content in the membrane
-5. a lower temperature
++1. a greater proportion of relatively large glycolipids compared with lipids having smaller molecular masses+
++2. a greater proportion of saturated phospholipids+
+*3. a greater proportion of unsaturated phospholipids*
++4. a relatively high protein content in the membrane+
++5. a lower temperature+

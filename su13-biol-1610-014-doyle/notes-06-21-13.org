@@ -1,0 +1,190 @@
+* ch 8, cont'd
+
+** substrate binding in an enzyme
+  - active site
+  - enzyme substrate complex
+  - catylize
+  - substrates get converted to product
+
+  - the active site can bend and break bonds in the substrate
+  - brief covalent bonding between a substrate and the active site
+  - the enzyme will always remain
+
+  - enzymes lower senergy of activation
+    1. stressing bonds (bending the molecule/substrate)
+    2. acting as a template (orient the substrate so they can react)
+    3. low ph TODO
+    4. brief covalent bonding between substrate & active site TODO
+
+  - concentration of substrate will affect rate of reaction
+  - the activity of an ezyme is effected by temperature or ph
+  - high temperature of ph can denature the protein, which loses or alters function
+  - there are other chemicals that can also alter an ezymes function
+  - there are optimal environments for each enzyme
+
+** cofactors
+
+  - non protein helpers to an enzyme
+  - usually necessary
+  - they can bind tightly and permanently to an active site
+  - some cofactors bind reversibly with the substrate
+  - depends on the enzyme
+  - zync, iron, copper are some important examples (trace minerals)
+  - coenzyme: a cofactor that is an organic molecule
+    -- vitamins
+
+** inhibitors
+  - some chemicals can selectively inhibit enzymes
+  - if an inhibitor forms covalent bonds with an enzyme it is irreversible
+    -- lead, mercury, cyanide
+  - if an inhibitor binds with weak bonds, the inhibition is reversible
+    -- it will eventually fall off
+  - two kinds of inhibition
+    -- competitive inhibitor: reversible, happens when an inhibitor
+    binds to the active site. compeats with the substrate for the active site.
+    -- noncompetitive inhibitor:  binds to another part of the enzyme
+    (alosteric site)
+
+** alosteric enzymes
+  - regulatory enzymes
+  - they have an alosteric site
+  - a regulatory molecule can bind to an alosteric enzyme changing
+    it. This can enable/stabilize it or inhibit it
+  - can be multi-subunit enzyme
+  - cooperativity
+    -- binding one substrate can make the other active sites more likely
+    to bind in a multi-subunit enzyme
+
+** feedback
+  - alosteric/regulartory enzymes control the rates of key reactions in
+    metabolic pathways
+  - isoleucine (an amino acid, nonessential)
+    -- it will inhibit it's own production, when it's concentration gets
+    too high
+  - multi enzyme complexes
+    -- several enzymes stuck together
+    -- usually of the same pathways
+    -- product of the first reaction becomes the substrate of the next
+
+* optional assignment: paper on an article
+
+- if you do the paper & score 80%, drop lowest midterm exam
+- document is on the mastering biology website
+- due july 19th
+- submit online
+- have to focus on a biological issue, specifically cellular, molecular,
+  or chemical in nature
+  -- medical is almost always appropriate
+  -- should be controversial
+  -- use articles published in the last year
+- peer reviewed journal
+- works cited
+  -- don't plagiarize
+- include copy of articles
+- describe biological focus
+- may need to find out more about the topic
+- define & summarize the issue
+- most important to describe the science of the issue
+- give own opinions or suggestions and comments
+- minimum 3 full pages
+- clear the topic with the teacher
+
+* test your understanding: 6, 7, & 8
+
+** ch 6
+
+1. which structure is not part of the endomembrane system
+   a. nuclear Envelope
+  *b. chloroplast*
+   c. golgi
+   d. plasma membrane
+   e. ER
+
+   - theory of endo-symbiosis
+
+2. which structure is common to both plants & animals
+   a. chloroplasts
+   b. cell wall
+   c. central vacuole
+  *d. mitochondria*
+   e. centriole
+
+3. what is present in a prokaryotic cell
+   a. mitochondria
+  *b. ribosome* (need it to make protein)
+   c. nuclear envelope
+   d. chloroplasts
+   e. ER
+
+4. which structure function pair is mismatched
+   a. nucleolus - ribosomal subunits
+   b. lysosome - intra cellular digestion
+   c. ribosome - protein synthesis
+   d. golgi - protein trafficing
+  *e. microtubule - muscle contraction* (microfilaments not microtubules)
+
+5. cyanide binds to at least one molecule that binds to atp.
+  *a. mitochondria*
+   b.
+   c.
+   d.
+   e.
+
+6. what is the most likely pathway taken by a newly synthesized protein
+   to the cell
+   a. golgi to nucleus
+   b. golgi to er to lysosome
+   c. nucleus to er to golgi
+  *d. er to golgi to vesicles*
+   e. er to lysosomes to vesicles
+
+7. which cell would be best for _somtehing_ lysosomes
+   a.
+   b.
+  *c. phagocyte*
+   d.
+   e.
+
+** ch 7
+
+1. in what ways do the membranes of a eukaryote vary
+   a.
+  *b. certain proteins unique to each different membrane*
+   c. only certain membranes are selectively permeable
+   d. only certain ones are constructed from anthapathic molecules
+   e. some membranes have hydrophobic facing cyto, other have
+   hydrophilic facing cyto
+
+2. Answer: C. embedded in a lipid bilayer
+3. Answer: A.
+4. Answer: ?. passive transport
+
+** ch 8
+
+1. Answer: B.
+2. Answer: C.
+3. Answer: B. glucose to h2o & co2
+4. Answer: ?. increase enzymes
+5. Answer: ?. high optimal temperatures
+6. Answer: E. nothing
+
+* TODO extra credit assignments in ch 9
+- due july 10th
+- 7.5 points each
+- figure 9.9: glycolysis, reproduce this in a way that will help you
+  remember it. Write down the title, write down where it occurs
+  (cytosal). Underline, circle or highlight that. Draw the ten
+  steps. Write down the starting product (glucose). Draw arrow from
+  glucose converted to -> write enzyme (hexocynase) -> glucose 6
+  phosphate -> (phosphoflucto isomerase)-> fructose...
+  -- at bottom write down final products (2nadh, 2piruvate, 2atp)
+
+- figure 9.12
+  -- cytric acid cycle
+  -- write where it occurs (mitochondrial matrix) highlight/underline/circle
+  -- cycle
+  -- starting product (acetyl coenzyme A) highlight
+  -- added to oxaloacetate
+  -- can just write them, don't need to draw all the chemical structures
+  -- at bottom write final products in  one turn of the cycle (2co2,
+  3nadh, 1fadh2, 1atp) highlight

@@ -1,0 +1,61 @@
+* TODO extra credit on citric cycle & glycolosis
+* TODO extra credit report
+* ch 10
+** glycolisis & citric acid cycle
+** photosynthesis
+
+- light reactions
+- thylakoid membrane
+- forms ATP & NADPH & O_2
+
+- calvin cycle
+- occurs in the stroma
+
+*** electron flow
+- linear (non-cyclic) electron flow
+- cyclic flow
+
+- TODO follow through the steps for electron flow, I didn't get good notes on these
+- p680+ strongest biological oxidizing agent known
+- ps1 p700+
+
+*** calvin cycle
+** notes
+- pep carboxylase
+- different types of plants
+
+* ch 11
+- chemical signals
+- signal transduction pathway
+- signal on the cells surface to some kind of response in the cell
+- similar between yeast & animals
+
+- plasmadesmota / gap junctions
+
+- local signaling, paracrin signaling
+- growth factor
+- synaptic signaling
+
+- long distance signaling, hormones
+- endocrin signaling
+
+- reception, transduction, and response
+
+- g protein-coupled receptor
+  -- many types
+  -- all have similarities
+  -- require a g protein structure
+  -- widespread & diverse in functions
+
+- transcription factor
+- intracellular receptor
+
+- plasma membrane receptors
+- some benefits to having multi-step pathways
+- one benefit is that the signal can be greatly amplified
+
+- kinase: phosphorilation
+- widly involved in eukaryotic signaling pathways
+- usually activates a protein
+
+- protein kinase & protein phosphonase

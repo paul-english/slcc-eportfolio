@@ -1,0 +1,93 @@
+* ch 11
+
+- cell signaling
+- protein kinase
+- relay molecules in a signal transduction pathway
+- in a phosphorilation pathway a series of proteins will get phosphated in turn
+- when phosphated they are activated
+- slightly different confirmation
+- protein phosphatase, catalyzes the removal of the phosphate group
+- goes from active to inactive
+- 2% of ours are thought to be kinase's
+
+- water soluble molecules
+- 2 2nd messengers to remember (cyclic AMP, cAMP; Ca+2)
+- many relay molecules are sensitive to the concentration of these 2nd messengers
+- enzymes to remember: phosphofructokinase, ATP synthase, rubisco, pep carboxylase, gtpase, adenylyl cyclase
+- adenylyl cyclase, converts ATP to cyclic AMP (cAMP)
+  -- in response to some kind of extracellular signal
+  -- for example epinephrane
+
+- g protein
+- when adenylyl cyclase is activated it creates many cAMP
+- later phospho diesterase, will convert cAMP to AMP
+
+- cholera: the g-protein can get stuck on in some cases (bad water)
+  -- the cholera toxin keeps the GTP from being hydrolized into GDP
+  -- loss of water & salts from intestinal cells
+
+- many signal molecules can increase the concentration of calcium ions
+  -- Ca+2
+  -- important second messenger
+
+- skipping 11.13, 11.14
+
+- transcription factors, turn genes on
+  -- sometimes they can turn a gene off
+  -- regulate gene expression
+- mRNA
+- ribosome
+
+- sometimes transcription factors will work on several related genes
+- pathways can amplify the response
+  -- can also contribute to the specificity of the response
+  -- hormone effect with epinephrane
+
+- the final step activates an enzyme that breaks down glycogen
+  -- glycogen phosphorilase
+- epinephrane: fight or flight hormone
+  -- glycogen will provide energy
+
+- different kinds of cells have different collections of proteins
+
+- scaffolding proteins, like a keyring ordering many different protein
+  kinases in one place
+
+- apoptosis: programmed cell death
+  -- all cells have a built-in cell suicide system
+  -- mandatory for development
+  -- hypothermia as a treatment for severe heartattack, helps to prevent apoptosis
+
+* reviewing chapter practice questions for test chapters
+  - ch 9, 10, 11
+  - test is monday-wednesday
+
+* ch 12, the cell cycle
+
+- 46 chromosomes
+- chromotin
+- each eukaryotic species has a charateristic numer of chromosomes
+- gamines; egg & sperm
+- all other cells are called somatic cells
+- gamines have half the number of chromosomes
+
+- haploid vs. diploid
+  - diploid, 2 sets of the chromosomes
+
+- in fertilization sperm and egg come together
+
+- variation of the cell cycle that produces the gamines
+  -- myosis
+  -- only in the gonads, (testes, ovaries)
+- mytosis, produces somatic cells
+  -- copies
+  -- division of the nucleus
+  -- usually immediately followed by the division of the cytoplasm (cytokinesis)
+- sister chromatids
+  -- centromere
+- cytokinesis: division of the cytoplasm
+
+- mytotic phase, alternates with interphase in the cell cycle
+  -- mitosis & cytokinesis
+- interphase
+  -- G_1, S (DNA synthesis), G_2

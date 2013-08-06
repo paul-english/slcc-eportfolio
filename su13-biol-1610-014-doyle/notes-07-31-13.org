@@ -1,0 +1,19 @@
+* ch 17 - flow of genetic information
+
+- codones
+- many synonyms
+
+- promotor / terminator
+  (* 450 3)
+
+** genes specify proteins via transcription and translation
+
+** transcription is the dna-directed synthesis of rna
+
+** eukaryotic cells modify rna after transcription
+
+** translation is the rna-directed synthesis of a polypeptide
+
+** mutations of one or a few nucleotides can affect protein stucture and function
+
+** while gene epression differs among the domains of life, the concept of a gene is universal

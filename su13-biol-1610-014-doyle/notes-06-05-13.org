@@ -1,0 +1,291 @@
+* TODO test next week
+- take it on monday +3 points extra credit
+- take it on tuesday +2 points extra credit
+
+*  ch 4: organic chemistry and carbon compounds
+
+** reviewing chemical groups
+
+*** -OH: Hydroxyl (alcohol)
+*** C=O: Carbonyl (aldehyde & ketone)
+*** OH-C=O: Carboxyl (carboxylic acid) often found in the ionized form
+*** H-N-H (-NH_3): Amino
+*** TODO
+
+  H      H              O
+   \     |            =
+     N - C_\alpha - C
+   /     |            \
+  H      H              OH
+
+*** Sulfhydral (thyl)
+
+  sulfur similar binding capacity to oxygen
+
+  R - S - H
+
+  similar to hydroxyl
+
+  disulfide bridge (covalent bond)
+
+  R - S - S - R
+
+*** Phosphate
+
+organo phosphate if it's attached to some molecule containing carbon
+
+P - 5 bonding capacity
+
+          O
+          ||
+  R - O - P  - OH
+          |
+          OH
+
+will probably be in the ionized form
+
+          O
+          ||
+  R - O - P  - O^-   +  2H^+
+          |
+          O^-
+
+ATP - adenosine tri-phosphate
+ADP - adenosine di-phosphate
+AMP
+
+DNA has a sugar phosphate backbone
+
+ATP transfers energy (look at ch.4 pre-test question 10)
+
+Polar group
+
+*** Methyl group
+
+      H
+      |
+  R - C - H
+      |
+      H
+
+  - CH_3
+
+non-polar
+
+will usually turn a gene off, though has been shown to turn some genes on
+
+
+** ATP
+
+   - Energy currency of the cell
+   - adenosine tri-phosphate
+   - one of the phosphate groups can split off and release energy giving us ADP
+   - guanesine triphosphate is it's cousin, sometimes doing work in the cell
+
+
+* ch 5
+
+- macro molecule: a very large & complex moleculte that's made up of simpler sub-units
+
+  -- carbohydrates
+  -- proteins
+  -- nucleic acids
+
+- polymers: long molecule made up of many similar building blocks connected with covalent bonds
+- monomers: the building blocks that make up a polymer
+
+- example: train (polymer), train cars (monomers)
+
+- We make polymers using dehydration reactions
+
+- one momoner will lose a hydrogen, the other will lose a hydroxyl group
+
+- hydrolosis reactions, breaking a dehydration created bond by adding water
+- hydrolosis rx categorized by ennxymes
+
+- polymers can have an inifinite amount of diversity
+- proteins are built from 20 different monomers (amino acids)
+
+- larger molecules have emergent properties
+
+
+** carbohydrates
+
+- sugars & it's polymers
+- simple sugars monosaccharides
+- complex sugars polysaccharides
+
+*** sugars
+
+**** hexose
+- glucose is a hexose
+  -- all sugars end in -ose
+  -- carbonyl group & many hydroxyl groups
+  -- aldose sugare (carbonyl group is an aldyhide)
+- galactose (mirror image of glucose)
+- fructose - keytose sugar (ketone aldyhide)
+
+- sugars can differ in their skeletons from three to five carbons
+
+- deoxyribose
+
+- sugars can have an enantimer, must have an asymetric carbon atom
+  -- glucose & galactose
+
+- when sugars are in water, mostly they form a ring
+
+
+- about half of the amino acids in our body are non-essential. Our body can form them and use glucose to form them
+- many are essential and must come from our diet
+
+- sacharides
+
+*** disaccharides
+
+- maltose = glucose + glucose
+- sucrose = glucose + fructose
+
+
+*** polysaccharides
+
+- few hundred to a few thousand saccharides
+- macro-molecules
+
+
+- some are used to store energy (starch)
+  -- starch is made by plants, many glucose monomers
+  -- some starches are branched & others are not
+  -- amylose (plant stockpiles of energy)
+  -- amylopectin (similar to amylose, but branched)
+
+  -- glycogen (animal starch)
+     --- more branched than amylopectin
+     --- stored in liver & muscles
+
+- other polysaccharides are used for building material
+  -- cellulose (major component of plants, used in cell walls)
+  -- starch & glycogen use alpha glucose
+     --- the hydroxyl is below the plane of the ring
+  -- beta glucose used in cellulose
+     --- hydroxyl is above the plane of the ring
+
+- we can't digest cellulose
+  -- no enzymes to break down beta glucose
+
+- starch molecules are mostly helical (curvy)
+- cellulose is always straight & never branched
+  -- they can lie next to each other and hydrogen bond
+  -- very strong
+  -- fiber
+- horses & cows do not have the enzymes to break the beta-glucose
+  linkage, but they have micro organisms in their digestive track
+  that can do this.
+
+- kiten: structural polysaccharide
+  -- othropods
+  -- crusteaceans
+
+
+** lipids
+
+- too small to be classified as macromolecules
+- do not form polymers
+- hydrophobic / non-polar
+
+- most are hydrocarbons
+
+- fats contain glycerol & fatty acids
+  -- glycerol (3 carbon alcohol) each carbon has a hydroxyl group
+  -- fatty acids: long hydrocarbon chain with a carboxy group at one end (carbocylic acids)
+
+- ester linkage: how the fatty acid links with the glycerol
+  -- dehydration
+
+- triacylglycerol: 3 ester linkages (lipid)
+  -- don't want too much of this in our blood (we only want some)
+
+- saturated fat: no double bonds in the fatty tail
+  -- can rotate around bonds
+  -- compact tightly
+  -- typically solids at room temperature
+  -- butter, margirine, cheese, fat in a steak
+
+- unsaturated fat: double bond, bends
+  -- oleic acid
+  -- monounsaturated (one double bond) & polyunsaturated (many double bonds)
+  -- can't rotate around the double bond
+  -- can't pack together as tightly
+
+
+- major function of fats is to store energy
+- store twice as much energy as starch sacharides
+- plants like to store unsaturated lipids
+  -- oils
+- animals like to store saturated fats
+- fish oils are unsaturated
+
+
+- phospho-lipid
+  -- hydrophilic head & hydrophobic tails
+  -- they will naturally associate with eachother to form a bilayer
+     --- line up to have the fatty acid tails interact (hydrophobic)
+     --- wall, cell membranes
+     --- intracellular & extracellular
+
+- steroids
+  -- also lipids
+  -- 4 fused carbon rings
+  -- cholesterol, testosterone, and estradiol
+  -- not present in plants
+
+- cholesterol
+  -- made in the liver & used to make other steroids in the body
+
+** proteins
+
+- first place (pro), make up 50% of the dry-weight of cells
+- a human has tens of thousands of different proteins
+- most structurally sophisticated molecules known
+- each type has it's own unique 3 dimensional shape (confirmation)
+- polymers constructed from 20 amino acid monomers
+- polypeptide: many peptide bonds
+- protein consists of one or more polypeptide chains
+  -- most have several, though some have one
+  -- folded or coiled to give confirmation
+- have many different functions do to the many different structures
+
+*** functions
+
+- enzymatic proteins: selectively accelerate chemical reations
+  -- digestive enzymes: accelerate hydrolosis of polymers in our food
+- defensive proteins: protect us against disease.
+  -- antibodies
+- structural proteins: used for support
+  -- collogen
+  -- sunscreen: the sun breaks down collogen so sunscreen blocks the rays that do this
+  -- keratin: fingernails, hair
+- storage proteins: store amino acids
+  -- ovalbutin in an egg whites
+  -- seeds in a plant contain lots of storage proteins
+- transport proteins: transport other substances+
+  -- hemoglobin: transports oxygen into the cell & carbon dioxide out of the cell
+- hormonal proteins: helps coordinate activities
+  -- insulin
+- receptor proteins: help the cell respond to chemical stimuli
+  -- nerve cell, bind neurotransmitters
+- contractile proteins (motor): function in movement
+  -- actin and myosin in our muscles
+
+
+*** amino acids
+
+- they all have the same backbone, but contain different R groups
+- asymetric or alpha carbon
+- amino group on the alpha carbon
+
+- glycine, simplest R group (H)
+- alanine, R group CH_3 (methyl) asymetric
+- acidic or basic
+- hydrophobic or hydrophilic
+- can contain a thyl group
+- don't need to memorize all 20 amino acids, but should be familiar with the names

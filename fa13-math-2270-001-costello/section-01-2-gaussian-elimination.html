@@ -1,0 +1,701 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>section-01-2-gaussian-elimination</title>
+<style type="text/css">
+/* <![CDATA[ */
+span.S0, a.S0 { font-family:sans-serif; font-size:11pt; font-style:normal; font-weight:normal; color:#000000; }
+span.S1, a.S1 { font-family:monospace; font-size:11pt; font-style:normal; font-weight:normal; color:#ff0000; }
+span.S2, a.S2 { font-family:monospace; font-size:11pt; font-style:normal; font-weight:normal; color:#5500ff; }
+p.P0 { text-align:justify; margin-top:0pt; margin-left:0pt; margin-right:0pt; margin-bottom:0pt; text-indent:0pt; }
+p.P1 { text-align:left; white-space:pre; margin-top: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; }
+div.C2 { padding-top:0pt; padding-bottom:0pt; padding-left:5.7pt; border-left-width:1pt; border-left-style: solid; border-color: #808080; border-right-width: 0; border-right-style: none; border-top-width: 0; border-top-style: none; border-bottom-width: 0; border-bottom-style: none; }
+div.Csep3in { padding: 0; height: 0; width: 5pt; border-bottom: 1px solid #808080; margin-top:2.85pt; margin-bottom: 0; }
+div.Csep3out { padding: 0; height: 0; width: 3pt; border-bottom: 1px solid #808080; margin-top: 0;  margin-bottom: 0; }
+div.Csep3end { padding: 0; height: 0; width: 5pt; border-bottom: 1px solid #808080; margin-bottom:2.85pt; margin-top: 0; }
+p.P4 { margin-top:0pt; margin-left:0pt; margin-right:0pt; margin-bottom:0pt; text-indent:0pt; }
+body { background-color:white; }
+@page { margin:56pt; size:595.3pt 841.9pt; background-color:white; }
+/* ]]> */
+</style>
+</head>
+<body>
+<p class="P0">&nbsp;</p>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">vcol := matrix([x,y,z])</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[x], [y], [z]])" style="vertical-align:-23px" width="53" height="51" src="section-01-2-gaussian-elimination_images/math0.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">vrow := matrix([[w,s,t]])</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[w, s, t]])" style="vertical-align:-11px" width="82" height="33" src="section-01-2-gaussian-elimination_images/math1.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">Mx := matrix([[a,b,c],[d,e,f],[g,h,i]])</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[a, b, c], [d, e, f], [g, h, i]])" style="vertical-align:-29px" width="90" height="63" src="section-01-2-gaussian-elimination_images/math2.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">Mx * vcol</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[a*x + b*y + c*z], [d*x + e*y + f*z], [g*x + h*y + i*z]])" style="vertical-align:-33px" width="164" height="77" src="section-01-2-gaussian-elimination_images/math3.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">vrow * %</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[w*(a*x + b*y + c*z) + s*(d*x + e*y + f*z) + t*(g*x + h*y + i*z)]])" style="vertical-align:-11px" width="506" height="33" src="section-01-2-gaussian-elimination_images/math4.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">linalg::scalarProduct(vrow,vcol,Real)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="s*y + t*z + w*x" style="vertical-align:-11px" width="135" height="33" src="section-01-2-gaussian-elimination_images/math5.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">linalg::scalarProduct(vrow,vcol)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="s*conjugate(y) + t*conjugate(z) + w*conjugate(x)" style="vertical-align:-11px" width="135" height="33" src="section-01-2-gaussian-elimination_images/math6.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">linalg::scalarProduct(vrow,vrow)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="s*conjugate(s) + t*conjugate(t) + w*conjugate(w)" style="vertical-align:-11px" width="134" height="33" src="section-01-2-gaussian-elimination_images/math7.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">linalg::crossProduct(vrow,vcol)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[s*z - t*y, t*x - w*z, w*y - s*x]])" style="vertical-align:-11px" width="261" height="33" src="section-01-2-gaussian-elimination_images/math8.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">%[1]</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="s*z - t*y" style="vertical-align:-11px" width="83" height="33" src="section-01-2-gaussian-elimination_images/math9.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">vfun := matrix([vx(x,y,z),vy(x,y,z),vz(x,y,z)])</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[vx(x, y, z)], [vy(x, y, z)], [vz(x, y, z)]])" style="vertical-align:-33px" width="134" height="77" src="section-01-2-gaussian-elimination_images/math10.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">divergence(vfun,[x,y,z])</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="diff(vx(x, y, z), x) + diff(vy(x, y, z), y) + diff(vz(x, y, z), z)" style="vertical-align:-24px" width="415" height="49" src="section-01-2-gaussian-elimination_images/math11.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">curl(vfun,[x,y,z])</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[diff(vz(x, y, z), y) - diff(vy(x, y, z), z)], [diff(vx(x, y, z), z) - diff(vz(x, y, z), x)], [diff(vy(x, y, z), x) - diff(vx(x, y, z), y)]])" style="vertical-align:-56px" width="295" height="115" src="section-01-2-gaussian-elimination_images/math12.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">r := sqrt(x^2+y^2+z^2)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="(x^2 + y^2 + z^2)^(1/2)" style="vertical-align:-13px" width="123" height="42" src="section-01-2-gaussian-elimination_images/math13.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">gravityforce := matrix([k*x/r^3, k*y/r^3, k*z/r^3])</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[(k*x)/(x^2 + y^2 + z^2)^(3/2)], [(k*y)/(x^2 + y^2 + z^2)^(3/2)], [(k*z)/(x^2 + y^2 + z^2)^(3/2)]])" style="vertical-align:-77px" width="155" height="151" src="section-01-2-gaussian-elimination_images/math14.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">potential(gravityforce, [x,y,z])</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="-k/(x^2 + y^2 + z^2)^(1/2)" style="vertical-align:-33px" width="139" height="57" src="section-01-2-gaussian-elimination_images/math15.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">http://www.brown.edu/Departments/Engineering/Courses/En4//Tutorials/Mupad_tutorial.pdf</span></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">numeric::linsolve({x = y - 1, x + y = z}, {x, y});</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="[x = 0.5*z - 0.5, y = 0.5*z + 0.5]" style="vertical-align:-11px" width="267" height="33" src="section-01-2-gaussian-elimination_images/math16.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">numeric::linsolve({1*x -3*y +4*y = 7, y+2*z=2, z=5},{x,y,z})</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="[x = 15.0, y = -8.0, z = 5.0]" style="vertical-align:-11px" width="240" height="33" src="section-01-2-gaussian-elimination_images/math17.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">3*-8 + 4*5</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="-4" style="vertical-align:-11px" width="39" height="33" src="section-01-2-gaussian-elimination_images/math18.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">-7</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="-7" style="vertical-align:-11px" width="38" height="33" src="section-01-2-gaussian-elimination_images/math19.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">-4-7</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="-11" style="vertical-align:-11px" width="47" height="33" src="section-01-2-gaussian-elimination_images/math20.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">3*-8 - 4*5 + 7</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="-37" style="vertical-align:-11px" width="48" height="33" src="section-01-2-gaussian-elimination_images/math21.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">numeric::linsolve({x -3*y +4*y = 7, y+2*z=2, z=5},{x,y,z})</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="[x = 15.0, y = -8.0, z = 5.0]" style="vertical-align:-11px" width="240" height="33" src="section-01-2-gaussian-elimination_images/math22.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">-3*-8 + 4*5 - 7</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="37" style="vertical-align:-11px" width="36" height="33" src="section-01-2-gaussian-elimination_images/math23.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">numeric::linsolve({x + -3*y +4*y = 7, y+2*z=2, z=5},{x,y,z})</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="[x = 15.0, y = -8.0, z = 5.0]" style="vertical-align:-11px" width="240" height="33" src="section-01-2-gaussian-elimination_images/math24.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">{x + -3*y +4*y = 7, y+2*z=2, z=5}</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="{y + 2*z = 2, x + y = 7, z = 5}" style="vertical-align:-11px" width="250" height="33" src="section-01-2-gaussian-elimination_images/math25.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">numeric::linsolve({x + -3*y +4*z = 7, y+2*z=2, z=5},{x,y,z})</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="[x = -37.0, y = -8.0, z = 5.0]" style="vertical-align:-11px" width="252" height="33" src="section-01-2-gaussian-elimination_images/math26.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">rref(matrix([[1, -3, 4, 7],[0, 1, 2, 2],[0,0,1,5]]))</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="rref(matrix([[1, -3, 4, 7], [0, 1, 2, 2], [0, 0, 1, 5]]))" style="vertical-align:-23px" width="174" height="63" src="section-01-2-gaussian-elimination_images/math27.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">rref(matrix([[1,-1,2,1,-1],[2,1,-2,-2,-2],[-1,2,-4,1,1],[3,0,0,-3,3]]))</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="rref(matrix([[1, -1, 2, 1, -1], [2, 1, -2, -2, -2], [-1, 2, -4, 1, 1], [3, 0, 0, -3, 3]]))" style="vertical-align:-43px" width="239" height="96" src="section-01-2-gaussian-elimination_images/math28.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">simplify(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="rref(matrix([[1, -1, 2, 1, -1], [2, 1, -2, -2, -2], [-1, 2, -4, 1, 1], [3, 0, 0, -3, 3]]))" style="vertical-align:-43px" width="239" height="96" src="section-01-2-gaussian-elimination_images/math29.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">a := matrix([[1,-1,2,1,-1],[2,1,-2,-2,-2],[-1,2,-4,1,1],[3,0,0,-3,3]])</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[1, -1, 2, 1, -1], [2, 1, -2, -2, -2], [-1, 2, -4, 1, 1], [3, 0, 0, -3, 3]])" style="vertical-align:-43px" width="181" height="96" src="section-01-2-gaussian-elimination_images/math30.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">linalg::gaussJordan(a)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[1, 0, 0, 0, 0], [0, 1, -2, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]])" style="vertical-align:-32px" width="138" height="78" src="section-01-2-gaussian-elimination_images/math31.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">linalg::gaussElim(a)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[1, -1, 2, 1, -1], [0, 3, -6, -4, 0], [0, 0, 0, 10/3, 0], [0, 0, 0, 0, 6]])" style="vertical-align:-52px" width="172" height="117" src="section-01-2-gaussian-elimination_images/math32.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">solve(a, {q,r,s,t})</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="{}" style="vertical-align:-11px" width="29" height="33" src="section-01-2-gaussian-elimination_images/math33.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">numeric::linsolve({x-y*2*z-w=-1,2*x+y-2*z-2*w=-2,-x+2*y-4*z+w=1,3*x-3*w=-3},{x,y,z,w})</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="[w = 0.0, x = -1.0, y = 2.0*z]" style="vertical-align:-11px" width="251" height="33" src="section-01-2-gaussian-elimination_images/math34.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">a := matrix([[1,-1,2,-1,-1],[2,1,-2,-2,-2],[-1,2,-4,1,1],[3,0,0,-3,3]])</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[1, -1, 2, -1, -1], [2, 1, -2, -2, -2], [-1, 2, -4, 1, 1], [3, 0, 0, -3, 3]])" style="vertical-align:-43px" width="181" height="96" src="section-01-2-gaussian-elimination_images/math35.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">linalg::gaussJordan(a)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[1, 0, 0, -1, 0], [0, 1, -2, 0, 0], [0, 0, 0, 0, 1], [0, 0, 0, 0, 0]])" style="vertical-align:-32px" width="148" height="84" src="section-01-2-gaussian-elimination_images/math36.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">gcd(39,104)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="13" style="vertical-align:-11px" width="36" height="33" src="section-01-2-gaussian-elimination_images/math37.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">104/13</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="8" style="vertical-align:-11px" width="27" height="33" src="section-01-2-gaussian-elimination_images/math38.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">45+7</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="52" style="vertical-align:-11px" width="35" height="33" src="section-01-2-gaussian-elimination_images/math39.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">gcd(24,52)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="4" style="vertical-align:-11px" width="27" height="33" src="section-01-2-gaussian-elimination_images/math40.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">24/4</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="6" style="vertical-align:-11px" width="27" height="33" src="section-01-2-gaussian-elimination_images/math41.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">52/4</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="13" style="vertical-align:-11px" width="36" height="33" src="section-01-2-gaussian-elimination_images/math42.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">9*5</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="45" style="vertical-align:-11px" width="37" height="33" src="section-01-2-gaussian-elimination_images/math43.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">%+7</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="52" style="vertical-align:-11px" width="35" height="33" src="section-01-2-gaussian-elimination_images/math44.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">52/4</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="13" style="vertical-align:-11px" width="36" height="33" src="section-01-2-gaussian-elimination_images/math45.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">8*3</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="24" style="vertical-align:-11px" width="36" height="33" src="section-01-2-gaussian-elimination_images/math46.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">%-10</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="14" style="vertical-align:-11px" width="36" height="33" src="section-01-2-gaussian-elimination_images/math47.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">linalg::gaussJordan(matrix([[1,1,2,8],[-1,-2,3,1],[3,-7,4,10]]))</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[1, 0, 0, 3], [0, 1, 0, 1], [0, 0, 1, 2]])" style="vertical-align:-25px" width="107" height="60" src="section-01-2-gaussian-elimination_images/math48.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">gcd(26,52)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="26" style="vertical-align:-11px" width="36" height="33" src="section-01-2-gaussian-elimination_images/math49.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">numeric::linsolve({2*x-8*y+4*z-w=0,7*x+y-8*z+9*w=0,2*x+8*y+z-w=0},{x,y,z,w})</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="[w = 1.325*z, x = -0.5875*z, y = 0.1875*z]" style="vertical-align:-11px" width="361" height="33" src="section-01-2-gaussian-elimination_images/math50.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">(-1/5)-(1/3)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="-8/15" style="vertical-align:-18px" width="52" height="42" src="section-01-2-gaussian-elimination_images/math51.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">(1/5)-1/3</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="-2/15" style="vertical-align:-18px" width="52" height="42" src="section-01-2-gaussian-elimination_images/math52.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">(1/5)-(1/4)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="-1/20" style="vertical-align:-18px" width="52" height="42" src="section-01-2-gaussian-elimination_images/math53.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">(-1/20)*(-5)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1/4" style="vertical-align:-18px" width="31" height="42" src="section-01-2-gaussian-elimination_images/math54.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">a := matrix([[0,1,3,-2,0],[2,1,-4,3,0],[2,3,2,-1,0],[-4,-3,5,-4,0]])</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[0, 1, 3, -2, 0], [2, 1, -4, 3, 0], [2, 3, 2, -1, 0], [-4, -3, 5, -4, 0]])" style="vertical-align:-43px" width="175" height="96" src="section-01-2-gaussian-elimination_images/math55.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">linalg::gaussJordan(a)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[1, 0, -7/2, 5/2, 0], [0, 1, 3, -2, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]])" style="vertical-align:-44px" width="152" height="112" src="section-01-2-gaussian-elimination_images/math56.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">a := matrix([[1,3,0,1,0],[1,4,2,0,0],[0,-2,-2,-1,0],[2,-4,1,1,0],[1,-2,-1,1,0]])</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[1, 3, 0, 1, 0], [1, 4, 2, 0, 0], [0, -2, -2, -1, 0], [2, -4, 1, 1, 0], [1, -2, -1, 1, 0]])" style="vertical-align:-53px" width="160" height="105" src="section-01-2-gaussian-elimination_images/math57.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">linalg::gaussJordan(a)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[1, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 0]])" style="vertical-align:-38px" width="128" height="87" src="section-01-2-gaussian-elimination_images/math58.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">2*27</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="54" style="vertical-align:-11px" width="36" height="33" src="section-01-2-gaussian-elimination_images/math59.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">%+29</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="83" style="vertical-align:-11px" width="37" height="33" src="section-01-2-gaussian-elimination_images/math60.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">a := matrix([[2,1,3],[0,-2,-29],[3,4,5]])</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[2, 1, 3], [0, -2, -29], [3, 4, 5]])" style="vertical-align:-26px" width="121" height="63" src="section-01-2-gaussian-elimination_images/math61.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">linalg::gaussJordan(a)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[1, 0, 0], [0, 1, 0], [0, 0, 1]])" style="vertical-align:-25px" width="90" height="60" src="section-01-2-gaussian-elimination_images/math62.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">83-27</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="56" style="vertical-align:-11px" width="36" height="33" src="section-01-2-gaussian-elimination_images/math63.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">3^3</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="27" style="vertical-align:-11px" width="36" height="33" src="section-01-2-gaussian-elimination_images/math64.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">4^3</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="64" style="vertical-align:-11px" width="37" height="33" src="section-01-2-gaussian-elimination_images/math65.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">-3*27</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="-81" style="vertical-align:-11px" width="48" height="33" src="section-01-2-gaussian-elimination_images/math66.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">81-21</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="60" style="vertical-align:-11px" width="37" height="33" src="section-01-2-gaussian-elimination_images/math67.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">3*64</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="192" style="vertical-align:-11px" width="44" height="33" src="section-01-2-gaussian-elimination_images/math68.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">-24</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="-24" style="vertical-align:-11px" width="48" height="33" src="section-01-2-gaussian-elimination_images/math69.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">192-24</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="168" style="vertical-align:-11px" width="45" height="33" src="section-01-2-gaussian-elimination_images/math70.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">gcd(18,24,60)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="6" style="vertical-align:-11px" width="27" height="33" src="section-01-2-gaussian-elimination_images/math71.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">gcd(48,60,168)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="12" style="vertical-align:-11px" width="35" height="33" src="section-01-2-gaussian-elimination_images/math72.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">168/12</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="14" style="vertical-align:-11px" width="36" height="33" src="section-01-2-gaussian-elimination_images/math73.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<p class="P4">&nbsp;</p>
+<p class="P4">&nbsp;</p>
+<p class="P4">&nbsp;</p>
+<p class="P4">&nbsp;</p>
+</body>
+</html>

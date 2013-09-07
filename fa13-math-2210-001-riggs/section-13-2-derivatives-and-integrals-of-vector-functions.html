@@ -1,0 +1,1103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>section-13-2-derivatives-and-integrals-of-vector-functions</title>
+<style type="text/css">
+/* <![CDATA[ */
+span.S0, a.S0 { font-family:sans-serif; font-size:11pt; font-style:normal; font-weight:normal; color:#000000; }
+span.S1, a.S1 { font-family:monospace; font-size:11pt; font-style:normal; font-weight:normal; color:#ff0000; }
+span.S2, a.S2 { font-family:monospace; font-size:11pt; font-style:normal; font-weight:normal; color:#5500ff; }
+p.P0 { text-align:justify; margin-top:0pt; margin-left:0pt; margin-right:0pt; margin-bottom:0pt; text-indent:0pt; }
+p.P1 { text-align:left; white-space:pre; margin-top: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; }
+div.C2 { padding-top:0pt; padding-bottom:0pt; padding-left:5.7pt; border-left-width:1pt; border-left-style: solid; border-color: #808080; border-right-width: 0; border-right-style: none; border-top-width: 0; border-top-style: none; border-bottom-width: 0; border-bottom-style: none; }
+div.Csep3in { padding: 0; height: 0; width: 5pt; border-bottom: 1px solid #808080; margin-top:2.85pt; margin-bottom: 0; }
+div.Csep3out { padding: 0; height: 0; width: 3pt; border-bottom: 1px solid #808080; margin-top: 0;  margin-bottom: 0; }
+div.Csep3end { padding: 0; height: 0; width: 5pt; border-bottom: 1px solid #808080; margin-bottom:2.85pt; margin-top: 0; }
+p.P4 { margin-top:0pt; margin-left:0pt; margin-right:0pt; margin-bottom:0pt; text-indent:0pt; }
+body { background-color:white; }
+@page { margin:56pt; size:595.3pt 841.9pt; background-color:white; }
+/* ]]> */
+</style>
+</head>
+<body>
+<p class="P0">&nbsp;</p>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plotfunc3d(t-2, t^2 + 1, t=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/plt1.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plotfunc3d(t-2, t^2 + 1, t=-2..2)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/plt2.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve3d([t-2, t^2+1, t], t=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve3d([t - 2, t^2 + 1, t], t = -10..10)" style="vertical-align:-11px" width="353" height="37" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math0.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/plt3.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot:Curve2d([t-2, t^2 + 1], t=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="Curve2d([t - 2, t^2 + 1], t = -10..10)" style="vertical-align:-11px" width="295" height="37" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math1.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1">&nbsp;</p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve2d([t-2, t^2 + 1], t=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve2d([t - 2, t^2 + 1], t = -10..10)" style="vertical-align:-11px" width="334" height="37" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math2.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/plt4.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve2d([sin(t), 2*cos(t)], t=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve2d([sin(t), 2*cos(t)], t = -10..10)" style="vertical-align:-11px" width="363" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math3.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/plt5.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve2d([exp(1)^t, exp(1)^-t], t=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve2d([exp(t), exp(-t)], t = -10..10)" style="vertical-align:-13px" width="310" height="42" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math4.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/plt6.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">exp(1)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="exp(1)" style="vertical-align:-11px" width="26" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math5.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve2d([exp(1)^t, exp(1)^(-t)], t=-1..1)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve2d([exp(t), exp(-t)], t = -1..1)" style="vertical-align:-13px" width="288" height="42" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math6.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/plt7.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">exp(1)^1</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="exp(1)" style="vertical-align:-11px" width="26" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math7.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">exp(1)^-1</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="exp(-1)" style="vertical-align:-11px" width="42" height="39" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math8.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">exp(1)^0.5</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="exp(0.5)" style="vertical-align:-11px" width="44" height="37" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math9.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/plt8.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">vpa(exp(1)^0.5, 10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="vpa(exp(0.5), 10)" style="vertical-align:-11px" width="118" height="37" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math10.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">E</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="exp(1)" style="vertical-align:-11px" width="26" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math11.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">digits(10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="digits(10)" style="vertical-align:-11px" width="91" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math12.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">vpa(exp(1))</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="vpa(exp(1))" style="vertical-align:-11px" width="67" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math13.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">float(exp(1))</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="2.718281828" style="vertical-align:-11px" width="115" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math14.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">float(exp(1)^0.5)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1.648721271" style="vertical-align:-11px" width="114" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math15.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot(E^t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/plt9.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot(E^-t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/plt10.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">float(E^0)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1.0" style="vertical-align:-11px" width="40" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math16.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">float(E^2)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="7.389056099" style="vertical-align:-11px" width="115" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math17.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">float(E^-2)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="0.1353352832" style="vertical-align:-11px" width="124" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math18.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve2d([E^(2*t), E^t], t=-1..1)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve2d([exp(2*t), exp(t)], t = -1..1)" style="vertical-align:-13px" width="291" height="42" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math19.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/plt11.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot(E^(2*t))</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/plt12.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">float(E^2)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="7.389056099" style="vertical-align:-11px" width="115" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math20.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">float(E^4)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="54.59815003" style="vertical-align:-11px" width="115" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math21.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(t*sin(t))</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="t*sin(t)" style="vertical-align:-11px" width="75" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math22.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(t^2)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="t^2" style="vertical-align:-11px" width="32" height="37" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math23.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(t^2, x)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="0" style="vertical-align:-11px" width="27" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math24.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(t^2, t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="2*t" style="vertical-align:-11px" width="39" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math25.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(t*sin(t), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="sin(t) + t*cos(t)" style="vertical-align:-11px" width="138" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math26.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">eq1 := a*x^2 + b*x + c = 0</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="a*x^2 + b*x + c = 0" style="vertical-align:-11px" width="155" height="37" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math27.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">solve(eq1, x)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="piecewise([a &lt;&gt; 0, {-(b - (b^2 - 4*a*c)^(1/2))/(2*a), -(b + (b^2 - 4*a*c)^(1/2))/(2*a)}], [a = 0 and b &lt;&gt; 0, {-c/b}], [a = 0 and b = 0 and c = 0, C_], [a = 0 and b = 0 and c &lt;&gt; 0, {}])" style="vertical-align:-57px" width="472" height="151" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math28.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(eq1, x)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="b + 2*a*x = 0" style="vertical-align:-11px" width="118" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math29.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(t* cos(2*t), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="cos(2*t) - 2*t*sin(2*t)" style="vertical-align:-11px" width="180" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math30.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(1 / x^2, x)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="-2/x^3" style="vertical-align:-25px" width="51" height="49" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math31.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff( 1 / (x^2), x)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="-2/x^3" style="vertical-align:-25px" width="51" height="49" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math32.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(2 * sqrt(t), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1/t^(1/2)" style="vertical-align:-24px" width="44" height="48" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math33.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">t^(-1/2)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1/t^(1/2)" style="vertical-align:-24px" width="44" height="48" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math34.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(1 / (1 + t), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="-1/(t + 1)^2" style="vertical-align:-28px" width="86" height="52" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math35.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(t / (1 + t), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1/(t + 1) - t/(t + 1)^2" style="vertical-align:-28px" width="126" height="52" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math36.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">simplify(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1/(t + 1)^2" style="vertical-align:-28px" width="74" height="52" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math37.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(t^2 / (1 + t), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="(2*t)/(t + 1) - t^2/(t + 1)^2" style="vertical-align:-28px" width="126" height="59" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math38.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">simplify(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="(t*(t + 2))/(t + 1)^2" style="vertical-align:-28px" width="80" height="58" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math39.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(E^(t^2), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="2*t*exp(t^2)" style="vertical-align:-11px" width="70" height="45" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math40.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">ln(3)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="ln(3)" style="vertical-align:-11px" width="55" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math41.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">float(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1.098612289" style="vertical-align:-11px" width="115" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math42.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(ln(1 + 3*t), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="3/(3*t + 1)" style="vertical-align:-24px" width="70" height="48" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math43.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(ln(t), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1/t" style="vertical-align:-18px" width="29" height="42" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math44.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(1 + 3*t, t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="3" style="vertical-align:-11px" width="26" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math45.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">3*(1 / (1 + 3*t))</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="3/(3*t + 1)" style="vertical-align:-24px" width="70" height="48" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math46.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">simplify(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="3/(3*t + 1)" style="vertical-align:-24px" width="70" height="48" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math47.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(a*t*cos(3*t), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="a*cos(3*t) - 3*a*t*sin(3*t)" style="vertical-align:-11px" width="215" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math48.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(sin(t)^3, t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="3*cos(t)*sin(t)^2" style="vertical-align:-11px" width="137" height="37" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math49.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(c * cos(t)^3, t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="-3*c*cos(t)^2*sin(t)" style="vertical-align:-11px" width="165" height="37" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math50.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(2 * sin(2 * t), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="4*cos(2*t)" style="vertical-align:-11px" width="94" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math51.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(3 * t^2, t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="6*t" style="vertical-align:-11px" width="41" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math52.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(t * e^(t^2), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="e^(t^2) + 2*e^(t^2)*t^2*ln(e)" style="vertical-align:-11px" width="168" height="45" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math53.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">t * e^(t^2)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="e^(t^2)*t" style="vertical-align:-11px" width="56" height="45" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math54.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">ln(E)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1" style="vertical-align:-11px" width="25" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math55.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(t * E^(t^2), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="exp(t^2) + 2*t^2*exp(t^2)" style="vertical-align:-11px" width="120" height="45" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math56.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">E^t = 1</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="exp(t) = 1" style="vertical-align:-11px" width="63" height="37" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math57.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">solve(E^t = 1)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="matrix([[t]]) in Dom::ImageSet(matrix([[2*PI*k*I]]), k, Z_)" style="vertical-align:-11px" width="210" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math58.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">E^1</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="exp(1)" style="vertical-align:-11px" width="26" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math59.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">PI</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="PI" style="vertical-align:-11px" width="28" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math60.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">E^(2 * PI * 1 * I)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="exp(2*PI*I)" style="vertical-align:-11px" width="58" height="39" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math61.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">float(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1.0 + 4.870820711*10^(-18)*I" style="vertical-align:-11px" width="219" height="39" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math62.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">solve(0 = E^t + (t * E^t))</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="{[t = -1]}" style="vertical-align:-11px" width="90" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math63.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">solve(0 = E^(t^2) + 2 * (t^2) * E^(t^2))</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="{[t = -(2^(1/2)*I)/2], [t = (2^(1/2)*I)/2]}" style="vertical-align:-19px" width="233" height="51" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math64.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">cos(PI/2)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="0" style="vertical-align:-11px" width="27" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math65.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve3d([E^t, t*(E^t), t*(E^(t^2))], t=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve3d([exp(t), t*exp(t), t*exp(t^2)], t = -10..10)" style="vertical-align:-11px" width="365" height="45" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math66.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/plt13.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(E^(-t) * cos(t), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="- exp(-t)*cos(t) - exp(-t)*sin(t)" style="vertical-align:-11px" width="197" height="39" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math67.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve3d([E^(-t) * cos(t), E^(-t) * sin(t), E^(-t)], t=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve3d([exp(-t)*cos(t), exp(-t)*sin(t), exp(-t)], t = -10..10)" style="vertical-align:-13px" width="459" height="42" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math68.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/plt14.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve3d([E^(-t) * cos(t), E^(-t) * sin(t), E^(-t)], t=-2..2)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve3d([exp(-t)*cos(t), exp(-t)*sin(t), exp(-t)], t = -2..2)" style="vertical-align:-13px" width="437" height="42" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math69.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/plt15.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">int(t*i - t^3 * j + 3 * t^5 * k, t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="(k*t^6)/2 - (j*t^4)/4 + (i*t^2)/2" style="vertical-align:-18px" width="154" height="52" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math70.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">2^6</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="64" style="vertical-align:-11px" width="37" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math71.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">int((4 / (1 + t^2)) * j + (2*t/(1+t^2))*k, t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="k*ln(t^2 + 1) + 4*j*arctan(t)" style="vertical-align:-11px" width="227" height="37" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math72.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve2d([4/(1+t^2), (2*t)/(1+t^2)], t=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve2d([4/(t^2 + 1), (2*t)/(t^2 + 1)], t = -10..10)" style="vertical-align:-29px" width="369" height="60" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math73.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/plt16.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve2d([4/(1+t^2), (2*t)/(1+t^2)], t=0..1)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve2d([4/(t^2 + 1), (2*t)/(t^2 + 1)], t = 0..1)" style="vertical-align:-29px" width="337" height="60" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math74.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/plt17.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">int(4/(1+t^2), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="4*arctan(t)" style="vertical-align:-11px" width="104" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math75.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">arctan(1)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="PI/4" style="vertical-align:-18px" width="32" height="40" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math76.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">ln(2)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="ln(2)" style="vertical-align:-11px" width="54" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math77.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">arctan(0)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="0" style="vertical-align:-11px" width="27" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math78.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">ln(1)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="0" style="vertical-align:-11px" width="27" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math79.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">int(</span><span class="S1">(4 / (1 + t^2)) * j + (2*t/(1+t^2))*k</span><span class="S1">, t=0..1)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="PI*j + k*ln(2)" style="vertical-align:-11px" width="116" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math80.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">int(t*(t^2 + 1)^3, t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="t^8/8 + t^6/2 + (3*t^4)/4 + t^2/2" style="vertical-align:-18px" width="166" height="52" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math81.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(ln(t), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1/t" style="vertical-align:-18px" width="29" height="42" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math82.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">tan(1)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="tan(1)" style="vertical-align:-11px" width="64" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math83.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">float(tan(1))</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1.557407725" style="vertical-align:-11px" width="115" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math84.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">cos(1)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="cos(1)" style="vertical-align:-11px" width="63" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math85.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">sin(1)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="sin(1)" style="vertical-align:-11px" width="62" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math86.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">cos(1)/sin(1)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="cos(1)/sin(1)" style="vertical-align:-24px" width="67" height="54" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math87.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">float(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="0.6420926159" style="vertical-align:-11px" width="125" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math88.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">float(sin(1)/cos(1))</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1.557407725" style="vertical-align:-11px" width="115" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math89.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">arctan(1)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="PI/4" style="vertical-align:-18px" width="32" height="40" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math90.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">cos(1)/sin(1)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="cos(1)/sin(1)" style="vertical-align:-24px" width="67" height="54" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math91.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">float(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="0.6420926159" style="vertical-align:-11px" width="125" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math92.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">float(PI/4)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="0.7853981634" style="vertical-align:-11px" width="125" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math93.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">tan(1)^-1</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1/tan(1)" style="vertical-align:-24px" width="68" height="48" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math94.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">float(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="0.6420926159" style="vertical-align:-11px" width="125" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math95.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">int(t^2 * ln(t), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="(t^3*(ln(t) - 1/3))/3" style="vertical-align:-18px" width="119" height="56" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math96.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(ln(t), t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1/t" style="vertical-align:-18px" width="29" height="42" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math97.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(1/t, t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="-1/t^2" style="vertical-align:-25px" width="48" height="49" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math98.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">x^(-1/2)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1/x^(1/2)" style="vertical-align:-21px" width="43" height="45" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math99.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">2*sqrt(x)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="2*x^(1/2)" style="vertical-align:-11px" width="54" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math100.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">sqrt(x)*sqrt(x)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="x" style="vertical-align:-11px" width="27" height="33" src="section-13-2-derivatives-and-integrals-of-vector-functions_images/math101.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<p class="P4">&nbsp;</p>
+</body>
+</html>

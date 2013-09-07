@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>section-13-1-vector-functions-and-space-curves</title>
+<style type="text/css">
+/* <![CDATA[ */
+span.S0, a.S0 { font-family:sans-serif; font-size:11pt; font-style:normal; font-weight:normal; color:#000000; }
+span.S1, a.S1 { font-family:monospace; font-size:11pt; font-style:normal; font-weight:normal; color:#ff0000; }
+span.S2, a.S2 { font-family:monospace; font-size:11pt; font-style:normal; font-weight:normal; color:#5500ff; }
+p.P0 { text-align:justify; margin-top:0pt; margin-left:0pt; margin-right:0pt; margin-bottom:0pt; text-indent:0pt; }
+p.P1 { text-align:left; white-space:pre; margin-top: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; }
+div.C2 { padding-top:0pt; padding-bottom:0pt; padding-left:5.7pt; border-left-width:1pt; border-left-style: solid; border-color: #808080; border-right-width: 0; border-right-style: none; border-top-width: 0; border-top-style: none; border-bottom-width: 0; border-bottom-style: none; }
+div.Csep3in { padding: 0; height: 0; width: 5pt; border-bottom: 1px solid #808080; margin-top:2.85pt; margin-bottom: 0; }
+div.Csep3out { padding: 0; height: 0; width: 3pt; border-bottom: 1px solid #808080; margin-top: 0;  margin-bottom: 0; }
+div.Csep3end { padding: 0; height: 0; width: 5pt; border-bottom: 1px solid #808080; margin-bottom:2.85pt; margin-top: 0; }
+p.P4 { margin-top:0pt; margin-left:0pt; margin-right:0pt; margin-bottom:0pt; text-indent:0pt; }
+body { background-color:white; }
+@page { margin:56pt; size:595.3pt 841.9pt; background-color:white; }
+/* ]]> */
+</style>
+</head>
+<body>
+<p class="P0">&nbsp;</p>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plotfunc3d(sin(x^2 + y^2), cos(x^2 - y^2), x = 0..1, y = 0..2)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-1-vector-functions-and-space-curves_images/plt1.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plotfunc3d(x^2 - z, x^2+y^2-1,x=0..1,y=0..1,z=0..1)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-1-vector-functions-and-space-curves_images/plt2.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plotfunc3d(x^2-z, x^2+y^2-1,x=-10..10,y=-10..10,z=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-1-vector-functions-and-space-curves_images/plt4.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">ezplot3(sin(t), cos(t), sin(t)^2, [-10,10])</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="ezplot3(sin(t), cos(t), sin(t)^2, [-10, 10])" style="vertical-align:-11px" width="332" height="37" src="section-13-1-vector-functions-and-space-curves_images/math0.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve3d([sin(t),cos(t),sin(t)^2],t=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve3d([sin(t), cos(t), sin(t)^2], t = -10..10)" style="vertical-align:-11px" width="410" height="37" src="section-13-1-vector-functions-and-space-curves_images/math1.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-1-vector-functions-and-space-curves_images/plt5.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plotfunc3d(x^2-z, x^2+y^2 - 1, x=-10..10, y=-10..10, z=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-1-vector-functions-and-space-curves_images/plt6.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plotfunc3d(x^2-z, x^2+y^2 - 1, x=-50..50, y=-50..50, z=-50..50)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-1-vector-functions-and-space-curves_images/plt7.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plotfunc3d(x^2-z, x^2+y^2+z-1, x=-10..10,y=-10..10,z=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-1-vector-functions-and-space-curves_images/plt8.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plotfunc3d(x^2+y^2+z-1, x=-10..10,y=-10..10,z=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-1-vector-functions-and-space-curves_images/plt9.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">sin(0.5)^2</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="0.2298488471" style="vertical-align:-11px" width="124" height="33" src="section-13-1-vector-functions-and-space-curves_images/math2.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">cos(0.5)^2</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="0.7701511529" style="vertical-align:-11px" width="125" height="33" src="section-13-1-vector-functions-and-space-curves_images/math3.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">sin(0.5)^2 + cos(0.5)^2</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1.0" style="vertical-align:-11px" width="40" height="33" src="section-13-1-vector-functions-and-space-curves_images/math4.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">sin(0)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="0" style="vertical-align:-11px" width="27" height="33" src="section-13-1-vector-functions-and-space-curves_images/math5.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">sin(0)^2</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="0" style="vertical-align:-11px" width="27" height="33" src="section-13-1-vector-functions-and-space-curves_images/math6.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">sin(1)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="sin(1)" style="vertical-align:-11px" width="62" height="33" src="section-13-1-vector-functions-and-space-curves_images/math7.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plotfunc3d(sqrt(x^2 + y^2) - z, x=-10..10, y=-10..10, z=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-1-vector-functions-and-space-curves_images/plt10.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plotfunc3d(sqrt(x^2 + y^2), 1+y, x=-10..10,y=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-1-vector-functions-and-space-curves_images/plt11.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plotfunc3d(x^2 + y^2 - z^2, 1+y, x=-10..10, y=-10..10, z=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-1-vector-functions-and-space-curves_images/plt12.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plotfunc3d(x^2, -(x^2)-(y^2)+1, x=-10..10,y=-10..10,z=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-1-vector-functions-and-space-curves_images/plt13.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plotfunc3d(x^2, -(x^2)-(y^2)+1, x=-5..5,y=-5..5,z=-5..5)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-1-vector-functions-and-space-curves_images/plt15.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plotfunc3d(x^2, -(x^2)-(y^2)+1, x=-2..2,y=-2..2,z=-2..2)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-1-vector-functions-and-space-curves_images/plt16.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plotfunc3d(z - 1, sqrt(z^2 - x^2), x=-5..5, y=-5..5, z=-5..5)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-1-vector-functions-and-space-curves_images/plt17.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1">&nbsp;</p>
+</div>
+<div class="Csep3end"></div>
+<p class="P4">&nbsp;</p>
+</body>
+</html>

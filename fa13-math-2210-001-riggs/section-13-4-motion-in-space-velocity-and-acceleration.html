@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>section-13-4-motion-in-space-velocity-and-acceleration</title>
+<style type="text/css">
+/* <![CDATA[ */
+span.S0, a.S0 { font-family:sans-serif; font-size:11pt; font-style:normal; font-weight:normal; color:#000000; }
+span.S1, a.S1 { font-family:monospace; font-size:11pt; font-style:normal; font-weight:normal; color:#ff0000; }
+span.S2, a.S2 { font-family:monospace; font-size:11pt; font-style:normal; font-weight:normal; color:#5500ff; }
+p.P0 { text-align:justify; margin-top:0pt; margin-left:0pt; margin-right:0pt; margin-bottom:0pt; text-indent:0pt; }
+p.P1 { text-align:left; white-space:pre; margin-top: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; }
+div.C2 { padding-top:0pt; padding-bottom:0pt; padding-left:5.7pt; border-left-width:1pt; border-left-style: solid; border-color: #808080; border-right-width: 0; border-right-style: none; border-top-width: 0; border-top-style: none; border-bottom-width: 0; border-bottom-style: none; }
+div.Csep3in { padding: 0; height: 0; width: 5pt; border-bottom: 1px solid #808080; margin-top:2.85pt; margin-bottom: 0; }
+div.Csep3out { padding: 0; height: 0; width: 3pt; border-bottom: 1px solid #808080; margin-top: 0;  margin-bottom: 0; }
+div.Csep3end { padding: 0; height: 0; width: 5pt; border-bottom: 1px solid #808080; margin-bottom:2.85pt; margin-top: 0; }
+p.P4 { margin-top:0pt; margin-left:0pt; margin-right:0pt; margin-bottom:0pt; text-indent:0pt; }
+body { background-color:white; }
+@page { margin:56pt; size:595.3pt 841.9pt; background-color:white; }
+/* ]]> */
+</style>
+</head>
+<body>
+<p class="P0">&nbsp;</p>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve2d([-1/2 * t^2, t], t=-2..4)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve2d([-t^2/2, t], t = -2..4)" style="vertical-align:-19px" width="291" height="51" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math0.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-4-motion-in-space-velocity-and-acceleration_images/plt1.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve2d([-1/2 * t^2, t], t=-1..3)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve2d([-t^2/2, t], t = -1..3)" style="vertical-align:-19px" width="290" height="51" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math1.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve2d([-1/2 * t^2, t], t=1..3)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve2d([-t^2/2, t], t = 1..3)" style="vertical-align:-19px" width="278" height="51" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math2.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-4-motion-in-space-velocity-and-acceleration_images/plt2.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">-1/2 * 4</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="-2" style="vertical-align:-11px" width="37" height="33" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math3.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">sqrt(9*sin(t)^2 + 4*cos(t)^2)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="(4*cos(t)^2 + 9*sin(t)^2)^(1/2)" style="vertical-align:-13px" width="184" height="42" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math4.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">simplify(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="(5*sin(t)^2 + 4)^(1/2)" style="vertical-align:-13px" width="127" height="42" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math5.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">sqrt(1 + 4*sin(t)^2 + cos(t)^2)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="(cos(t)^2 + 4*sin(t)^2 + 1)^(1/2)" style="vertical-align:-13px" width="198" height="42" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math6.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">simplify(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="(3*sin(t)^2 + 2)^(1/2)" style="vertical-align:-13px" width="126" height="42" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math7.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve3d([t, 2*cos(t), sin(t)], t=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve3d([t, 2*cos(t), sin(t)], t = -10..10)" style="vertical-align:-11px" width="380" height="33" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math8.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-4-motion-in-space-velocity-and-acceleration_images/plt3.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">E^(2*t) + E^(-2*t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="exp(-2*t) + exp(2*t)" style="vertical-align:-11px" width="96" height="39" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math9.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">simplify(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="exp(-2*t) + exp(2*t)" style="vertical-align:-11px" width="100" height="39" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math10.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">sqrt(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="(exp(-2*t) + exp(2*t))^(1/2)" style="vertical-align:-12px" width="115" height="42" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math11.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve3d([sqrt(2)*t, E^t, E^(-t)], t=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve3d([2^(1/2)*t, exp(t), exp(-t)], t = -10..10)" style="vertical-align:-13px" width="357" height="42" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math12.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-4-motion-in-space-velocity-and-acceleration_images/plt4.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">plot::Curve3d([t^2, 5*t, t^2 - 16*t], t=-10..10)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="plot::Curve3d([t^2, 5*t, - 16*t + t^2], t = -10..10)" style="vertical-align:-11px" width="388" height="37" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math13.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">display(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="MuPAD graphics" src="section-13-4-motion-in-space-velocity-and-acceleration_images/plt5.png" width="454pt" height="302pt"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">(16 * 16) + 25</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="281" style="vertical-align:-11px" width="44" height="33" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math14.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">sqrt(8 * t^2 - 64*t + 281)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="(8*t^2 - 64*t + 281)^(1/2)" style="vertical-align:-13px" width="155" height="42" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math15.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">simplify(%)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="(8*t^2 - 64*t + 281)^(1/2)" style="vertical-align:-13px" width="158" height="42" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math16.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(%, t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="(16*t - 64)/(2*(8*t^2 - 64*t + 281)^(1/2))" style="vertical-align:-33px" width="177" height="63" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math17.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">solve(%=0, t)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="{4}" style="vertical-align:-11px" width="41" height="33" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math18.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1"><span class="S1">diff(sqrt(x), x)</span></p>
+</div>
+<div class="Csep3out"></div>
+<div class="C2">
+<p class="P1"><img alt="1/(2*x^(1/2))" style="vertical-align:-24px" width="58" height="48" src="section-13-4-motion-in-space-velocity-and-acceleration_images/math19.png"></img></p>
+</div>
+<div class="Csep3end"></div>
+<div class="Csep3in"></div>
+<div class="C2">
+<p class="P1">&nbsp;</p>
+</div>
+<div class="Csep3end"></div>
+<p class="P4">&nbsp;</p>
+</body>
+</html>
